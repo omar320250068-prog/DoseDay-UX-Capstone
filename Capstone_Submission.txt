@@ -10,14 +10,94 @@ FIVE-SENTENCE PITCH
 4. In a four-week pilot with 30 adults managing three or more prescriptions, success means at least 80% of scheduled doses are marked "Taken" and the median first-time setup time is under three minutes.
 5. I'm pursuing DoseDay because it combines accessible behavior design with a high-stakes daily habit, letting me build a useful, testable product rather than a one-off screen.
 
-RESEARCH SYNTHESIS
-- World Health Organization, 2003: adherence in developed countries averages about 50% for chronic-disease medicines.
+DESK RESEARCH — 8 SOURCES, 22 REAL USER REVIEWS
+Collected 2026-09-26. Every review is quoted with username and date. Vendor-selected testimonials
+are recorded separately and never counted, because a vendor choosing its own testimonials is not
+a sample. Full notes: research/01_source_notes.md.
+
+Competitor and analog products (3 captured, screenshotted):
+- Medisafe (direct, freemium) — 4.7/5, ~100K ratings. Flow: add medication, schedule dose times,
+  push reminder, mark taken. Also sells HealthKit sync, a shareable PDF for a doctor, and
+  "family interaction" for a whole family on one account.
+  https://apps.apple.com/us/app/medisafe-medication-management/id573916946
+- Meds & Pill Reminder MyTherapy (direct, freemium) — 4.5/5, 237,756 ratings. Flow: add
+  medication, set reminder, confirm or skip, see streaks. Advertises "Motivation with Streaks".
+  https://apps.apple.com/us/app/pill-reminder-mytherapy/id662170995
+- Hero: Medication Manager (hardware + subscription, $29.99/month) — flow: install, activate
+  subscription, set schedule, physically load a 90-day supply; the dispenser sorts, locks and
+  dispenses only the correct dose. Their own copy: the app "does not work as a stand-alone
+  application". https://apps.apple.com/us/app/hero-medication-manager/id1352848484
+- Analog: the physical pill organizer and talking pill bottle, evidenced through testimony about
+  what users relied on before the app (melanie605, App Store 11/17/2019; Linda Smith, Google Play
+  31 July 2026 — filling med boxes "used to take over an hour, always had an error").
+
+Articles and reports (4, all link-checked HTTP 200):
+- WHO 2003 — adherence in developed countries averages about 50% for chronic-disease medicines.
   https://www.who.int/news/item/01-07-2003-failure-to-take-prescribed-medicine-for-chronic-diseases-is-a-massive-world-wide-problem
-- CDC, 2017: barriers include complex dosing, side effects, cost, poor care coordination, and limited patient engagement.
+- CDC 2017 Grand Rounds — barriers are multi-layered: complex dosing, side effects, cost, poor
+  coordination, low engagement.
   https://archive.cdc.gov/www_cdc_gov/grand-rounds/pp/2017/20170221-medication-adherence.html
-- Older-adult medication-app review: common usability failures include difficult navigation, poor visibility, inflexible reminders, and too much manual entry.
+- PMC5694345 — common usability failures in older-adult medication apps: difficult navigation,
+  poor visibility, inflexible reminders, too much manual entry.
   https://pmc.ncbi.nlm.nih.gov/articles/PMC5694345/
-- Design response: simplify the daily view, use concrete labels with familiar icons, make check-in reversible, support flexible schedules, and never shame a missed dose.
+- Frontiers in Medical Technology 2021 — independently scored 8 medication apps. Every app scored
+  full marks on "provides a reminder function", so reminding differentiates nobody; the category's
+  security and privacy disclosure scored poorly across the board.
+  https://www.frontiersin.org/journals/medical-technology/articles/10.3389/fmedt.2020.616242/full
+
+Real user reviews (22): Apple App Store 20, Google Play 1, Reddit 1. Positive 12, negative 10.
+Ten of the twenty-two sit on the category leader, which is itself a finding.
+
+Top 5 findings, each tied to a named source:
+1. The reminder is half the product; the record is the other half. Users are not asking to be
+   nagged, they are asking to stop not knowing whether they already took something.
+   GeekyDragonfly (App Store 05/04/2022) "no more guessing whether I took a medicine or not";
+   Meinnm505 (May 5) "It took the guess work out of the equation"; LiinaLatrell (Jan 19);
+   rlsmith1994 (Jun 9) "it doesn't go away if you don't take your meds".
+2. Reminder frequency is table stakes; scheduling arithmetic is where products break. All 8 apps
+   scored by A4 earned full marks for providing reminders. What breaks is a regimen that is not a
+   clean daily time. SF Cavendish (11/23/2021) could not enter "1 or 2 tablets/dose" and gave up;
+   MikeyBGr8 (01/19/2022) refill maths ignores frequency; GeekyDragonfly (2-hourly dosing);
+   Linda Smith (Google Play) "My meds vary from 1x week to 3x/day".
+3. Interface depth is an accessibility problem and users name the mechanism. tuxedoyam
+   (12/25/2021): people on multiple medications "might also have some degree of brain fog or mental
+   impairment either due to the condition or as a side effect of medication". andrewleesh (App Store
+   SG 16/07/2020) "4 taps on tiny icons". Corroborated by A3.
+4. Reminder persistence means opposite things depending on who shares the record. rlsmith1994 and
+   eventidephoenix (10/10/2018) want it relentless; 123334567 (08/06/2024) describes the same
+   mechanic as a fault — "My husband will mark something taken, I'll get reminders on my device …
+   There's a disconnect between taken status and notifications". The variable is the number of people
+   writing to one record, not the user's preference.
+5. In a medication app, reliability defects are trust defects. CoastieWife74 (Mar 8), a paying
+   long-time user, "Now I have new meds to take and I can't add them to the app. I even tried
+   deleting some and…nothing … I'll have to." Reddit r/androidapps: notifications silently not
+   firing, cause was the phone's battery settings — so from the user's side "the app is broken" and
+   "the reminder never arrived" are indistinguishable.
+
+Design response: lead with a record rather than a countdown; support variable amounts and
+irregular frequency including as-needed doses logged without nagging; branch reminder escalation on
+whether anyone else shares the record; no streaks, no scores, no red-for-missed state; never allow a
+medication to be blocked from being added.
+
+CLAUDE SYNTHESIS AND WHERE IT WAS CORRECTED
+Raw notes were attached to an authenticated Claude session as the only permitted evidence base, with
+a closed citation set (R1-R22, A1-A4), a minimum-evidence rule, and a mandatory "what this does not
+support" section. Prompt and full output: research/02_synthesis_and_verification.md.
+42 claims were checked by hand: 36 passed, 6 were cut. Claude was wrong that Apple Health sync was
+UNSERVED — Medisafe's own listing advertises it while reviewer DAHM reports keeping two parallel
+records, so it was reclassified as badly served and disputed. Claude also overstated a citation,
+listed two themes that were the same finding, reframed an app malfunction as a pricing cap, and
+mislabelled a source reference. It flagged one of its own themes WEAK for having only 2 supporting
+reviews and refused to promote it, which is why the rest could be checked at all.
+
+WHAT THE RESEARCH DOES NOT SUPPORT
+No current adherence rate (the ~50% figure is WHO 2003, developed countries, not app users). No
+market size (A4's app counts are 2017 figures from one source). No willingness to pay or pricing
+conclusion — Hero's $29.99/month is hardware plus subscription in a different category. No clinical
+outcome; the one outcome-shaped anecdote is vendor-selected and excluded by rule. No "users want X"
+statistics: 22 self-selected reviews are 22 people. No usability finding about DoseDay, which does
+not exist yet. No interviews — the interviews/ corpus is a separate, explicitly SIMULATED practice
+dataset for the AI-persona pipeline and is not evidence for this brief.
 
 PRIMARY USER
 Rowan (participant P1), 59
@@ -90,7 +170,8 @@ Figma AI tools in Figma Design: https://help.figma.com/hc/en-us/articles/2387027
 Claude 101: https://academy.claude.com/courses/claude-101
 
 FILE STRUCTURE
-Page 1: Research, IA & Flows, Wireframes - 1st Page
+Page 1: Research, IA & Flows, Wireframes - 1st Page — the desk-research page (sources, Claude
+synthesis with corrections, one-page summary, IA and low-fidelity wireframes)
 Page 2: UI, Design System, Prototype - 2nd Page
 Page 3: Hand-off - 3rd Page
 
@@ -99,7 +180,9 @@ DELIVERY STATUS AND EVIDENCE
 - Figma prototype: https://www.figma.com/proto/NnwB0BiM4AAp1JUR37QoPN/DoseDay-%E2%80%94-UX-Capstone?node-id=9-2&t=uivZC27TtwB1q17K-0&scaling=min-zoom&content-scaling=fixed&page-id=2%3A2&starting-point-node-id=9%3A2
 - Figma sharing: set to Anyone can view; the share dialog confirms "Anyone can view" plus "People from Team folder can access". Anonymous checks of both the design link and the prototype link return HTTP 200 with no sign-in redirect.
 - Prototype verification: the Today frame is the flow starting point named "Flow 1" and exposes three named hotspots — "Mark as taken" (9-2 to 13-2), "Meds tab" (9-2 to 10-2), and "Week tab" (9-2 to 12-2), each confirmed by clicking through the running prototype. Return and forward edges were confirmed in the Prototype panel: 10-2 to 11-2, 11-2 to 9-2, 12-2 to 11-2, and 13-2 to 9-2.
-- Design-page QA: all three required pages exist with the exact required names and one board layer each — page 1 "DoseDay_Page_1 1" is 1920 x 1800 (node 2-138), page 2 "DoseDay_Page_2 1" is 2200 x 1800 (node 2-139), page 3 "DoseDay_Page_3 1" is 1920 x 1600 (node 2-140). Page 2 holds exactly five 390 x 844 phone frames — Today — Dose Check-in, Add Medication, Medication Details, Weekly Progress, Dose Confirmation — with no leftover test objects.
+- Design-page QA: all three required pages exist with the exact required names and one board layer each — page 1 "DoseDay_Page_1 1" is 1920 x 4336 (node 80-2), page 2 "DoseDay_Page_2 1" is 2200 x 1800 (node 2-139), page 3 "DoseDay_Page_3 1" is 1920 x 1600 (node 2-140). Page 2 holds exactly five 390 x 844 phone frames — Today — Dose Check-in, Add Medication, Medication Details, Weekly Progress, Dose Confirmation — with no leftover test objects.
+- Page 1 rebuild: the research page was rebuilt from 1920 x 1800 to 1920 x 4336 to carry the full desk-research brief. It holds the evidence-base counts, the three competitor/analog cards with their store-listing screenshots embedded as images, the four articles with live URLs, the top 5 findings each tied to named reviews, the Claude prompt and the six corrections, an explicit "what this evidence does not support" panel, and the design response traced to a finding. Source: `DoseDay_Page_1.svg`, geometry-checked in-browser at 185 text elements with zero canvas overflow and zero card overflow. Pages 2 and 3 were not modified.
+- Persona correction applied to page 1: the board previously read "Leila, a 58-year-old shift supervisor managing four prescriptions … hypertension + type 2 diabetes", which is the persona this project explicitly retracted as unsourced (C-05, C-06). It now reads Rowan, 59, rotating shift work, employer unnamed, five medications — three scheduled and two as-needed, written neutral because the corpus does not state a gender. The same correction was applied to `DoseDay_Page_2.svg` ("Good morning, Rowan") and `00_DoseDay_Today.svg`.
 - Public prototype QA: clean unauthenticated route checks for nodes 9-2, 10-2, 11-2, 12-2, and 13-2 each returned HTTP 200 with a rendered canvas.
 - Claude 101: https://academy.claude.com/courses/claude-101
 - Claude 101 status: all 13 lesson pages were opened; the course quiz at https://academy.claude.com/courses/claude-101/certificate-of-completion requires a Claude account sign-in, and an hCaptcha blocked automated authentication, so quiz completion and badge status are not verified.

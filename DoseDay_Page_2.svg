@@ -28,7 +28,7 @@
       <rect x="12" y="12" width="264" height="496" rx="32" fill="#FBFCFA"/>
       <text x="34" y="50" class="small ink" font-weight="700">Today</text>
       <circle cx="244" cy="43" r="13" fill="#DDEEE8"/>
-      <text x="34" y="94" font-size="26" font-weight="800" class="ink">Good morning, Leila</text>
+      <text x="34" y="94" font-size="26" font-weight="800" class="ink">Good morning, Rowan</text>
       <text x="34" y="120" class="small muted">Tuesday, 24 September</text>
       <rect x="28" y="146" width="232" height="138" rx="22" fill="#E4EFE9"/>
       <text x="48" y="178" class="label" fill="#2A6F62">NEXT DOSE · 8:30</text>

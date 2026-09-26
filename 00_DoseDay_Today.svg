@@ -4,8 +4,8 @@
   <g class="t">
     <text x="24" y="28" class="sm bold">9:41</text><text x="340" y="28" class="sm bold">5G  ▰</text>
     <text x="24" y="72" class="hh">Today</text>
-    <circle cx="354" cy="64" r="20" fill="#DDEEE8"/><text x="354" y="70" text-anchor="middle" class="sm bold">LH</text>
-    <text x="24" y="122" class="h">Good morning, Leila</text>
+    <circle cx="354" cy="64" r="20" fill="#DDEEE8"/><text x="354" y="70" text-anchor="middle" class="sm bold">RH</text>
+    <text x="24" y="122" class="h">Good morning, Rowan</text>
     <text x="24" y="148" class="b m">Tuesday, 24 September</text>
     <g filter="url(#s)"><rect x="20" y="176" width="350" height="216" rx="26" fill="#E4EFE9"/></g>
     <text x="44" y="212" font-size="13" font-weight="800" letter-spacing="1.4" fill="#2A6F62">NEXT DOSE · 8:30</text>
