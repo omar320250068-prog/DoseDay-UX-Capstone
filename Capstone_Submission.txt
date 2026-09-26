@@ -1,0 +1,75 @@
+Doseday Capstone Submission
+
+PROJECT THEME
+DoseDay — an accessible medication companion for adults managing multiple prescriptions.
+
+FIVE-SENTENCE PITCH
+1. DoseDay is for Leila, a 58-year-old shift supervisor who manages four prescriptions for hypertension and type 2 diabetes.
+2. She struggles to keep a consistent routine because doses are spread across changing workdays, side effects create doubt, and paper organizers are easy to misplace.
+3. The product is a mobile-first medication companion that turns each dose into one calm daily action, supports quick check-ins, and shares a privacy-conscious weekly summary with a chosen caregiver.
+4. In a four-week pilot with 30 adults managing three or more prescriptions, success means at least 80% of scheduled doses are marked “Taken” and the median first-time setup time is under three minutes.
+5. I’m pursuing DoseDay because it combines accessible behavior design with a high-stakes daily habit, letting me build a useful, testable product rather than a one-off screen.
+
+RESEARCH SYNTHESIS
+- World Health Organization, 2003: adherence in developed countries averages about 50% for chronic-disease medicines.
+  https://www.who.int/news/item/01-07-2003-failure-to-take-prescribed-medicine-for-chronic-diseases-is-a-massive-world-wide-problem
+- CDC, 2017: barriers include complex dosing, side effects, cost, poor care coordination, and limited patient engagement.
+  https://archive.cdc.gov/www_cdc_gov/grand-rounds/pp/2017/20170221-medication-adherence.html
+- Older-adult medication-app review: common usability failures include difficult navigation, poor visibility, inflexible reminders, and too much manual entry.
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC5694345/
+- Design response: simplify the daily view, use concrete labels with familiar icons, make check-in reversible, support flexible schedules, and never shame a missed dose.
+
+PRIMARY USER
+Leila, 58
+Shift supervisor | Hypertension + type 2 diabetes | Four daily medications
+Goals: take the right dose on time, understand side effects, preserve privacy, share only what she chooses.
+Frustrations: changing shifts, overlapping reminders, tiny controls, uncertain refill timing, paper organizers that get lost.
+Context: often checks her phone between work tasks; one-handed use; moderate vision and fine-motor needs.
+
+CORE PROBLEM
+People managing several prescriptions need one dependable daily routine, not another complicated health dashboard.
+
+SUCCESS MEASUREMENT
+Pilot: 30 adults, 4 weeks.
+Primary target: at least 80% of scheduled doses marked Taken.
+Setup target: median first-time setup under 3 minutes.
+Guardrail: no dose decision overrides the prescription entered with the user or clinician.
+
+AI TOOLKIT INVENTORY
+1. Figma AI — access verified in the current Figma account: the Figma Agent panel is available with introductory beta credits. It was not used to modify DoseDay; the manual Figma workflow remains the verified implementation path.
+2. Claude — intended for research synthesis, persona and assumption review, competing-flow critique, plain-language content, rubric checks, and accessibility-risk critique. Not used in this pass: no authenticated Claude session was available.
+3. Claude Projects and Artifacts — intended to hold the research brief, decisions, source notes, pitch, and handoff specifications as reusable project context. Not used in this pass.
+4. Claude Research — intended for deeper source gathering; the fallback used instead was manual browser research with source links recorded in this file.
+5. Claude Academy, Claude 101 — structured learning for prompting, research, artifacts, and responsible AI collaboration; progress is the required learning checkpoint, and the current status is recorded in the delivery evidence below.
+6. Manual Figma workflow — used and verified as the implementation path: Community reference study, frames, phone-screen wrapping, prototype links, sharing permissions, and an accessibility pass.
+7. Browser and source libraries — used for evidence: WHO, CDC, and PubMed/JMIR sources are recorded above and were cross-checked rather than accepted from a single generated source.
+
+COMMUNITY FILE STUDIED
+Mobile Health App with Design System
+https://www.figma.com/community/file/1626337999356445709/mobile-health-app-with-design-system
+Study focus: separate interface screens from the reusable design system, organize components around repeated patterns, and keep handoff documentation close to source components.
+Completed action: duplicated the Community file into Figma Drafts as `Mobile Health App with Design System (Community)` (file key `hEsWaj3PoOwxdb1egl1xwW`); inspected its `Mini Design System`, `Design`, and `Final Design` pages, reusable components, and style tokens before creating DoseDay.
+
+LINKEDIN INTRO POST (PUBLISHED)
+I’m starting a UX/UI capstone called DoseDay: a medication companion for adults managing multiple prescriptions. The project turns research, IA, wireframes, UI, prototyping, and handoff into one connected Figma system. I’ll use the available Figma AI features, Claude, and structured critique to move faster while keeping accessibility and measurable outcomes central. Follow along as I test the flow, refine the interface, and share what I learn. #UXDesign #UIUX #Figma #DesignThinking #DigitalHealth
+
+RESOURCES
+Figma AI tools in Figma Design: https://help.figma.com/hc/en-us/articles/23870272542231-Use-AI-tools-in-Figma-Design
+Claude 101: https://academy.claude.com/courses/claude-101
+
+FILE STRUCTURE
+Page 1: Research, IA & Flows, Wireframes - 1st Page
+Page 2: UI, Design System, Prototype - 2nd Page
+Page 3: Hand-off - 3rd Page
+
+DELIVERY STATUS AND EVIDENCE
+- Figma design file: https://www.figma.com/design/NnwB0BiM4AAp1JUR37QoPN/DoseDay-%25E2%2580%2594-UX-Capstone
+- Figma prototype: https://www.figma.com/proto/NnwB0BiM4AAp1JUR37QoPN/DoseDay-%E2%80%94-UX-Capstone?node-id=9-2&t=uivZC27TtwB1q17K-0&scaling=min-zoom&content-scaling=fixed&page-id=2%3A2&starting-point-node-id=9%3A2
+- Figma sharing: set to Anyone can view; the share dialog confirms "Anyone can view" plus "People from Team folder can access". Anonymous checks of both the design link and the prototype link return HTTP 200 with no sign-in redirect.
+- Prototype verification: the Today frame is the flow starting point named "Flow 1" and exposes three named hotspots — "Mark as taken" (9-2 to 13-2), "Meds tab" (9-2 to 10-2), and "Week tab" (9-2 to 12-2), each confirmed by clicking through the running prototype. Return and forward edges were confirmed in the Prototype panel: 10-2 to 11-2, 11-2 to 9-2, 12-2 to 11-2, and 13-2 to 9-2.
+- Design-page QA: all three required pages exist with the exact required names and one board layer each — page 1 "DoseDay_Page_1 1" is 1920 x 1800 (node 2-138), page 2 "DoseDay_Page_2 1" is 2200 x 1800 (node 2-139), page 3 "DoseDay_Page_3 1" is 1920 x 1600 (node 2-140). Page 2 holds exactly five 390 x 844 phone frames — Today — Dose Check-in, Add Medication, Medication Details, Weekly Progress, Dose Confirmation — with no leftover test objects.
+- Public prototype QA: clean unauthenticated route checks for nodes 9-2, 10-2, 11-2, 12-2, and 13-2 each returned HTTP 200 with a rendered canvas.
+- Claude 101: https://academy.claude.com/courses/claude-101
+- Claude 101 status: all 13 lesson pages were opened; the course quiz at https://academy.claude.com/courses/claude-101/certificate-of-completion requires a Claude account sign-in, and an hCaptcha blocked automated authentication, so quiz completion and badge status are not verified.
+- LinkedIn post: https://www.linkedin.com/feed/update/urn:li:activity:7509250654645772288/
+- LinkedIn status: published successfully and verified under Omar Hindawy; activity ID 7509250654645772288.

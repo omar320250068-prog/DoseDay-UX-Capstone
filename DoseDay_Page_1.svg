@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1800" viewBox="0 0 1920 1800">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#172A3A" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#2A6F62"/>
+    </marker>
+    <style>
+      .sans{font-family:Inter,Arial,sans-serif}.ink{fill:#17313B}.muted{fill:#5C6F73}.label{font-size:14px;font-weight:700;letter-spacing:1.8px}.h1{font-size:44px;font-weight:800}.h2{font-size:28px;font-weight:750}.h3{font-size:20px;font-weight:750}.body{font-size:17px}.small{font-size:14px}.card{fill:#FFFFFF;stroke:#DDE5E2;stroke-width:1.5}.line{stroke:#D5DEDB;stroke-width:2}.flow{fill:none;stroke:#2A6F62;stroke-width:3;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1920" height="1800" fill="#F3F6F2"/>
+  <g class="sans">
+    <rect x="64" y="50" width="206" height="34" rx="17" fill="#DDEEE8"/>
+    <text x="167" y="73" text-anchor="middle" class="label" fill="#256052">CAPSTONE 01</text>
+    <text x="64" y="135" class="h1 ink">DoseDay</text>
+    <text x="350" y="133" font-size="24" font-weight="600" fill="#2A6F62">Research, IA &amp; Flows, Wireframes</text>
+    <text x="1856" y="130" text-anchor="end" class="label muted">1ST PAGE · DISCOVERY</text>
+
+    <g filter="url(#shadow)">
+      <rect x="64" y="180" width="1792" height="246" rx="28" fill="#153B3A"/>
+    </g>
+    <text x="104" y="224" class="label" fill="#9ED8C9">FIVE-SENTENCE CAPSTONE PITCH</text>
+    <text x="104" y="272" font-size="23" font-weight="650" fill="#FFFFFF">
+      <tspan x="104" dy="0">DoseDay is for Leila, a 58-year-old shift supervisor managing four prescriptions.</tspan>
+      <tspan x="104" dy="35">Changing shifts, side-effect doubt, and misplaced paper organizers break her routine.</tspan>
+      <tspan x="104" dy="35">The mobile-first companion makes each dose one calm action and shares a private weekly summary.</tspan>
+      <tspan x="104" dy="35">A four-week pilot succeeds when 80% of scheduled doses are taken and setup takes under 3 minutes.</tspan>
+      <tspan x="104" dy="35">I’m pursuing it because accessible behavior design can solve a high-stakes everyday habit.</tspan>
+    </text>
+    <rect x="1430" y="212" width="376" height="182" rx="22" fill="#FFFFFF" opacity="0.10"/>
+    <text x="1462" y="249" class="label" fill="#A8DED1">PRIMARY SUCCESS CRITERION</text>
+    <text x="1462" y="308" font-size="56" font-weight="800" fill="#FFFFFF">≥ 80%</text>
+    <text x="1462" y="342" class="body" fill="#DDF5EE">scheduled doses marked Taken</text>
+    <text x="1462" y="370" class="small" fill="#A8DED1">30 participants · 4 weeks · 3+ prescriptions</text>
+
+    <text x="64" y="490" class="h2 ink">Research signals</text>
+    <text x="1856" y="490" text-anchor="end" class="small muted">Desk synthesis; no invented interview claims</text>
+
+    <g filter="url(#shadow)"><rect class="card" x="64" y="520" width="564" height="242" rx="24"/></g>
+    <rect x="88" y="544" width="108" height="30" rx="15" fill="#FCE8DD"/>
+    <text x="142" y="565" text-anchor="middle" class="label" fill="#9A4F32">WHO · 2003</text>
+    <text x="88" y="620" font-size="44" font-weight="800" fill="#17313B">~50%</text>
+    <text x="88" y="651" class="body muted">average adherence in developed countries</text>
+    <text x="88" y="686" class="body muted">for chronic-disease medicines.</text>
+    <text x="88" y="732" class="small" fill="#2A6F62">Opportunity: reduce daily decision friction.</text>
+
+    <g filter="url(#shadow)"><rect class="card" x="652" y="520" width="564" height="242" rx="24"/></g>
+    <rect x="676" y="544" width="94" height="30" rx="15" fill="#E4EFF8"/>
+    <text x="723" y="565" text-anchor="middle" class="label" fill="#315F88">CDC · 2017</text>
+    <text x="676" y="614" class="h3 ink">Barriers are multi-layered</text>
+    <text x="676" y="648" class="body muted">Complex dosing · side effects · cost</text>
+    <text x="676" y="678" class="body muted">Poor coordination · low engagement</text>
+    <rect x="676" y="708" width="500" height="34" rx="12" fill="#F3F6F2"/>
+    <text x="692" y="731" class="small ink">Design response: simplify, clarify, and support recovery.</text>
+
+    <g filter="url(#shadow)"><rect class="card" x="1240" y="520" width="616" height="242" rx="24"/></g>
+    <rect x="1264" y="544" width="120" height="30" rx="15" fill="#E9E6F7"/>
+    <text x="1324" y="565" text-anchor="middle" class="label" fill="#5C4C91">APP REVIEW</text>
+    <text x="1264" y="614" class="h3 ink">Older adults need less, not more</text>
+    <text x="1264" y="650" class="body muted">Difficult navigation · poor visibility</text>
+    <text x="1264" y="680" class="body muted">Rigid reminders · excessive manual entry</text>
+    <text x="1264" y="732" class="small" fill="#5C4C91">Use familiar icons, labels, flexible timing, and quick setup.</text>
+
+    <g filter="url(#shadow)"><rect class="card" x="64" y="808" width="900" height="468" rx="24"/></g>
+    <text x="96" y="852" class="label" fill="#2A6F62">PRIMARY USER</text>
+    <circle cx="158" cy="924" r="52" fill="#DDEEE8"/>
+    <circle cx="158" cy="906" r="18" fill="#2A6F62"/>
+    <path d="M122 958 C132 925 184 925 194 958" fill="#2A6F62"/>
+    <text x="236" y="903" font-size="30" font-weight="800" class="ink">Leila, 58</text>
+    <text x="236" y="936" class="body muted">Shift supervisor · hypertension + type 2 diabetes</text>
+    <line x1="96" y1="978" x2="932" y2="978" class="line"/>
+    <text x="96" y="1020" class="label muted">GOALS</text>
+    <text x="96" y="1053" class="body ink">• Take the right dose on time</text>
+    <text x="96" y="1084" class="body ink">• Understand what side effects mean</text>
+    <text x="96" y="1115" class="body ink">• Keep control of shared information</text>
+    <text x="96" y="1166" class="label muted">FRUSTRATIONS</text>
+    <text x="96" y="1199" class="body ink">• Overlapping or missed reminders</text>
+    <text x="96" y="1230" class="body ink">• Small controls during busy shifts</text>
+    <text x="504" y="1166" class="label muted">CONTEXT</text>
+    <text x="504" y="1199" class="body ink">• One-handed phone use</text>
+    <text x="504" y="1230" class="body ink">• Needs plain language, not clinical jargon</text>
+    <rect x="96" y="1260" width="836" height="1" fill="#DDE5E2"/>
+    <text x="96" y="1294" class="small" fill="#2A6F62">Design stance: calm, private, forgiving, and explicit about what the app can and cannot do.</text>
+
+    <g filter="url(#shadow)"><rect class="card" x="988" y="808" width="868" height="468" rx="24"/></g>
+    <text x="1020" y="852" class="label" fill="#2A6F62">INFORMATION ARCHITECTURE + CORE FLOW</text>
+    <rect x="1020" y="886" width="144" height="54" rx="16" fill="#153B3A"/>
+    <text x="1092" y="919" text-anchor="middle" class="body" font-weight="700" fill="#FFFFFF">Today</text>
+    <rect x="1190" y="886" width="160" height="54" rx="16" fill="#E4EFE9"/>
+    <text x="1270" y="919" text-anchor="middle" class="body ink">My medications</text>
+    <rect x="1376" y="886" width="144" height="54" rx="16" fill="#E4EFE9"/>
+    <text x="1448" y="919" text-anchor="middle" class="body ink">Weekly</text>
+    <rect x="1546" y="886" width="144" height="54" rx="16" fill="#E4EFE9"/>
+    <text x="1618" y="919" text-anchor="middle" class="body ink">Care circle</text>
+    <rect x="1716" y="886" width="108" height="54" rx="16" fill="#E4EFE9"/>
+    <text x="1770" y="919" text-anchor="middle" class="body ink">More</text>
+    <path d="M1020 980 H1816" class="flow"/>
+    <rect x="1020" y="1010" width="196" height="74" rx="18" fill="#FFFFFF" stroke="#2A6F62" stroke-width="2"/>
+    <text x="1118" y="1042" text-anchor="middle" class="small ink" font-weight="700">ADD MEDICATION</text>
+    <text x="1118" y="1065" text-anchor="middle" class="small muted">scan or type</text>
+    <path d="M1216 1047 H1274" class="flow"/>
+    <rect x="1280" y="1010" width="196" height="74" rx="18" fill="#FFFFFF" stroke="#2A6F62" stroke-width="2"/>
+    <text x="1378" y="1042" text-anchor="middle" class="small ink" font-weight="700">CONFIRM DETAILS</text>
+    <text x="1378" y="1065" text-anchor="middle" class="small muted">dose + label</text>
+    <path d="M1476 1047 H1534" class="flow"/>
+    <rect x="1540" y="1010" width="196" height="74" rx="18" fill="#FFFFFF" stroke="#2A6F62" stroke-width="2"/>
+    <text x="1638" y="1042" text-anchor="middle" class="small ink" font-weight="700">SET SCHEDULE</text>
+    <text x="1638" y="1065" text-anchor="middle" class="small muted">repeat + cue</text>
+    <path d="M1638 1084 V1120 H1118 V1134" class="flow"/>
+    <rect x="1020" y="1140" width="196" height="74" rx="18" fill="#153B3A"/>
+    <text x="1118" y="1172" text-anchor="middle" class="small" font-weight="700" fill="#FFFFFF">TODAY</text>
+    <text x="1118" y="1195" text-anchor="middle" class="small" fill="#A8DED1">next dose ready</text>
+    <rect x="1260" y="1140" width="476" height="74" rx="18" fill="#FFF2E9" stroke="#E5A16D" stroke-width="2"/>
+    <text x="1498" y="1172" text-anchor="middle" class="small" font-weight="700" fill="#8A4A20">RECOVERY PATH</text>
+    <text x="1498" y="1195" text-anchor="middle" class="small" fill="#8A4A20">missed? snooze, mark, or contact clinician</text>
+    <text x="1020" y="1252" class="small muted">Navigation principle: the next safe action is always visible; secondary tools stay one level away.</text>
+
+    <text x="64" y="1340" class="h2 ink">Low-fidelity wireframes</text>
+    <text x="1856" y="1340" text-anchor="end" class="small muted">One-handed layout · 44 px minimum targets · no hidden status</text>
+
+    <g filter="url(#shadow)"><rect class="card" x="64" y="1370" width="560" height="360" rx="24"/></g>
+    <text x="92" y="1410" class="label muted">WIREFRAME 01 · TODAY</text>
+    <rect x="222" y="1434" width="244" height="254" rx="28" fill="#FFFFFF" stroke="#17313B" stroke-width="3"/>
+    <rect x="222" y="1434" width="244" height="42" rx="28" fill="#17313B"/>
+    <text x="248" y="1462" class="small" font-weight="700" fill="#FFFFFF">Today, 8:10</text>
+    <text x="248" y="1507" class="small" font-weight="700" fill="#17313B">2 doses left</text>
+    <rect x="246" y="1528" width="196" height="54" rx="14" fill="#E4EFE9" stroke="#17313B" stroke-width="2"/>
+    <text x="264" y="1551" class="small">Lisinopril · 10 mg</text>
+    <text x="264" y="1570" class="small muted">Take now</text>
+    <rect x="246" y="1594" width="196" height="54" rx="14" fill="#FFFFFF" stroke="#17313B" stroke-width="2"/>
+    <text x="264" y="1617" class="small">Metformin · 500 mg</text>
+    <text x="264" y="1636" class="small muted">With dinner · 7:00</text>
+    <rect x="246" y="1660" width="196" height="44" rx="22" fill="#17313B"/>
+    <text x="344" y="1688" text-anchor="middle" class="small" font-weight="700" fill="#FFFFFF">Mark taken</text>
+
+    <g filter="url(#shadow)"><rect class="card" x="652" y="1370" width="560" height="360" rx="24"/></g>
+    <text x="680" y="1410" class="label muted">WIREFRAME 02 · ADD MED</text>
+    <rect x="810" y="1434" width="244" height="254" rx="28" fill="#FFFFFF" stroke="#17313B" stroke-width="3"/>
+    <rect x="810" y="1434" width="244" height="42" rx="28" fill="#17313B"/>
+    <text x="832" y="1462" class="small" font-weight="700" fill="#FFFFFF">Add medication</text>
+    <rect x="832" y="1498" width="200" height="70" rx="14" fill="#FFFFFF" stroke="#17313B" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="932" y="1527" text-anchor="middle" class="small" font-weight="700" fill="#17313B">Scan package</text>
+    <text x="932" y="1548" text-anchor="middle" class="small muted">or enter by hand</text>
+    <text x="832" y="1600" class="small muted">Name</text>
+    <rect x="832" y="1612" width="200" height="42" rx="10" fill="#F3F6F2" stroke="#AEBDB8"/>
+    <text x="932" y="1639" text-anchor="middle" class="small" fill="#17313B">Lisinopril</text>
+    <rect x="832" y="1664" width="200" height="44" rx="22" fill="#17313B"/>
+    <text x="932" y="1692" text-anchor="middle" class="small" font-weight="700" fill="#FFFFFF">Continue</text>
+
+    <g filter="url(#shadow)"><rect class="card" x="1240" y="1370" width="616" height="360" rx="24"/></g>
+    <text x="1268" y="1410" class="label muted">WIREFRAME 03 · WEEKLY</text>
+    <rect x="1414" y="1434" width="244" height="254" rx="28" fill="#FFFFFF" stroke="#17313B" stroke-width="3"/>
+    <rect x="1414" y="1434" width="244" height="42" rx="28" fill="#17313B"/>
+    <text x="1436" y="1462" class="small" font-weight="700" fill="#FFFFFF">Your week</text>
+    <text x="1436" y="1510" class="small muted">TAKEN</text>
+    <text x="1436" y="1560" font-size="40" font-weight="800" fill="#17313B">86%</text>
+    <g fill="#2A6F62">
+      <rect x="1436" y="1582" width="24" height="34" rx="6"/><rect x="1468" y="1582" width="24" height="34" rx="6"/><rect x="1500" y="1582" width="24" height="34" rx="6"/><rect x="1532" y="1582" width="24" height="34" rx="6"/><rect x="1564" y="1582" width="24" height="34" rx="6"/><rect x="1596" y="1582" width="24" height="34" rx="6"/><rect x="1628" y="1582" width="24" height="34" rx="6"/>
+    </g>
+    <rect x="1436" y="1636" width="200" height="44" rx="22" fill="#E4EFE9" stroke="#17313B" stroke-width="2"/>
+    <text x="1536" y="1664" text-anchor="middle" class="small" font-weight="700" fill="#17313B">View details</text>
+
+    <text x="64" y="1770" class="small muted">Next research: 5 moderated interviews, diary study for 7 days, reminder comprehension test, and clinician/pharmacist safety review.</text>
+    <text x="1856" y="1770" text-anchor="end" class="small" fill="#2A6F62">DOSEDAY · CAPSTONE STARTER</text>
+  </g>
+</svg>

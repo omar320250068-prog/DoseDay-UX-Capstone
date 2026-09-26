@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+  <defs><filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#153B3A" flood-opacity="0.12"/></filter><style>.t{font-family:Inter,Arial,sans-serif;fill:#17313B}.m{fill:#607277}.b{font-size:16px}.sm{font-size:13px}.h{font-size:28px;font-weight:800}.hh{font-size:20px;font-weight:750}.bold{font-weight:700}</style></defs>
+  <rect width="390" height="844" fill="#FBFCFA"/>
+  <g class="t">
+    <text x="24" y="28" class="sm bold">9:41</text><text x="340" y="28" class="sm bold">5G  ▰</text>
+    <text x="24" y="74" class="b bold">‹</text><text x="54" y="74" class="b bold">Your week</text>
+    <text x="24" y="126" class="h">A steady week</text><text x="24" y="154" class="b m">Small wins count.</text>
+    <g filter="url(#s)"><rect x="20" y="182" width="350" height="176" rx="26" fill="#153B3A"/></g>
+    <text x="44" y="218" font-size="13" font-weight="800" letter-spacing="1.4" fill="#A8DED1">DOSES TAKEN</text>
+    <text x="44" y="286" font-size="58" font-weight="800" fill="#FFFFFF">86%</text>
+    <text x="44" y="320" class="b" fill="#DDF5EE">30 of 35 scheduled</text>
+    <g fill="#7CD2BD">
+      <rect x="44" y="382" width="34" height="72" rx="8"/><rect x="88" y="356" width="34" height="98" rx="8"/><rect x="132" y="332" width="34" height="122" rx="8"/><rect x="176" y="308" width="34" height="146" rx="8"/><rect x="220" y="284" width="34" height="170" rx="8"/><rect x="264" y="260" width="34" height="194" rx="8"/><rect x="308" y="236" width="34" height="218" rx="8"/>
+    </g>
+    <g class="sm m"><text x="61" y="478" text-anchor="middle">M</text><text x="105" y="478" text-anchor="middle">T</text><text x="149" y="478" text-anchor="middle">W</text><text x="193" y="478" text-anchor="middle">T</text><text x="237" y="478" text-anchor="middle">F</text><text x="281" y="478" text-anchor="middle">S</text><text x="325" y="478" text-anchor="middle">S</text></g>
+    <text x="24" y="534" class="sm bold m" letter-spacing="1.2">THIS WEEK</text>
+    <rect x="20" y="552" width="350" height="76" rx="18" fill="#E4EFE9"/>
+    <circle cx="52" cy="590" r="18" fill="#2A6F62"/><path d="M44 590l6 6 12-14" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+    <text x="84" y="582" class="b bold">30 taken</text><text x="84" y="607" class="sm m">Keep your routine visible</text>
+    <rect x="20" y="642" width="350" height="76" rx="18" fill="#FFF0E7" stroke="#E5A16D"/>
+    <circle cx="52" cy="680" r="18" fill="#E5A16D"/><text x="52" y="686" text-anchor="middle" class="b bold" fill="#FFFFFF">!</text>
+    <text x="84" y="672" class="b bold">5 need context</text><text x="84" y="697" class="sm m">Tap to review timing or side effects</text>
+    <rect x="20" y="750" width="350" height="56" rx="28" fill="#153B3A"/><text x="195" y="785" text-anchor="middle" class="b bold" fill="#FFFFFF">Share weekly summary</text>
+  </g>
+</svg>

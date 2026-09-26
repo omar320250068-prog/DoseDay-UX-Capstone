@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+  <defs><filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#153B3A" flood-opacity="0.12"/></filter><style>.t{font-family:Inter,Arial,sans-serif;fill:#17313B}.m{fill:#607277}.b{font-size:16px}.sm{font-size:13px}.h{font-size:28px;font-weight:800}.hh{font-size:20px;font-weight:750}.bold{font-weight:700}</style></defs>
+  <rect width="390" height="844" fill="#FBFCFA"/>
+  <g class="t">
+    <text x="24" y="28" class="sm bold">9:41</text><text x="340" y="28" class="sm bold">5G  ▰</text>
+    <text x="24" y="74" class="b bold">‹</text><text x="54" y="74" class="b bold">Medication details</text>
+    <g filter="url(#s)"><rect x="20" y="108" width="350" height="176" rx="26" fill="#FFFFFF" stroke="#DDE5E2"/></g>
+    <rect x="44" y="132" width="72" height="72" rx="20" fill="#DDEEE8"/>
+    <path d="M60 170h18l9-18 12 36 9-18h8" fill="none" stroke="#2A6F62" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="136" y="158" class="hh">Lisinopril</text><text x="136" y="184" class="b m">10 mg tablet</text>
+    <rect x="136" y="204" width="132" height="30" rx="15" fill="#E4EFE9"/><text x="202" y="224" text-anchor="middle" class="sm bold" fill="#2A6F62">Details verified</text>
+    <text x="44" y="248" class="sm m">Scanned from package · confirm with your prescription</text>
+    <text x="24" y="326" class="sm bold m" letter-spacing="1.2">REMINDER</text>
+    <rect x="20" y="344" width="350" height="76" rx="18" fill="#FFFFFF" stroke="#B8C6C2"/>
+    <text x="42" y="375" class="b bold">Every day</text><text x="42" y="400" class="sm m">08:30 · Morning</text>
+    <text x="326" y="388" class="b m">›</text>
+    <rect x="20" y="434" width="350" height="76" rx="18" fill="#FFFFFF" stroke="#B8C6C2"/>
+    <text x="42" y="465" class="b bold">Smart follow-up</text><text x="42" y="490" class="sm m">Ask again after 30 minutes</text>
+    <text x="326" y="478" class="b m">›</text>
+    <text x="24" y="554" class="sm bold m" letter-spacing="1.2">SAFETY NOTE</text>
+    <rect x="20" y="572" width="350" height="92" rx="18" fill="#FFF0E7" stroke="#E5A16D"/>
+    <circle cx="52" cy="604" r="15" fill="#E5A16D"/><text x="52" y="610" text-anchor="middle" class="b bold" fill="#FFFFFF">i</text>
+    <text x="80" y="601" class="b bold" fill="#8A4A20">DoseDay does not change your prescription.</text>
+    <text x="80" y="628" class="sm" fill="#8A4A20">Check the label and contact your clinician if unsure.</text>
+    <rect x="20" y="692" width="350" height="56" rx="28" fill="#153B3A"/><text x="195" y="727" text-anchor="middle" class="b bold" fill="#FFFFFF">Add to my medications</text>
+    <rect x="20" y="762" width="350" height="54" rx="27" fill="#FFFFFF" stroke="#B8C6C2"/><text x="195" y="796" text-anchor="middle" class="b bold">Save for later</text>
+  </g>
+</svg>

@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1600" viewBox="0 0 1920 1600">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#172A3A" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .sans{font-family:Inter,Arial,sans-serif}.ink{fill:#17313B}.muted{fill:#607277}.label{font-size:14px;font-weight:700;letter-spacing:1.7px}.h1{font-size:44px;font-weight:800}.h2{font-size:28px;font-weight:750}.h3{font-size:20px;font-weight:750}.body{font-size:17px}.small{font-size:14px}.card{fill:#FFFFFF;stroke:#DDE5E2;stroke-width:1.5}.check{fill:none;stroke:#2A6F62;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <rect width="1920" height="1600" fill="#F3F6F2"/>
+  <g class="sans">
+    <rect x="64" y="50" width="206" height="34" rx="17" fill="#DDEEE8"/>
+    <text x="167" y="73" text-anchor="middle" class="label" fill="#256052">CAPSTONE 03</text>
+    <text x="64" y="135" class="h1 ink">DoseDay</text>
+    <text x="350" y="133" font-size="24" font-weight="600" fill="#2A6F62">Hand-off</text>
+    <text x="1856" y="130" text-anchor="end" class="label muted">3RD PAGE · DELIVERY</text>
+
+    <g filter="url(#shadow)"><rect x="64" y="180" width="1792" height="180" rx="28" fill="#153B3A"/></g>
+    <text x="104" y="226" class="label" fill="#A8DED1">HAND-OFF PRINCIPLE</text>
+    <text x="104" y="274" font-size="28" font-weight="750" fill="#FFFFFF">One source of truth, explicit safety boundaries, testable acceptance criteria.</text>
+    <text x="104" y="316" class="body" fill="#DDF5EE">Source screens live in Figma; this page captures tokens, states, behavior, privacy, QA, and pilot measurement.</text>
+    <rect x="1476" y="216" width="326" height="108" rx="20" fill="#FFFFFF" opacity="0.10"/>
+    <text x="1508" y="252" class="label" fill="#A8DED1">TARGET</text>
+    <text x="1508" y="290" font-size="30" font-weight="800" fill="#FFFFFF">WCAG 2.2 AA</text>
+    <text x="1508" y="316" class="small" fill="#DDF5EE">44 px targets · no color-only status</text>
+
+    <g filter="url(#shadow)"><rect class="card" x="64" y="400" width="848" height="500" rx="24"/></g>
+    <text x="96" y="444" class="label" fill="#2A6F62">DESIGN TOKENS</text>
+    <text x="96" y="480" class="h2 ink">Ready for variables and code</text>
+    <text x="96" y="530" class="label muted">COLOR</text>
+    <g font-size="15" font-weight="700">
+      <rect x="96" y="550" width="230" height="66" rx="14" fill="#153B3A"/><text x="116" y="590" fill="#FFFFFF">color/ink-900 · #153B3A</text>
+      <rect x="342" y="550" width="230" height="66" rx="14" fill="#2A6F62"/><text x="362" y="590" fill="#FFFFFF">color/teal-700 · #2A6F62</text>
+      <rect x="588" y="550" width="292" height="66" rx="14" fill="#DDEEE8"/><text x="608" y="590" fill="#17313B">color/mint-100 · #DDEEE8</text>
+      <rect x="96" y="632" width="230" height="66" rx="14" fill="#FFF0E7" stroke="#E5A16D"/><text x="116" y="672" fill="#8A4A20">color/alert-100 · #FFF0E7</text>
+      <rect x="342" y="632" width="230" height="66" rx="14" fill="#F3F6F2" stroke="#DDE5E2"/><text x="362" y="672" fill="#17313B">color/canvas-50 · #F3F6F2</text>
+      <rect x="588" y="632" width="292" height="66" rx="14" fill="#FFFFFF" stroke="#DDE5E2"/><text x="608" y="672" fill="#17313B">color/surface-00 · #FFFFFF</text>
+    </g>
+    <text x="96" y="742" class="label muted">TYPE</text>
+    <text x="96" y="778" class="body ink">Display 36/40 Bold · Title 24/32 Bold · Body 18/28 Regular</text>
+    <text x="96" y="810" class="body ink">Label 14/20 Bold · Minimum body text 16 px</text>
+    <text x="96" y="854" class="label muted">SPACING + RADIUS</text>
+    <text x="96" y="886" class="body ink">4 · 8 · 12 · 16 · 24 · 32 · 48 · 64 · Cards 16–24 px · Pills 999 px</text>
+
+    <g filter="url(#shadow)"><rect class="card" x="944" y="400" width="912" height="500" rx="24"/></g>
+    <text x="976" y="444" class="label" fill="#2A6F62">COMPONENT CONTRACTS</text>
+    <text x="976" y="480" class="h2 ink">States, behavior, and acceptance</text>
+    <line x1="976" y1="516" x2="1824" y2="516" stroke="#DDE5E2"/>
+    <text x="976" y="550" class="small muted" font-weight="700">COMPONENT</text>
+    <text x="1212" y="550" class="small muted" font-weight="700">REQUIRED STATES</text>
+    <text x="1544" y="550" class="small muted" font-weight="700">ACCEPTANCE</text>
+    <text x="976" y="588" class="small ink" font-weight="700">Primary action</text>
+    <text x="1212" y="588" class="small ink">default · pressed · disabled</text>
+    <text x="1544" y="588" class="small ink">44 px min; visible focus</text>
+    <line x1="976" y1="610" x2="1824" y2="610" stroke="#E7ECEA"/>
+    <text x="976" y="644" class="small ink" font-weight="700">Dose card</text>
+    <text x="1212" y="644" class="small ink">due · upcoming · taken · missed</text>
+    <text x="1544" y="644" class="small ink">status has text + icon</text>
+    <line x1="976" y1="666" x2="1824" y2="666" stroke="#E7ECEA"/>
+    <text x="976" y="700" class="small ink" font-weight="700">Medication form</text>
+    <text x="1212" y="700" class="small ink">empty · error · scanning · done</text>
+    <text x="1544" y="700" class="small ink">label persists on error</text>
+    <line x1="976" y1="722" x2="1824" y2="722" stroke="#E7ECEA"/>
+    <text x="976" y="756" class="small ink" font-weight="700">Recovery banner</text>
+    <text x="1212" y="756" class="small ink">neutral · snoozed · escalated</text>
+    <text x="1544" y="756" class="small ink">no blame; named next action</text>
+    <line x1="976" y1="778" x2="1824" y2="778" stroke="#E7ECEA"/>
+    <text x="976" y="812" class="small ink" font-weight="700">Toast</text>
+    <text x="1212" y="812" class="small ink">success · undo · error</text>
+    <text x="1544" y="812" class="small ink">8 sec undo; no critical-only info</text>
+    <line x1="976" y1="834" x2="1824" y2="834" stroke="#E7ECEA"/>
+    <rect x="976" y="856" width="816" height="1" fill="#DDE5E2"/>
+    <text x="976" y="884" class="small" fill="#2A6F62">Engineering note: use semantic tokens, not raw hex values, in implementation.</text>
+
+    <g filter="url(#shadow)"><rect class="card" x="64" y="940" width="1096" height="592" rx="24"/></g>
+    <text x="96" y="984" class="label" fill="#2A6F62">QA + ACCESSIBILITY</text>
+    <text x="96" y="1020" class="h2 ink">Definition of done</text>
+    <g class="check">
+      <path d="M100 1070 l12 12 l24 -28"/><path d="M100 1120 l12 12 l24 -28"/><path d="M100 1170 l12 12 l24 -28"/><path d="M100 1220 l12 12 l24 -28"/><path d="M100 1270 l12 12 l24 -28"/><path d="M100 1320 l12 12 l24 -28"/><path d="M100 1370 l12 12 l24 -28"/><path d="M100 1420 l12 12 l24 -28"/>
+    </g>
+    <g class="body ink">
+      <text x="160" y="1081">Keyboard and screen-reader labels are meaningful and concise.</text>
+      <text x="160" y="1131">Focus order follows visual order; focus is always visible.</text>
+      <text x="160" y="1181">Text and essential controls meet WCAG 2.2 AA contrast.</text>
+      <text x="160" y="1231">All interactive targets are at least 44 × 44 px.</text>
+      <text x="160" y="1281">Status never depends on color alone; every icon has a text label.</text>
+      <text x="160" y="1331">One-handed reach works at 200% text size without clipping.</text>
+      <text x="160" y="1381">Reminders, errors, and destructive actions have announced states.</text>
+      <text x="160" y="1431">Recovery from a missed dose is clear, reversible, and nonjudgmental.</text>
+    </g>
+    <line x1="666" y1="1052" x2="666" y2="1454" stroke="#DDE5E2"/>
+    <text x="700" y="1080" class="label muted">SAFETY BOUNDARIES</text>
+    <text x="700" y="1118" class="body ink">• Never diagnose or change a dose.</text>
+    <text x="700" y="1152" class="body ink">• Label scan as unverified until confirmed.</text>
+    <text x="700" y="1186" class="body ink">• Show the source of medication details.</text>
+    <text x="700" y="1220" class="body ink">• Encourage clinician/pharmacist contact for conflicts.</text>
+    <text x="700" y="1254" class="body ink">• Keep a reversible activity log.</text>
+    <text x="700" y="1300" class="label muted">PRIVACY</text>
+    <text x="700" y="1338" class="body ink">• Care sharing is opt-in and scoped.</text>
+    <text x="700" y="1372" class="body ink">• Weekly sharing excludes free-text notes.</text>
+    <text x="700" y="1406" class="body ink">• No medication data in analytics by default.</text>
+    <text x="700" y="1440" class="body ink">• Clear delete/export controls required.</text>
+
+    <g filter="url(#shadow)"><rect class="card" x="1192" y="940" width="664" height="592" rx="24"/></g>
+    <text x="1224" y="984" class="label" fill="#2A6F62">PILOT + RELEASE</text>
+    <text x="1224" y="1020" class="h2 ink">Measure the behavior, not vanity</text>
+    <text x="1224" y="1072" class="label muted">4-WEEK PILOT · 30 PARTICIPANTS</text>
+    <rect x="1224" y="1094" width="600" height="92" rx="18" fill="#153B3A"/>
+    <text x="1252" y="1128" class="label" fill="#A8DED1">PRIMARY</text>
+    <text x="1252" y="1163" font-size="27" font-weight="800" fill="#FFFFFF">≥80% scheduled doses marked Taken</text>
+    <rect x="1224" y="1202" width="288" height="80" rx="18" fill="#E4EFE9"/>
+    <text x="1248" y="1232" class="label" fill="#2A6F62">SETUP</text>
+    <text x="1248" y="1264" class="body ink" font-weight="700">Median &lt; 3 minutes</text>
+    <rect x="1536" y="1202" width="288" height="80" rx="18" fill="#E4EFE9"/>
+    <text x="1560" y="1232" class="label" fill="#2A6F62">USABILITY</text>
+    <text x="1560" y="1264" class="body ink" font-weight="700">5 of 5 unassisted</text>
+    <text x="1224" y="1332" class="label muted">RELEASE GATES</text>
+    <text x="1224" y="1364" class="small ink">✓ No critical accessibility defects</text>
+    <text x="1224" y="1396" class="small ink">✓ Medication/privacy review complete</text>
+    <text x="1224" y="1428" class="small ink">✓ Prototype QA on iOS + Android</text>
+    <text x="1224" y="1460" class="small ink">✓ Analytics events reviewed with privacy</text>
+    <text x="1224" y="1500" class="small" fill="#2A6F62">Owner: Product designer · Engineering: mobile + backend · Clinical: pharmacist reviewer</text>
+
+    <text x="64" y="1572" class="small muted">Handoff status: starter specification. Confirm final component names, variable IDs, and implementation notes in the live Figma file after account sign-in.</text>
+    <text x="1856" y="1572" text-anchor="end" class="small" fill="#2A6F62">DOSEDAY · CAPSTONE STARTER</text>
+  </g>
+</svg>

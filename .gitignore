@@ -1,0 +1,7 @@
+# Temporary SVG rendering wrappers used only for PNG export into Figma
+render.html
+render_asset.html
+
+# OS / editor noise
+Thumbs.db
+.DS_Store

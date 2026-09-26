@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="844" viewBox="0 0 390 844">
+  <defs><filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#153B3A" flood-opacity="0.12"/></filter><style>.t{font-family:Inter,Arial,sans-serif;fill:#17313B}.m{fill:#607277}.b{font-size:16px}.sm{font-size:13px}.h{font-size:28px;font-weight:800}.hh{font-size:20px;font-weight:750}.bold{font-weight:700}</style></defs>
+  <rect width="390" height="844" fill="#FBFCFA"/>
+  <g class="t">
+    <text x="24" y="28" class="sm bold">9:41</text><text x="340" y="28" class="sm bold">5G  ▰</text>
+    <text x="24" y="74" class="b bold">‹</text><text x="54" y="74" class="b bold">Add medication</text>
+    <text x="24" y="132" class="h">Let’s add it once</text>
+    <text x="24" y="160" class="b m">Scan the label to save typing.</text>
+    <rect x="20" y="188" width="350" height="188" rx="26" fill="#E4EFE9" stroke="#2A6F62" stroke-width="2" stroke-dasharray="9 6"/>
+    <rect x="139" y="222" width="112" height="76" rx="10" fill="#FFFFFF" stroke="#2A6F62" stroke-width="3"/>
+    <path d="M161 260h68M195 226v68" stroke="#2A6F62" stroke-width="3"/>
+    <text x="195" y="329" text-anchor="middle" class="b bold" fill="#2A6F62">Scan package</text>
+    <text x="195" y="352" text-anchor="middle" class="sm m">Make sure the label is flat and well lit</text>
+    <text x="24" y="420" class="sm bold m" letter-spacing="1.2">OR ENTER MANUALLY</text>
+    <text x="24" y="458" class="sm bold">Medication name</text>
+    <rect x="20" y="472" width="350" height="54" rx="14" fill="#FFFFFF" stroke="#B8C6C2"/><text x="40" y="506" class="b m">Search or type a name</text>
+    <text x="24" y="564" class="sm bold">Dose</text>
+    <rect x="20" y="578" width="168" height="54" rx="14" fill="#FFFFFF" stroke="#B8C6C2"/><text x="40" y="612" class="b m">10</text>
+    <text x="216" y="564" class="sm bold">Unit</text>
+    <rect x="202" y="578" width="168" height="54" rx="14" fill="#FFFFFF" stroke="#B8C6C2"/><text x="222" y="612" class="b m">mg</text>
+    <text x="24" y="670" class="sm bold">Common instructions</text>
+    <rect x="20" y="686" width="350" height="58" rx="14" fill="#E4EFE9"/>
+    <text x="40" y="710" class="sm bold">With water</text><text x="40" y="731" class="sm m">Tap to change</text>
+    <rect x="20" y="770" width="350" height="54" rx="27" fill="#153B3A"/><text x="195" y="804" text-anchor="middle" class="b bold" fill="#FFFFFF">Continue</text>
+  </g>
+</svg>
