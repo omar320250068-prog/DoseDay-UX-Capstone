@@ -170,8 +170,9 @@ Figma AI tools in Figma Design: https://help.figma.com/hc/en-us/articles/2387027
 Claude 101: https://academy.claude.com/courses/claude-101
 
 FILE STRUCTURE
-Page 1: Research, IA & Flows, Wireframes - 1st Page — the desk-research page (sources, Claude
-synthesis with corrections, one-page summary, IA and low-fidelity wireframes)
+Page 1: Research, IA & Flows, Wireframes - 1st Page — two boards side by side on one page:
+  - "DoseDay_Page_1 1" is 1920 x 4336 (node 80-2) and carries the desk-research brief.
+  - "DoseDay_Page_1b_IA_flows" is 1920 x 4400 (node 86-2) at (0, 4436) and carries the IA and flows.
 Page 2: UI, Design System, Prototype - 2nd Page
 Page 3: Hand-off - 3rd Page
 
@@ -181,7 +182,66 @@ DELIVERY STATUS AND EVIDENCE
 - Figma sharing: set to Anyone can view; the share dialog confirms "Anyone can view" plus "People from Team folder can access". Anonymous checks of both the design link and the prototype link return HTTP 200 with no sign-in redirect.
 - Prototype verification: the Today frame is the flow starting point named "Flow 1" and exposes three named hotspots — "Mark as taken" (9-2 to 13-2), "Meds tab" (9-2 to 10-2), and "Week tab" (9-2 to 12-2), each confirmed by clicking through the running prototype. Return and forward edges were confirmed in the Prototype panel: 10-2 to 11-2, 11-2 to 9-2, 12-2 to 11-2, and 13-2 to 9-2.
 - Design-page QA: all three required pages exist with the exact required names and one board layer each — page 1 "DoseDay_Page_1 1" is 1920 x 4336 (node 80-2), page 2 "DoseDay_Page_2 1" is 2200 x 1800 (node 2-139), page 3 "DoseDay_Page_3 1" is 1920 x 1600 (node 2-140). Page 2 holds exactly five 390 x 844 phone frames — Today — Dose Check-in, Add Medication, Medication Details, Weekly Progress, Dose Confirmation — with no leftover test objects.
-- Page 1 rebuild: the research page was rebuilt from 1920 x 1800 to 1920 x 4336 to carry the full desk-research brief. It holds the evidence-base counts, the three competitor/analog cards with their store-listing screenshots embedded as images, the four articles with live URLs, the top 5 findings each tied to named reviews, the Claude prompt and the six corrections, an explicit "what this evidence does not support" panel, and the design response traced to a finding. Source: `DoseDay_Page_1.svg`, geometry-checked in-browser at 185 text elements with zero canvas overflow and zero card overflow. Pages 2 and 3 were not modified.
+- Page 1 rebuild: the research page was rebuilt from 1920 x 1800 to 1920 x 4336 to carry the full desk-research brief. It holds the evidence-base counts, the three competitor/analog cards with their store-listing screenshots embedded as images, the four articles with live URLs, the top 5 findings each tied to named reviews, the Claude prompt and the six corrections, an explicit "what this evidence does not support" panel, and the design response traced to a finding. Source: `DoseDay_Page_1.svg`, geometry-checked in-browser at 179 text elements with zero canvas overflow and zero card overflow. Pages 2 and 3 were not modified.
+
+IA & FLOWS
+Source: `DoseDay_Page_1b_IA_flows.svg`, geometry-checked in-browser at 1920 x 4400, 277 text
+elements, zero overflow. Imported to page 1 as node 86-2 at (0, 4436), directly below the
+research board.
+
+Two primary users, each with a job to be done traced to named UX-02 findings:
+- User 1, the solo doser: Rowan, 59, rotating shift work, five medications (three scheduled, two
+  as-needed), employer unnamed, gender unstated so written neutral. JTBD: "When my shifts rotate
+  and I am the only one keeping track, I want one screen that shows what is already done before it
+  shows me what is next, so I can stop guessing whether I took something." Traces to F-1, F-2, F-3.
+- User 2, the shared-record carer: two people writing to one medication record. JTBD: "When my
+  spouse and I both look after the same routine, I want a dose marked on either phone to stop the
+  reminder on the other, so I stop getting alarms for something that has already been handled."
+  Traces to F-4, F-7, F-5. This user is deliberately unnamed: the corpus has no shared-household
+  persona, because Ada and Ray are two separate people rather than a couple, so the archetype is
+  taken from the UX-02 review thread (123334567, App Store 08/06/2024) with no name, age, job or
+  diagnosis invented to fill the gap.
+
+IA map: 25 screens in 6 groups — Start (one-time spine, S1–S7 plus empty state E1), Today
+(default tab, S8–S11), Medicines (S12–S16), Progress (S17–S19), Shared care (cross-cutting, S20–S21)
+and Settings (utility, S22–S25). Grouping logic is stated on the board as G1–G6 and each rule cites
+the NN/g Information Architecture Study Guide: three tabs plus utility rather than a hamburger
+(NN/g, Hamburger Menus and Hidden Navigation Hurt UX Metrics); two taps from Today to anything but
+not flattened into one screen (NN/g, Flat vs. Deep; NN/g, The 3-Click Rule for Navigation Is False,
+so S23 is allowed to sit at 3 taps); groups named by user goal rather than database object
+(NN/g, Information Scent); as-needed doses handled as a category outlier by cross-listing rather
+than duplication (NN/g, How to Handle Category Outliers; Polyhierarchy); and recovery placed next to
+the failure rather than in a help centre (NN/g, Navigation: You Are Here). Shared care is
+deliberately not a tab, because a shared-care tab would be empty for the majority of users. Stated
+plainly on the board: the grouping was not validated by a card sort or tree test, because both need
+participants and the evidence base is 22 self-selected reviews.
+
+Three flows, each with decision points, an unhappy path, and the law named at the decision:
+- Flow 1, primary task, "log a dose and know it is logged" (Rowan, F-1). Two decision points
+  (scheduled or as-needed; right dose, right time) plus the undo-window decision. Unhappy path
+  covers a wrong dose and an expired undo window, which recovers through the editable history in
+  S14 rather than dead-ending. Laws: Hick's Law, Paradox of Choice, Undo, Recognition Rather Than
+  Recall, Doherty Threshold, Von Restorff, Peak-End Rule.
+- Flow 2, onboarding and first run (F-2, F-4). Three decision points: allow notifications, does
+  anyone else write here, add the first medicine now or skip. Two unhappy paths: notifications
+  refused (the product stays usable in check-in-only mode, the consequence is stated before the OS
+  prompt, and the prompt is re-offered once from Today instead of as a modal) and an abandoned or
+  skipped run (partial progress persists and setup resumes where it stopped; the empty state E1
+  ships one worked example rather than a blank wall). Laws: Peak-End Rule, Paradox of Choice,
+  Chunking, Goal-Gradient Effect, Zeigarnik Effect, Signal, Constraints, Endowment Effect, Affordance.
+- Flow 3, recovery, "the reminder never arrived" (F-5). Three decision points, and the first one is
+  deliberately "was this marked on another device?" because a genuine second writer is the most
+  likely innocent explanation and 123334567 experienced it as a fault rather than as intended
+  behaviour. Unhappy path: no cause found and the dose already late, where the dose is logged
+  anyway and recorded honestly as taken late rather than shown in red. Laws: Help Users Recover
+  from Errors, Signal, Recognition Rather Than Recall, Layering, Redundancy, Undo, Hick's Law,
+  Doherty Threshold, Processing Fluency.
+
+The board closes with an explicit list of what it does not claim: no card sort or tree test, no
+accessibility compliance claim from 22 reviews, no DoseDay user quotes behind the JTBD statements,
+and no wireframes (those are on page 2). Streaks are named once in order to be rejected: MyTherapy
+advertises them and no reviewer in the set mentions them either way, so the product declines the
+mechanic instead of claiming evidence for refusing it.
 - Persona correction applied to page 1: the board previously read "Leila, a 58-year-old shift supervisor managing four prescriptions … hypertension + type 2 diabetes", which is the persona this project explicitly retracted as unsourced (C-05, C-06). It now reads Rowan, 59, rotating shift work, employer unnamed, five medications — three scheduled and two as-needed, written neutral because the corpus does not state a gender. The same correction was applied to `DoseDay_Page_2.svg` ("Good morning, Rowan") and `00_DoseDay_Today.svg`.
 - Public prototype QA: clean unauthenticated route checks for nodes 9-2, 10-2, 11-2, 12-2, and 13-2 each returned HTTP 200 with a rendered canvas.
 - Claude 101: https://academy.claude.com/courses/claude-101

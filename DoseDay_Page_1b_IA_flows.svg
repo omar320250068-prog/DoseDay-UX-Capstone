@@ -1,0 +1,428 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="4400" viewBox="0 0 1920 4400">
+<style>
+.sans{font-family:Inter,Arial,sans-serif}.ink{fill:#17313B}.muted{fill:#5C6F73}.label{font-size:14px;font-weight:700;letter-spacing:1.8px}.h1{font-size:44px;font-weight:800}.h2{font-size:28px;font-weight:750}.h3{font-size:20px;font-weight:750}.body{font-size:17px}.small{font-size:14px}.tiny{font-size:13px}.card{fill:#FFFFFF;stroke:#DDE5E2;stroke-width:1.5}.line{stroke:#D5DEDB;stroke-width:2}.quote{fill:#3A4F55;font-size:15px}
+.nodebox{fill:#FFFFFF;stroke:#256052;stroke-width:2}
+.dia{fill:#FFF8E8;stroke:#8C5A2B;stroke-width:2}
+.unbox{fill:#FDF3F1;stroke:#A33A2E;stroke-width:2}
+.undia{fill:#FDF3F1;stroke:#A33A2E;stroke-width:2}
+.band{fill:#FDF3F1;stroke:#E8CFC9;stroke-width:1.5}
+.lawband{fill:#F7F9F8;stroke:#DDE5E2;stroke-width:1.5}
+.c{fill:#256052}.c2{fill:#8C5A2B}.c3{fill:#A33A2E}.c4{fill:#8A9A9C}
+.jtbd{fill:#EEF5F1;stroke:#D6E7DE;stroke-width:1.5}
+</style>
+<defs>
+<marker id="ar" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#5C6F73"/></marker>
+<marker id="arR" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#A33A2E"/></marker>
+</defs>
+<rect x="0" y="0" width="1920" height="4400" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1920" height="8" fill="#256052"/>
+
+<text x="64" y="70" class="label c">CAPSTONE 01 &#183; 1ST PAGE</text>
+<text x="64" y="132" class="h1 ink">DoseDay &#8212; IA &amp; Flows</text>
+<text x="1856" y="132" text-anchor="end" class="label muted">2 &#183; STRUCTURE</text>
+<text x="64" y="172" class="body muted">Two primary users and their jobs to be done &#183; a six-group screen inventory with the grouping logic stated &#183; three annotated flows, each with decision points, an unhappy path, and the law behind the decision.</text>
+<text x="64" y="196" class="small" fill="#8A9A9C">Jobs trace to UX-02 (F-1&#8211;F-8). Laws of UX names follow lawsofux.com. IA principles follow the NN/g Information Architecture Study Guide, nngroup.com/articles/ia-study-guide/.</text>
+
+<text x="64" y="252" class="h2 ink">1 &#183; Who this is for, and the job to be done</text>
+<text x="1856" y="252" text-anchor="end" class="small muted">2 primary users &#183; 3 jobs to be done</text>
+
+<rect x="64" y="278" width="880" height="404" rx="14" class="card"/>
+<rect x="64" y="278" width="6" height="404" rx="3" fill="#256052"/>
+<text x="92" y="312" class="label c">PRIMARY USER 1 &#183; THE SOLO DOSER</text>
+<text x="92" y="346" class="h3 ink">&#8220;Rowan&#8221;, 59 &#183; rotating shift work</text>
+<text x="92" y="372" class="small muted">Five medications: three scheduled, two as-needed. Employer unnamed. Gender is not stated in the source, so this is written neutral. No diagnosis is added.</text>
+<rect x="92" y="392" width="824" height="128" rx="10" class="jtbd"/>
+<text x="112" y="418" class="label c">JOB TO BE DONE</text>
+<text x="112" y="446" class="body ink" font-style="italic">When my shifts rotate and I am the only one keeping track, I want one screen</text>
+<text x="112" y="470" class="body ink" font-style="italic">that shows what is already done before it shows me what is next, so I can stop</text>
+<text x="112" y="494" class="body ink" font-style="italic">guessing whether I took something.</text>
+<text x="92" y="548" class="small ink">Traces to: <tspan font-weight="700">F-1</tspan> the record is half the product &#183; <tspan font-weight="700">F-3</tspan> interface depth is an accessibility problem &#183; <tspan font-weight="700">F-2</tspan> scheduling arithmetic is where products break</text>
+<text x="92" y="576" class="tiny" fill="#8A9A9C">Rowan comes from the corrected persona pack. Nothing about Rowan is invented here; the pack and its</text>
+<text x="92" y="594" class="tiny" fill="#8A9A9C">verification log are the source of record. Evidence for the job, not for the person:</text>
+<text x="92" y="612" class="tiny" fill="#8A9A9C">GeekyDragonfly 05/04/2022, Meinnm505 May 5, rlsmith1994 Jun 9, tuxedoyam 12/25/2021,</text>
+<text x="92" y="630" class="tiny" fill="#8A9A9C">SF Cavendish 11/23/2021. The interviews/ corpus is SIMULATED and is not evidence for this brief.</text>
+<text x="92" y="654" class="tiny" fill="#8A9A9C">No job title, no diagnosis, no gender: the verification log retracted all three (C-05, C-06).</text>
+<text x="92" y="672" class="tiny" fill="#8A9A9C">A person, not a market segment: 22 self-selected reviews are 22 people, not a rate.</text>
+
+<rect x="976" y="278" width="880" height="404" rx="14" class="card"/>
+<rect x="976" y="278" width="6" height="404" rx="3" fill="#8C5A2B"/>
+<text x="1004" y="312" class="label c2">PRIMARY USER 2 &#183; THE SHARED-RECORD CARER</text>
+<text x="1004" y="346" class="h3 ink">Two people, one medication record</text>
+<text x="1004" y="372" class="small muted">Sourced only to UX-02 reviews. No name, age, job or diagnosis is invented, because nothing in the evidence base supplies one.</text>
+<rect x="1004" y="392" width="824" height="128" rx="10" class="jtbd"/>
+<text x="1024" y="418" class="label c">JOB TO BE DONE</text>
+<text x="1024" y="446" class="body ink" font-style="italic">When my spouse and I both look after the same routine, I want a dose marked on</text>
+<text x="1024" y="470" class="body ink" font-style="italic">either phone to stop the reminder on the other, so I stop getting alarms for</text>
+<text x="1024" y="494" class="body ink" font-style="italic">something that has already been handled.</text>
+<text x="1004" y="548" class="small ink">Traces to: <tspan font-weight="700">F-4 and F-7</tspan> reminder persistence means opposite things depending on how many people share the record &#183; <tspan font-weight="700">F-5</tspan> reliability defects are trust defects</text>
+<text x="1004" y="576" class="small" fill="#A33A2E">&#8220;My husband will mark something taken, I&#8217;ll get reminders on my device, and log in and see they&#8217;re already marked.&#8221;</text>
+<text x="1004" y="596" class="tiny c4">123334567, App Store 08/06/2024 &#8212; the same mechanic is a feature for one reviewer and a fault for another</text>
+<text x="1004" y="624" class="tiny" fill="#8A9A9C">Feature side: rlsmith1994 Jun 9, eventidephoenix 10/10/2018 &#8212; &#8220;make it more annoying&#8221;.</text>
+<text x="1004" y="648" class="tiny" fill="#8A9A9C">This is why reminder escalation branches on the number of writers, not on a preference setting.</text>
+<text x="1004" y="672" class="tiny" fill="#8A9A9C">Deliberately unnamed. The corpus has no shared-household persona: Ada and Ray are two</text>
+<text x="1004" y="690" class="tiny" fill="#8A9A9C">separate people, not a couple, so neither was available to fill this role.</text>
+
+<text x="64" y="742" class="h2 ink">2 &#183; Information architecture</text>
+<text x="1856" y="742" text-anchor="end" class="small muted">25 screens in 6 groups &#183; max 2 taps from Today &#183; 3 tabs + utility</text>
+
+<rect x="64" y="768" width="560" height="332" rx="12" class="card"/>
+<rect x="64" y="768" width="560" height="44" rx="12" fill="#256052"/>
+<text x="88" y="797" class="label" fill="#FFFFFF">START &#183; ONE-TIME SPINE</text>
+<text x="88" y="836" class="tiny c4">not a tab &#183; linear &#183; every step skippable</text>
+<circle cx="96" cy="860" r="3" class="c"/><text x="110" y="865" class="small ink">S1 Welcome and what DoseDay does</text>
+<circle cx="96" cy="884" r="3" class="c"/><text x="110" y="889" class="small ink">S2 Consent and privacy</text>
+<circle cx="96" cy="908" r="3" class="c"/><text x="110" y="913" class="small ink">S3 Notification rationale, then the OS prompt</text>
+<circle cx="96" cy="932" r="3" class="c2"/><text x="110" y="937" class="small ink" font-weight="700">S4 Reminder style: only me / someone helps</text>
+<circle cx="96" cy="956" r="3" class="c2"/><text x="110" y="961" class="small ink">S5a Invite a carer &#8594; S5b Access level</text>
+<circle cx="96" cy="980" r="3" class="c"/><text x="110" y="985" class="small ink">S6 Add first medicine (skippable)</text>
+<circle cx="96" cy="1004" r="3" class="c"/><text x="110" y="1009" class="small ink">S7 Done &#8594; lands on Today</text>
+<circle cx="96" cy="1028" r="3" class="c3"/><text x="110" y="1033" class="small ink" font-weight="700">E1 Empty state: Today with zero medicines</text>
+<text x="88" y="1062" class="tiny" fill="#8A9A9C">S4 is the highest-leverage question in the product. It is also the only</text>
+<text x="88" y="1080" class="tiny" fill="#8A9A9C">conditional branch in the whole spine, so it is the only fork drawn in Flow 2.</text>
+
+<rect x="656" y="768" width="560" height="332" rx="12" class="card"/>
+<rect x="656" y="768" width="560" height="44" rx="12" fill="#256052"/>
+<text x="680" y="797" class="label" fill="#FFFFFF">TODAY &#183; DEFAULT TAB</text>
+<text x="680" y="836" class="tiny c4">the app opens here, always</text>
+<circle cx="688" cy="860" r="3" class="c"/><text x="702" y="865" class="small ink" font-weight="700">S8 Today &#8212; Dose Check-in &#183; DESIGNED</text>
+<circle cx="688" cy="884" r="3" class="c"/><text x="702" y="889" class="small ink">S9 Dose Confirmation with Undo</text>
+<circle cx="688" cy="908" r="3" class="c"/><text x="702" y="913" class="small ink">S10 As-needed dose logger (logs, never nags)</text>
+<circle cx="688" cy="932" r="3" class="c3"/><text x="702" y="937" class="small ink" font-weight="700">S11 Why didn&#8217;t I get a reminder? &#183; RECOVERY</text>
+<text x="680" y="966" class="tiny" fill="#8A9A9C">Order inside Today is the record first and the next action second (F-1), so the</text>
+<text x="680" y="984" class="tiny" fill="#8A9A9C">first thing on screen answers &#8220;what is already done&#8221; rather than starting a countdown.</text>
+<text x="680" y="1008" class="small ink">S8 is one of the five frames already on page 2. S9&#8211;S11 are</text>
+<text x="680" y="1028" class="small ink">planned but not yet drawn at high fidelity.</text>
+<text x="680" y="1056" class="tiny" fill="#8A9A9C">S11 lives on Today, not in a help centre: recovery sits next to the thing that</text>
+<text x="680" y="1074" class="tiny" fill="#8A9A9C">failed, so it is found by tapping the row that failed.</text>
+
+<rect x="1248" y="768" width="608" height="332" rx="12" class="card"/>
+<rect x="1248" y="768" width="608" height="44" rx="12" fill="#256052"/>
+<text x="1272" y="797" class="label" fill="#FFFFFF">MEDICINES &#183; TAB</text>
+<text x="1272" y="836" class="tiny c4">everything about one medicine</text>
+<circle cx="1280" cy="860" r="3" class="c"/><text x="1294" y="865" class="small ink">S12 Medicines list</text>
+<circle cx="1280" cy="884" r="3" class="c"/><text x="1294" y="889" class="small ink" font-weight="700">S13 Add Medicine &#183; amount and frequency &#183; DESIGNED</text>
+<circle cx="1280" cy="908" r="3" class="c"/><text x="1294" y="913" class="small ink" font-weight="700">S14 Medicine Details &#183; DESIGNED</text>
+<circle cx="1280" cy="932" r="3" class="c"/><text x="1294" y="937" class="small ink">S15 Edit, pause or archive</text>
+<circle cx="1280" cy="956" r="3" class="c"/><text x="1294" y="961" class="small ink">S16 Refill and supply estimate</text>
+<text x="1272" y="990" class="tiny" fill="#8A9A9C">S13 is where F-2 is designed in: &#8220;1 or 2 tablets&#8221;, 2-hourly, food-relative,</text>
+<text x="1272" y="1008" class="tiny" fill="#8A9A9C">1&#215;week to 3&#215;/day and weekend-only all have to be expressible, because that is</text>
+<text x="1272" y="1026" class="tiny" fill="#8A9A9C">where SF Cavendish and MikeyBGr8 gave up on a competitor.</text>
+<text x="1272" y="1052" class="small ink">Adding a medicine can never be blocked (F-5). CoastieWife74 lost a paid</text>
+<text x="1272" y="1072" class="small ink">subscription over exactly this, and nearly churned.</text>
+
+<rect x="64" y="1120" width="560" height="286" rx="12" class="card"/>
+<rect x="64" y="1120" width="560" height="44" rx="12" fill="#256052"/>
+<text x="88" y="1149" class="label" fill="#FFFFFF">PROGRESS &#183; TAB</text>
+<text x="88" y="1188" class="tiny c4">reflection, never judgement</text>
+<circle cx="96" cy="1212" r="3" class="c"/><text x="110" y="1217" class="small ink" font-weight="700">S17 Weekly Progress &#183; DESIGNED</text>
+<circle cx="96" cy="1236" r="3" class="c"/><text x="110" y="1241" class="small ink">S18 Adherence detail, day drill-down</text>
+<circle cx="96" cy="1260" r="3" class="c"/><text x="110" y="1265" class="small ink">S19 Export and share with a clinician</text>
+<text x="88" y="1294" class="tiny" fill="#8A9A9C">No streaks, no scores, no red-for-missed. A missed dose is a reversible</text>
+<text x="88" y="1312" class="tiny" fill="#8A9A9C">check-in. This is a design constraint with zero user evidence behind it,</text>
+<text x="88" y="1330" class="tiny" fill="#8A9A9C">and it is recorded as such rather than dressed up as a finding.</text>
+<text x="88" y="1354" class="tiny" fill="#8A9A9C">S19 exists because a shareable summary for a doctor is a feature users named</text>
+<text x="88" y="1372" class="tiny" fill="#8A9A9C">as a reason to trust a competitor, not because the evidence priced it.</text>
+<text x="88" y="1396" class="tiny c4">S17 is the fifth frame already on page 2.</text>
+
+<rect x="656" y="1120" width="560" height="286" rx="12" class="card"/>
+<rect x="656" y="1120" width="560" height="44" rx="12" fill="#8C5A2B"/>
+<text x="680" y="1149" class="label" fill="#FFFFFF">SHARED CARE &#183; CROSS-CUTTING</text>
+<text x="680" y="1188" class="tiny c4">deliberately NOT a tab</text>
+<circle cx="688" cy="1212" r="3" class="c2"/><text x="702" y="1217" class="small ink">S20 People and access: invite, remove, level</text>
+<circle cx="688" cy="1236" r="3" class="c2"/><text x="702" y="1241" class="small ink">S21 Activity log: who marked what, and when</text>
+<text x="680" y="1270" class="tiny" fill="#8A9A9C">Most apps are single-writer, so a shared-care tab would be an empty tab for</text>
+<text x="680" y="1288" class="tiny" fill="#8A9A9C">almost every user. It is instead reached from Today, from a medicine, and</text>
+<text x="680" y="1306" class="tiny" fill="#8A9A9C">from Settings, and shown inline wherever a second writer matters.</text>
+<text x="680" y="1332" class="small ink">S21 exists because 123334567&#8217;s complaint is not that reminders</text>
+<text x="680" y="1352" class="small ink">kept firing, it is that the record looked wrong on the other phone.</text>
+<text x="680" y="1378" class="tiny c4">Polyhierarchy, not duplication: one screen, three entry points.</text>
+
+<rect x="1248" y="1120" width="608" height="286" rx="12" class="card"/>
+<rect x="1248" y="1120" width="608" height="44" rx="12" fill="#5C6F73"/>
+<text x="1272" y="1149" class="label" fill="#FFFFFF">SETTINGS &#183; UTILITY</text>
+<text x="1272" y="1188" class="tiny c4">rare, global, reversible</text>
+<circle cx="1280" cy="1212" r="3" class="c4"/><text x="1294" y="1217" class="small ink">S22 Reminder style and quiet hours</text>
+<circle cx="1280" cy="1236" r="3" class="c4"/><text x="1294" y="1241" class="small ink" font-weight="700">S23 Notification troubleshooting &#183; deep link from S11</text>
+<circle cx="1280" cy="1260" r="3" class="c4"/><text x="1294" y="1265" class="small ink">S24 Accessibility: text size, contrast, reduced motion</text>
+<circle cx="1280" cy="1284" r="3" class="c4"/><text x="1294" y="1289" class="small ink">S25 Backup, export and delete all data</text>
+<text x="1272" y="1318" class="tiny" fill="#8A9A9C">S22 is where the S4 fork can be changed later, so a wrong first answer is</text>
+<text x="1272" y="1336" class="tiny" fill="#8A9A9C">recoverable without reinstalling.</text>
+<text x="1272" y="1362" class="tiny" fill="#8A9A9C">S23 is the deepest screen in the product at 3 taps, and it is reached by</text>
+<text x="1272" y="1380" class="tiny" fill="#8A9A9C">following a problem, never by browsing.</text>
+
+<rect x="64" y="1426" width="1792" height="326" rx="12" class="lawband"/>
+<text x="88" y="1456" class="label c">GROUPING LOGIC &#8212; STATED, NOT ASSUMED</text>
+<text x="88" y="1486" class="small ink"><tspan font-weight="700">G1 &#183; Three tabs, plus utility.</tspan> Today, Medicines, Progress. Settings is utility navigation, not a peer tab. NN/g, Top 3 IA Questions about Navigation Menus, and NN/g, Utility Navigation.</text>
+<text x="88" y="1512" class="small ink"><tspan font-weight="700">G2 &#183; No hamburger, ever.</tspan> All top-level destinations are always visible. NN/g, Hamburger Menus and Hidden Navigation Hurt UX Metrics. F-3 is specifically a complaint about interface depth, so hiding navigation would contradict the finding.</text>
+<text x="88" y="1538" class="small ink"><tspan font-weight="700">G3 &#183; Shallow, but not flattened.</tspan> Two taps from Today to anything. NN/g, Flat vs. Deep hierarchies. I did not collapse everything into one screen either: NN/g, The 3-Click Rule for Navigation Is False, so depth is not a sin by itself and S23 is allowed to sit at 3 taps.</text>
+<text x="88" y="1564" class="small ink"><tspan font-weight="700">G4 &#183; Grouped by user goal, not by database object.</tspan> &#8220;Medicines&#8221;, not &#8220;Medication schedule entries&#8221;. NN/g, Information Scent: How Users Decide Where to Go Next, and the 4 Ss of link labelling. Labels carry the scent of the destination.</text>
+<text x="88" y="1590" class="small ink"><tspan font-weight="700">G5 &#183; As-needed doses are an outlier, handled by cross-listing.</tspan> The medicine lives in Medicines; the act of logging lives on Today. One object, two legitimate homes, no duplicate records. NN/g, How to Handle Category Outliers in Your IA, and Polyhierarchy.</text>
+<text x="88" y="1616" class="small ink"><tspan font-weight="700">G6 &#183; Recovery lives next to the failure.</tspan> S11 is reached from the row that failed, not from a help centre. Shared care is polyhierarchical, not a tab. NN/g, Navigation: You Are Here, and Local Navigation as an orientation aid.</text>
+<text x="88" y="1642" class="tiny" fill="#8A9A9C">Not validated by a card sort or a tree test. Both need participants, and the evidence base here is 22 self-selected reviews. The grouping is argued from evidence and stated openly as unvalidated.</text>
+
+<text x="64" y="1806" class="h2 ink">3 &#183; Three flows</text>
+<text x="1856" y="1806" text-anchor="end" class="small muted">each flow: decision points marked D1..Dn &#183; at least one unhappy path &#183; laws named at the decision</text>
+
+<rect x="64" y="1832" width="1792" height="650" rx="14" class="card"/>
+<text x="88" y="1866" class="label c">FLOW 1 &#183; PRIMARY TASK &#8212; LOG A DOSE AND KNOW IT IS LOGGED</text>
+<text x="1832" y="1866" text-anchor="end" class="small muted">User 1 Rowan &#183; traces to F-1 &#183; 2 decision points &#183; 1 unhappy path</text>
+<text x="88" y="1892" class="small" fill="#8A9A9C">Goal state: the user never has to remember whether a dose happened. The record answers it.</text>
+
+<rect x="92" y="1926" width="150" height="70" rx="10" class="nodebox"/>
+<text x="167" y="1956" text-anchor="middle" class="small ink" font-weight="700">Open DoseDay</text>
+<text x="167" y="1978" text-anchor="middle" class="tiny muted">no login first</text>
+<rect x="272" y="1926" width="150" height="70" rx="10" class="nodebox"/>
+<text x="347" y="1956" text-anchor="middle" class="small ink" font-weight="700">Today loads</text>
+<text x="347" y="1978" text-anchor="middle" class="tiny muted">record first, not a countdown</text>
+<polygon points="452,1981 552,1926 652,1981 552,2036" class="dia"/>
+<text x="552" y="1976" text-anchor="middle" class="small c2" font-weight="700">D1 &#183; Scheduled dose</text>
+<text x="552" y="1996" text-anchor="middle" class="small c2" font-weight="700">or as-needed?</text>
+<rect x="682" y="1926" width="150" height="70" rx="10" class="nodebox"/>
+<text x="757" y="1952" text-anchor="middle" class="small ink" font-weight="700">Dose</text>
+<text x="757" y="1972" text-anchor="middle" class="small ink" font-weight="700">Confirmation</text>
+<text x="757" y="1988" text-anchor="middle" class="tiny muted">Undo, 8 seconds</text>
+<polygon points="862,1981 962,1926 1062,1981 962,2036" class="dia"/>
+<text x="962" y="1976" text-anchor="middle" class="small c2" font-weight="700">D2 &#183; Right dose,</text>
+<text x="962" y="1996" text-anchor="middle" class="small c2" font-weight="700">right time?</text>
+<rect x="1092" y="1926" width="150" height="70" rx="10" class="nodebox"/>
+<text x="1167" y="1956" text-anchor="middle" class="small ink" font-weight="700">Saved to the log</text>
+<text x="1167" y="1978" text-anchor="middle" class="tiny muted">optimistic, no spinner</text>
+<rect x="1272" y="1926" width="150" height="70" rx="10" class="nodebox"/>
+<text x="1347" y="1952" text-anchor="middle" class="small ink" font-weight="700">Next dose still</text>
+<text x="1347" y="1972" text-anchor="middle" class="small ink" font-weight="700">visible below</text>
+<rect x="1452" y="1926" width="180" height="70" rx="10" class="goalbox"/>
+<text x="1542" y="1952" text-anchor="middle" class="small c" font-weight="700">GOAL &#183; no guessing</text>
+<text x="1542" y="1972" text-anchor="middle" class="small c" font-weight="700">the record, not the memory</text>
+
+<path d="M242 1961 H268" class="line" fill="none" marker-end="url(#ar)"/>
+<path d="M422 1961 H448" class="line" fill="none" marker-end="url(#ar)"/>
+<path d="M652 1981 H678" class="line" fill="none" marker-end="url(#ar)"/>
+<text x="656" y="1972" class="tiny c4">either</text>
+<path d="M832 1961 H858" class="line" fill="none" marker-end="url(#ar)"/>
+<path d="M1062 1981 H1088" class="line" fill="none" marker-end="url(#ar)"/>
+<text x="1066" y="1972" class="tiny c4">yes</text>
+<path d="M1242 1961 H1268" class="line" fill="none" marker-end="url(#ar)"/>
+<path d="M1422 1961 H1448" class="line" fill="none" marker-end="url(#ar)"/>
+
+<rect x="92" y="2090" width="1540" height="150" rx="12" class="band"/>
+<text x="112" y="2116" class="label c3">UNHAPPY PATH &#183; WRONG DOSE, OR THE UNDO WINDOW CLOSED</text>
+<path d="M962 2036 V2062 H1088" class="line" fill="none" marker-end="url(#arR)"/>
+<text x="1000" y="2056" class="tiny c3" font-weight="700">no</text>
+<rect x="1092" y="2126" width="150" height="70" rx="10" class="unbox"/>
+<text x="1167" y="2152" text-anchor="middle" class="small ink" font-weight="700">Undo restores</text>
+<text x="1167" y="2172" text-anchor="middle" class="small ink" font-weight="700">the row</text>
+<text x="1167" y="2188" text-anchor="middle" class="tiny muted">back to not-taken</text>
+<polygon points="1272,2161 1372,2126 1472,2161 1372,2196" class="undia"/>
+<text x="1372" y="2156" text-anchor="middle" class="small c3" font-weight="700">U1 &#183; Still in</text>
+<text x="1372" y="2176" text-anchor="middle" class="small c3" font-weight="700">the 8 seconds?</text>
+<rect x="1492" y="2126" width="140" height="70" rx="10" class="unbox"/>
+<text x="1562" y="2150" text-anchor="middle" class="small ink" font-weight="700">Open history</text>
+<text x="1562" y="2170" text-anchor="middle" class="small ink" font-weight="700">in Details</text>
+<text x="1562" y="2186" text-anchor="middle" class="tiny muted">S14</text>
+<path d="M1242 2161 H1268" class="line" fill="none" marker-end="url(#arR)"/>
+<path d="M1472 2161 H1488" class="line" fill="none" marker-end="url(#arR)"/>
+<text x="1476" y="2152" class="tiny c3" font-weight="700">no</text>
+<text x="112" y="2150" class="tiny c3" font-weight="700">Recover,</text>
+<text x="112" y="2168" class="tiny c3" font-weight="700">do not</text>
+<text x="112" y="2186" class="tiny c3" font-weight="700">block.</text>
+<text x="1092" y="2222" class="tiny" fill="#A33A2E">A wrong entry is never a dead end: the log stays editable after the fact, so the 8-second undo is a convenience rather than the only way back.</text>
+
+<rect x="92" y="2260" width="1540" height="176" rx="12" class="lawband"/>
+<text x="112" y="2286" class="label c">LAWS BEHIND THESE DECISIONS &#183; LAWS OF UX, LAWSOFUX.COM</text>
+<text x="112" y="2312" class="small ink"><tspan font-weight="700">D1 &#183; Hick&#8217;s Law, Paradox of Choice.</tspan> Two destinations, both one tap from the same row. No third option and no &#8220;more&#8221; menu. The amount for an as-needed dose is asked on the confirmation, not by adding a mode switch.</text>
+<text x="112" y="2338" class="small ink"><tspan font-weight="700">D2 &#183; Undo, Recognition Rather Than Recall.</tspan> The dose list is always on screen, so the user confirms by reading rather than by recalling. The 8-second undo exists so a mistake costs nothing, which is what makes people willing to tap at all.</text>
+<text x="112" y="2364" class="small ink"><tspan font-weight="700">Confirm &#183; Doherty Threshold.</tspan> The row updates immediately, so the wait never breaks the thought. <tspan font-weight="700">Von Restorff.</tspan> Today&#8217;s one outstanding row is the only visually distinct thing on screen, so it is the one that gets acted on.</text>
+<text x="112" y="2390" class="small ink"><tspan font-weight="700">Confirm &#183; Peak-End Rule.</tspan> The confirmation is the emotional end of the interaction, so it is warm, it is brief, and it is never red. A missed or corrected dose is not a failure state.</text>
+<text x="112" y="2416" class="tiny" fill="#8A9A9C">Traced to F-1: the record is half the product. Flow 1 is the whole product for Rowan, which is why it gets the shortest path and the most forgiving error handling.</text>
+
+<rect x="64" y="2506" width="1792" height="760" rx="14" class="card"/>
+<text x="88" y="2540" class="label c2">FLOW 2 &#183; ONBOARDING AND FIRST RUN</text>
+<text x="1832" y="2540" text-anchor="end" class="small muted">Both users &#183; traces to F-2, F-4 &#183; 3 decision points &#183; 2 unhappy paths</text>
+<text x="88" y="2566" class="small" fill="#8A9A9C">Goal state: the user lands on a working Today screen, not a form. Every step can be skipped and revisited in Settings.</text>
+
+<rect x="92" y="2600" width="150" height="70" rx="10" class="nodebox"/>
+<text x="167" y="2626" text-anchor="middle" class="small ink" font-weight="700">S1 Welcome</text>
+<text x="167" y="2648" text-anchor="middle" class="tiny muted">what this is for</text>
+<rect x="272" y="2600" width="150" height="70" rx="10" class="nodebox"/>
+<text x="347" y="2626" text-anchor="middle" class="small ink" font-weight="700">S2 Consent</text>
+<text x="347" y="2648" text-anchor="middle" class="tiny muted">on-device, no account</text>
+<polygon points="452,2655 552,2600 652,2655 552,2710" class="dia"/>
+<text x="552" y="2650" text-anchor="middle" class="small c2" font-weight="700">D1 &#183; Allow</text>
+<text x="552" y="2670" text-anchor="middle" class="small c2" font-weight="700">notifications?</text>
+<rect x="682" y="2600" width="170" height="70" rx="10" class="nodebox"/>
+<text x="767" y="2622" text-anchor="middle" class="small ink" font-weight="700">S3 Reminder style</text>
+<text x="767" y="2642" text-anchor="middle" class="tiny muted">only me / someone</text>
+<text x="767" y="2658" text-anchor="middle" class="tiny muted">helps me</text>
+<polygon points="882,2655 982,2600 1082,2655 982,2710" class="dia"/>
+<text x="982" y="2650" text-anchor="middle" class="small c2" font-weight="700">D2 &#183; Does anyone</text>
+<text x="982" y="2670" text-anchor="middle" class="small c2" font-weight="700">else write here?</text>
+<rect x="1112" y="2600" width="170" height="70" rx="10" class="nodebox"/>
+<text x="1197" y="2622" text-anchor="middle" class="small ink" font-weight="700">S5a Invite carer</text>
+<text x="1197" y="2642" text-anchor="middle" class="tiny muted">then S5b choose</text>
+<text x="1197" y="2658" text-anchor="middle" class="tiny muted">what they can do</text>
+<rect x="1312" y="2600" width="150" height="70" rx="10" class="nodebox"/>
+<text x="1387" y="2622" text-anchor="middle" class="small ink" font-weight="700">S6 Add first</text>
+<text x="1387" y="2642" text-anchor="middle" class="small ink" font-weight="700">medicine</text>
+<text x="1387" y="2658" text-anchor="middle" class="tiny muted">amount + frequency</text>
+<polygon points="1492,2655 1592,2600 1692,2655 1592,2710" class="dia"/>
+<text x="1592" y="2650" text-anchor="middle" class="small c2" font-weight="700">D3 &#183; Add it now</text>
+<text x="1592" y="2670" text-anchor="middle" class="small c2" font-weight="700">or skip?</text>
+<rect x="1722" y="2600" width="134" height="70" rx="10" class="goalbox"/>
+<text x="1789" y="2626" text-anchor="middle" class="small c" font-weight="700">S7 Done</text>
+<text x="1789" y="2648" text-anchor="middle" class="tiny c">lands on Today</text>
+
+<path d="M242 2635 H268" class="line" fill="none" marker-end="url(#ar)"/>
+<path d="M422 2635 H448" class="line" fill="none" marker-end="url(#ar)"/>
+<path d="M652 2655 H678" class="line" fill="none" marker-end="url(#ar)"/>
+<text x="656" y="2646" class="tiny c4">allow</text>
+<path d="M852 2635 H878" class="line" fill="none" marker-end="url(#ar)"/>
+<path d="M1082 2655 H1108" class="line" fill="none" marker-end="url(#ar)"/>
+<text x="1086" y="2646" class="tiny c4">someone helps</text>
+<path d="M1282 2635 H1308" class="line" fill="none" marker-end="url(#ar)"/>
+<text x="1250" y="2624" class="tiny c4">only me: skip &#8594;</text>
+<path d="M1462 2635 H1488" class="line" fill="none" marker-end="url(#ar)"/>
+<path d="M1692 2655 H1718" class="line" fill="none" marker-end="url(#ar)"/>
+<text x="1696" y="2646" class="tiny c4">add</text>
+
+<rect x="92" y="2760" width="1540" height="164" rx="12" class="band"/>
+<text x="112" y="2786" class="label c3">UNHAPPY PATH A &#183; NOTIFICATIONS REFUSED, AND A CARER NEVER INVITED</text>
+<path d="M552 2710 V2736 H343" class="line" fill="none" marker-end="url(#arR)"/>
+<text x="436" y="2730" class="tiny c3" font-weight="700">deny</text>
+<rect x="272" y="2796" width="150" height="70" rx="10" class="unbox"/>
+<text x="347" y="2822" text-anchor="middle" class="small ink" font-weight="700">Check-in only</text>
+<text x="347" y="2842" text-anchor="middle" class="tiny muted">mode, still usable</text>
+<rect x="452" y="2796" width="170" height="70" rx="10" class="unbox"/>
+<text x="537" y="2818" text-anchor="middle" class="small ink" font-weight="700">Re-offer once</text>
+<text x="537" y="2838" text-anchor="middle" class="small ink" font-weight="700">on Today</text>
+<text x="537" y="2854" text-anchor="middle" class="tiny muted">not a modal</text>
+<rect x="652" y="2796" width="150" height="70" rx="10" class="unbox"/>
+<text x="727" y="2818" text-anchor="middle" class="small ink" font-weight="700">Or fix it in</text>
+<text x="727" y="2838" text-anchor="middle" class="small ink" font-weight="700">Settings later</text>
+<path d="M422 2831 H448" class="line" fill="none" marker-end="url(#arR)"/>
+<path d="M622 2831 H648" class="line" fill="none" marker-end="url(#arR)"/>
+<text x="832" y="2804" class="small" fill="#8A9A9C">If an invite is sent but never accepted, the record stays single-writer and the reminder</text>
+<text x="832" y="2824" class="small" fill="#8A9A9C">style reverts to &#8220;only me&#8221;. A silent escalation is treated as a bug, not a preference: an</text>
+<text x="832" y="2844" class="small" fill="#8A9A9C">unanswered invite must never leave two people each assuming the other is dosing.</text>
+<text x="112" y="2904" class="tiny" fill="#A33A2E">Refusing notifications costs the user reminders, not the app. The consequence is stated in one sentence before the OS prompt, and the product stays fully usable without push.</text>
+
+<rect x="92" y="2944" width="1540" height="160" rx="12" class="band"/>
+<text x="112" y="2970" class="label c3">UNHAPPY PATH B &#183; THE USER ABANDONS SETUP, OR SKIPS THE FIRST MEDICINE</text>
+<path d="M1592 2710 V2920 H1383" class="line" fill="none" marker-end="url(#arR)"/>
+<text x="1560" y="2914" class="tiny c3" font-weight="700">skip</text>
+<rect x="1312" y="3000" width="150" height="70" rx="10" class="unbox"/>
+<text x="1387" y="3026" text-anchor="middle" class="small ink" font-weight="700">E1 Empty state</text>
+<text x="1387" y="3046" text-anchor="middle" class="tiny muted">zero medicines</text>
+<rect x="1492" y="3000" width="170" height="70" rx="10" class="unbox"/>
+<text x="1577" y="3022" text-anchor="middle" class="small ink" font-weight="700">One worked example,</text>
+<text x="1577" y="3042" text-anchor="middle" class="small ink" font-weight="700">never a blank wall</text>
+<text x="1577" y="3058" text-anchor="middle" class="tiny muted">plus &#8220;add your first&#8221;</text>
+<path d="M1462 3035 H1488" class="line" fill="none" marker-end="url(#arR)"/>
+<text x="112" y="3092" class="tiny" fill="#A33A2E">Partly finished setup is kept: abandoning at S6 resumes at S6, not at S1, so someone who got two thirds of the way through is not made to start over.</text>
+
+<rect x="92" y="3124" width="1540" height="128" rx="12" class="lawband"/>
+<text x="112" y="3150" class="label c">LAWS OF UX, LAWSOFUX.COM</text>
+<text x="112" y="3176" class="small ink"><tspan font-weight="700">Peak-End Rule</tspan> the run ends on a working Today screen, not on a confirmation. <tspan font-weight="700">Paradox of Choice</tspan> two reminder styles, not a settings matrix. <tspan font-weight="700">Chunking</tspan> one decision per screen. <tspan font-weight="700">Goal-Gradient Effect</tspan> a visible step count, so the end is visibly near.</text>
+<text x="112" y="3202" class="small ink"><tspan font-weight="700">Zeigarnik Effect</tspan> partial progress persists across an abandoned run. <tspan font-weight="700">Signal</tspan> the rationale is shown before the OS prompt, not after it. <tspan font-weight="700">Constraints</tspan> notification permission is the only hard gate, and it is bypassable.</text>
+<text x="112" y="3228" class="small ink"><tspan font-weight="700">Endowment Effect</tspan> by the end they own a real medication entered in their own hand. <tspan font-weight="700">Affordance</tspan> &#8220;skip&#8221; is visible on the screen, not buried in a menu.</text>
+
+<rect x="64" y="3290" width="1792" height="630" rx="14" class="card"/>
+<text x="88" y="3324" class="label c3">FLOW 3 &#183; RECOVERY &#8212; THE REMINDER NEVER ARRIVED</text>
+<text x="1832" y="3324" text-anchor="end" class="small muted">Both users &#183; traces to F-5 &#183; 3 decision points &#183; 1 unhappy path</text>
+<text x="88" y="3350" class="small" fill="#8A9A9C">Goal state: the user can always explain why a reminder did not arrive, and can still log the dose either way.</text>
+
+<rect x="92" y="3384" width="170" height="80" rx="10" class="unbox"/>
+<text x="177" y="3410" text-anchor="middle" class="small ink" font-weight="700">08:00 passed,</text>
+<text x="177" y="3430" text-anchor="middle" class="small ink" font-weight="700">nothing fired</text>
+<text x="177" y="3450" text-anchor="middle" class="tiny muted">TRIGGER</text>
+<polygon points="292,3424 392,3384 492,3424 392,3464" class="dia"/>
+<text x="392" y="3419" text-anchor="middle" class="small c2" font-weight="700">D1 &#183; Marked on</text>
+<text x="392" y="3439" text-anchor="middle" class="small c2" font-weight="700">another device?</text>
+<rect x="522" y="3384" width="180" height="80" rx="10" class="nodebox"/>
+<text x="612" y="3406" text-anchor="middle" class="small ink" font-weight="700">Nothing is broken</text>
+<text x="612" y="3426" text-anchor="middle" class="small ink" font-weight="700">reminders stop when</text>
+<text x="612" y="3444" text-anchor="middle" class="tiny muted">a dose is marked anywhere</text>
+<polygon points="732,3424 832,3384 932,3424 832,3464" class="dia"/>
+<text x="832" y="3419" text-anchor="middle" class="small c2" font-weight="700">D2 &#183; Notifications</text>
+<text x="832" y="3439" text-anchor="middle" class="small c2" font-weight="700">blocked for DoseDay?</text>
+<rect x="962" y="3384" width="170" height="80" rx="10" class="nodebox"/>
+<text x="1047" y="3406" text-anchor="middle" class="small ink" font-weight="700">S23 Open</text>
+<text x="1047" y="3426" text-anchor="middle" class="small ink" font-weight="700">troubleshooting</text>
+<text x="1047" y="3444" text-anchor="middle" class="tiny muted">battery, focus, perms</text>
+<rect x="1162" y="3384" width="150" height="80" rx="10" class="nodebox"/>
+<text x="1237" y="3410" text-anchor="middle" class="small ink" font-weight="700">Send a test</text>
+<text x="1237" y="3430" text-anchor="middle" class="small ink" font-weight="700">reminder now</text>
+<text x="1237" y="3450" text-anchor="middle" class="tiny muted">immediate feedback</text>
+<polygon points="1342,3424 1442,3384 1542,3424 1442,3464" class="dia"/>
+<text x="1442" y="3419" text-anchor="middle" class="small c2" font-weight="700">D3 &#183; Did it</text>
+<text x="1442" y="3439" text-anchor="middle" class="small c2" font-weight="700">arrive?</text>
+<rect x="1572" y="3384" width="184" height="80" rx="10" class="goalbox"/>
+<text x="1664" y="3410" text-anchor="middle" class="small c" font-weight="700">Resolved, or the</text>
+<text x="1664" y="3430" text-anchor="middle" class="small c" font-weight="700">cause is named</text>
+<text x="1664" y="3450" text-anchor="middle" class="tiny c">either way is progress</text>
+
+<path d="M262 3424 H288" class="line" fill="none" marker-end="url(#ar)"/>
+<path d="M492 3424 H518" class="line" fill="none" marker-end="url(#ar)"/>
+<text x="494" y="3416" class="tiny c4">no</text>
+<path d="M702 3424 H728" class="line" fill="none" marker-end="url(#ar)"/>
+<path d="M932 3424 H958" class="line" fill="none" marker-end="url(#ar)"/>
+<text x="936" y="3416" class="tiny c4">yes</text>
+<path d="M1132 3424 H1158" class="line" fill="none" marker-end="url(#ar)"/>
+<path d="M1312 3424 H1338" class="line" fill="none" marker-end="url(#ar)"/>
+<path d="M1542 3424 H1568" class="line" fill="none" marker-end="url(#ar)"/>
+<text x="1546" y="3416" class="tiny c4">yes</text>
+
+<rect x="92" y="3508" width="1540" height="170" rx="12" class="band"/>
+<text x="112" y="3534" class="label c3">UNHAPPY PATH &#183; NO CAUSE FOUND, AND THE DOSE IS ALREADY LATE</text>
+<path d="M1442 3464 V3484 H1158" class="line" fill="none" marker-end="url(#arR)"/>
+<text x="1280" y="3478" class="tiny c3" font-weight="700">still nothing</text>
+<rect x="1162" y="3548" width="150" height="70" rx="10" class="unbox"/>
+<text x="1237" y="3574" text-anchor="middle" class="small ink" font-weight="700">Log it anyway</text>
+<text x="1237" y="3594" text-anchor="middle" class="tiny muted">never blocked</text>
+<rect x="1342" y="3548" width="180" height="70" rx="10" class="unbox"/>
+<text x="1432" y="3570" text-anchor="middle" class="small ink" font-weight="700">Recorded as taken late</text>
+<text x="1432" y="3590" text-anchor="middle" class="tiny muted">honest, neutral, not red</text>
+<rect x="1552" y="3548" width="184" height="70" rx="10" class="unbox"/>
+<text x="1644" y="3574" text-anchor="middle" class="small ink" font-weight="700">Support bundle</text>
+<text x="1644" y="3594" text-anchor="middle" class="tiny muted">with diagnostics attached</text>
+<path d="M1312 3583 H1338" class="line" fill="none" marker-end="url(#arR)"/>
+<path d="M1522 3583 H1548" class="line" fill="none" marker-end="url(#arR)"/>
+<text x="112" y="3522" class="tiny" fill="#A33A2E">A missing reminder never blocks a dose. The manual log is always available, because from the user&#8217;s side</text>
+<text x="112" y="3540" class="tiny" fill="#A33A2E">&#8220;the app is broken&#8221; and &#8220;the reminder never arrived&#8221; are indistinguishable &#8212; and we cannot tell them apart either.</text>
+<text x="112" y="3644" class="tiny" fill="#A33A2E">CoastieWife74, a paid long-time user who could not add a medicine: &#8220;I don&#8217;t want to find a new app, but if this can&#8217;t be resolved, I&#8217;ll have to.&#8221;</text>
+<text x="112" y="3662" class="tiny" fill="#A33A2E">Recovery is retention. The same person is why adding a medicine can never be blocked, and why this flow ends in a working log rather than a support ticket.</text>
+
+<rect x="92" y="3700" width="1540" height="190" rx="12" class="lawband"/>
+<text x="112" y="3726" class="label c">LAWS OF UX, LAWSOFUX.COM</text>
+<text x="112" y="3752" class="small ink"><tspan font-weight="700">Help Users Recover from Errors</tspan> the state is named in plain words and one concrete next step is offered: no error code, no blame, no dead end. <tspan font-weight="700">Signal</tspan> &#8220;expected 08:00, not logged&#8221; is a neutral signal rather than a red scolding.</text>
+<text x="112" y="3778" class="small ink"><tspan font-weight="700">Recognition Rather Than Recall</tspan> the checklist is displayed, so nothing has to be remembered or guessed at. <tspan font-weight="700">Layering</tspan> one diagnostic surface, revealed progressively. <tspan font-weight="700">Redundancy</tspan> the manual log stands alone if every automatic path fails.</text>
+<text x="112" y="3804" class="small ink"><tspan font-weight="700">Undo</tspan> a late entry stays correctable. <tspan font-weight="700">Hick&#8217;s Law</tspan> binary questions, asked one at a time. <tspan font-weight="700">Doherty Threshold</tspan> the test reminder gives immediate feedback. <tspan font-weight="700">Processing Fluency</tspan> short sentences and concrete nouns.</text>
+<text x="112" y="3836" class="tiny" fill="#8A9A9C">D1 exists because a genuine second writer is the most likely innocent explanation, and 123334567 experienced</text>
+<text x="112" y="3854" class="tiny" fill="#8A9A9C">it as a fault rather than as intended behaviour. Getting this wrong is how a correct feature becomes a bug report.</text>
+
+<text x="64" y="3974" class="h2 ink">4 &#183; What this page does not claim</text>
+<rect x="64" y="4000" width="880" height="312" rx="12" class="lawband"/>
+<text x="88" y="4030" class="label c">THE LIMITS OF THE EVIDENCE</text>
+<text x="88" y="4058" class="small ink">&#8226; The IA was not validated by a card sort or a tree test. Both need participants; the base is 22 reviews.</text>
+<text x="88" y="4084" class="small ink">&#8226; Screen count is a design intention, not a finding. 25 screens is what I intend to design, and all are listed.</text>
+<text x="88" y="4110" class="small ink">&#8226; JTBD statements are written from review evidence about other products. None is a DoseDay user quote.</text>
+<text x="88" y="4136" class="small ink">&#8226; User 2 is an archetype from one review thread, not a validated persona. It is deliberately unnamed.</text>
+<text x="88" y="4162" class="small ink">&#8226; No wireframes here. Low-fidelity frames live on page 2; this page is structure only.</text>
+<text x="88" y="4188" class="small ink">&#8226; No accessibility compliance claim is made from 22 reviews. PMC5694345 is corroboration, not a test.</text>
+<text x="88" y="4220" class="tiny" fill="#8A9A9C">A peer should be able to follow all three flows without me explaining them. If a step is not on this</text>
+<text x="88" y="4238" class="tiny" fill="#8A9A9C">page, it is not in the product yet.</text>
+
+<rect x="976" y="4000" width="880" height="312" rx="12" class="lawband"/>
+<text x="1000" y="4030" class="label c">LAWS OF UX &#183; THE ONES ACTUALLY USED</text>
+<text x="1000" y="4058" class="small ink">Hick&#8217;s Law &#183; Fitts&#8217;s Law &#183; Jakob&#8217;s Law &#183; Affordance &#183; Signifier</text>
+<text x="1000" y="4084" class="small ink">Recognition Rather Than Recall &#183; Law of Proximity &#183; Law of Common Region</text>
+<text x="1000" y="4110" class="small ink">Peak-End Rule &#183; Von Restorff (Isolation Effect) &#183; Aesthetic-Usability Effect</text>
+<text x="1000" y="4136" class="small ink">Doherty Threshold &#183; Undo &#183; Help Users Recover from Errors &#183; Constraints</text>
+<text x="1000" y="4162" class="small ink">Paradox of Choice &#183; Chunking &#183; Goal-Gradient Effect &#183; Zeigarnik Effect</text>
+<text x="1000" y="4188" class="small ink">Layering &#183; Redundancy &#183; Endowment Effect &#183; Processing Fluency</text>
+<text x="1000" y="4214" class="small ink">Streak &#8212; named only so it can be rejected</text>
+<text x="1000" y="4244" class="tiny" fill="#8A9A9C">Law names as published on lawsofux.com. The Streak entry is deliberate: MyTherapy advertises</text>
+<text x="1000" y="4262" class="tiny" fill="#8A9A9C">streaks as a headline benefit and no reviewer in the set mentions them either way, so the product</text>
+<text x="1000" y="4280" class="tiny" fill="#8A9A9C">declines the mechanic rather than claiming evidence for refusing it.</text>
+
+<text x="64" y="4360" class="tiny" fill="#8A9A9C">DoseDay capstone &#183; IA &amp; Flows &#183; every job traces to UX-02 findings F-1 to F-8 &#183; laws of UX at lawsofux.com &#183; IA principles from nngroup.com/articles/ia-study-guide/</text>
+</svg>
