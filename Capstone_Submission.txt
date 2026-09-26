@@ -49,6 +49,13 @@ Boards (all 2400px wide, geometry-checked in-browser for text overflow):
 - `personas/board_03_verification_log.svg` — 6 worked examples, the 7 traps, our 7 defects, and the 3-pass pipeline.
 - `personas/board_04_how_to_use.svg` — the 6-minute PM guide.
 
+Figma delivery of the four boards, split across two files because the Starter plan allows only 3 files per account and 1 to 3 pages per file:
+- Personas — `DoseDay — Personas` (file key `uMEPML2LpHFl7xTVTOmBLB`), page `Persona Canvas & Journey Map`: https://www.figma.com/design/uMEPML2LpHFl7xTVTOmBLB/DoseDay-%E2%80%94-Personas
+  - `board_01_persona_canvas` at (0, 0), `board_02_journey_map` at (2560, 0).
+- Verification — `DoseDay — Verification & PM Guide` (file key `VlDQZmlqYgzQlmnEo7n4U1`), page `Verification Log & PM Guide`: https://www.figma.com/design/VlDQZmlqYgzQlmnEo7n4U1/DoseDay-%E2%80%94-Verification---PM-Guide
+  - `board_03_verification_log` at (0, 0), `board_04_how_to_use` at (2560, 0).
+- All four are editable vector groups at native size: 2400x1900, 2400x1670, 2400x1900, 2400x1600. The original `DoseDay — UX Capstone` file and its three pages were not modified.
+
 What this pack does not claim: no market size, no willingness to pay, no clinical outcomes, no adherence statistics (every rate in the source is hedged and stays hedged), and nothing about a person without a smartphone, because no participant represented that case.
 
 CORE PROBLEM
