@@ -4,11 +4,11 @@ PROJECT THEME
 DoseDay — an accessible medication companion for adults managing multiple prescriptions.
 
 FIVE-SENTENCE PITCH
-1. DoseDay is for Leila, a 58-year-old shift supervisor who manages four prescriptions for hypertension and type 2 diabetes.
-2. She struggles to keep a consistent routine because doses are spread across changing workdays, side effects create doubt, and paper organizers are easy to misplace.
-3. The product is a mobile-first medication companion that turns each dose into one calm daily action, supports quick check-ins, and shares a privacy-conscious weekly summary with a chosen caregiver.
-4. In a four-week pilot with 30 adults managing three or more prescriptions, success means at least 80% of scheduled doses are marked “Taken” and the median first-time setup time is under three minutes.
-5. I’m pursuing DoseDay because it combines accessible behavior design with a high-stakes daily habit, letting me build a useful, testable product rather than a one-off screen.
+1. DoseDay is for Rowan, a 59-year-old adult who works rotating shifts and manages five prescriptions — three scheduled and two taken as needed — at an employer the research corpus deliberately leaves unnamed.
+2. They struggle to keep a consistent routine because doses land across changing workdays, one bad night can turn an app into a judgement, and paper organizers are easy to misplace.
+3. The product is a mobile-first medication companion that turns each dose into one calm daily action, supports quick reversible check-ins, and shares a privacy-conscious weekly summary with a chosen caregiver.
+4. In a four-week pilot with 30 adults managing three or more prescriptions, success means at least 80% of scheduled doses are marked "Taken" and the median first-time setup time is under three minutes.
+5. I'm pursuing DoseDay because it combines accessible behavior design with a high-stakes daily habit, letting me build a useful, testable product rather than a one-off screen.
 
 RESEARCH SYNTHESIS
 - World Health Organization, 2003: adherence in developed countries averages about 50% for chronic-disease medicines.
@@ -20,11 +20,36 @@ RESEARCH SYNTHESIS
 - Design response: simplify the daily view, use concrete labels with familiar icons, make check-in reversible, support flexible schedules, and never shame a missed dose.
 
 PRIMARY USER
-Leila, 58
-Shift supervisor | Hypertension + type 2 diabetes | Four daily medications
-Goals: take the right dose on time, understand side effects, preserve privacy, share only what she chooses.
+Rowan (participant P1), 59
+Rotating shift work, employer unnamed | Five medications: three scheduled, two as-needed | Gender not stated, so written neutral (they/them)
+Note: an earlier draft of this file named this user "Leila, 58, shift supervisor, hypertension and type 2 diabetes". None of that was supported by the transcript: the name, the job title, the industry and the diagnosis were all unsourced. See C-05 and C-06 in the verification log.
+Goals: take the right dose on time, understand side effects, preserve privacy, share only what they choose.
 Frustrations: changing shifts, overlapping reminders, tiny controls, uncertain refill timing, paper organizers that get lost.
-Context: often checks her phone between work tasks; one-handed use; moderate vision and fine-motor needs.
+Context: often checks their phone between work tasks; one-handed use; moderate vision and fine-motor needs.
+
+PERSONA PACK AND VERIFICATION
+Source: `interviews/` — 5 semi-structured interview transcripts, P1-P5.
+IMPORTANT: this corpus is SIMULATED. No human was interviewed; it was written as a labelled practice dataset so the AI-persona pipeline could be built and tested end to end. Every board carries a SIMULATED DATA marker, and `interviews/00_README_DATA_PROVENANCE.md` states plainly that it must not be presented as fieldwork. When real interviews exist, the folder is replaced wholesale and the pack is regenerated.
+
+Three personas, one of them an explicit merge:
+- The Shifter (P1, 59, "Rowan") — rotating shift work. Fails because the app judged them; one missed night became a red circle and they deleted a good app.
+- The Unbothered (P2, 34, "Jay") — warehouse team lead, stated by P2. Fails because a record becomes a judgement: "a dose log makes me a worse person."
+- The Unanchored (P3+P4, 67 and 45, "Ada" and "Ray") — merged on one shared failure: a routine that lives somewhere a routine cannot follow. Labelled as the pack's weakest inference, never tested with either participant alone.
+- The Audit Trail (P5, 29) — a design-literate critic kept beside the personas, not a fourth persona.
+
+Verification, in three passes:
+- Pass 1: 38 claims checked against the transcripts — 6 rejected, 7 corrected, 6 annotated, 19 confirmed.
+- Pass 2: the model attacked its own draft as a hostile reviewer. 15 findings, 4 survive a hand-check (V-34 to V-37). Logged separately because we asked for it, so it is never counted as the model catching itself.
+- Pass 3: 7 defects in our own pack, not the model's (C-05 to C-11) — four unsourced job titles and an invented industry, a pronoun that broke a rule we had just written, two quotes tidied inside their own quotation marks, a promised assumption block that did not exist, a fix that repeated the error it was fixing, and a "paste-ready" bundle that still contained the trap answers.
+- Planted traps caught by the model, unprompted: 7 of 7. The trap table was withheld from it, and that was verified by searching the saved conversation, not assumed.
+
+Boards (all 2400px wide, geometry-checked in-browser for text overflow):
+- `personas/board_01_persona_canvas.svg` — persona cards with grounded counts, named assumptions, and the P5 critic sidebar.
+- `personas/board_02_journey_map.svg` — 6 stages of one day: Waking -2, Deciding to start 0, Midday -3 (P4 only), Evening dose -3, Disrupted days -4, Next morning +1.
+- `personas/board_03_verification_log.svg` — 6 worked examples, the 7 traps, our 7 defects, and the 3-pass pipeline.
+- `personas/board_04_how_to_use.svg` — the 6-minute PM guide.
+
+What this pack does not claim: no market size, no willingness to pay, no clinical outcomes, no adherence statistics (every rate in the source is hedged and stays hedged), and nothing about a person without a smartphone, because no participant represented that case.
 
 CORE PROBLEM
 People managing several prescriptions need one dependable daily routine, not another complicated health dashboard.
@@ -37,7 +62,7 @@ Guardrail: no dose decision overrides the prescription entered with the user or 
 
 AI TOOLKIT INVENTORY
 1. Figma AI — access verified in the current Figma account: the Figma Agent panel is available with introductory beta credits. It was not used to modify DoseDay; the manual Figma workflow remains the verified implementation path.
-2. Claude — intended for research synthesis, persona and assumption review, competing-flow critique, plain-language content, rubric checks, and accessibility-risk critique. Not used in this pass: no authenticated Claude session was available.
+2. Claude — used, and the substitution is on the record. The brief named DeepSeek; sign-up was blocked by a repeating hCaptcha (3 attempts, 2026-09-26) and an OpenAI API fallback returned HTTP 429 with an empty body on every model tried. Extraction, persona drafting, assumption review, competing-flow critique, plain-language content and a hostile self-review were therefore run in an authenticated Claude Free session. Full provenance, including every model tried and how it failed, is in section 0 of `personas/03_verification_log.md`.
 3. Claude Projects and Artifacts — intended to hold the research brief, decisions, source notes, pitch, and handoff specifications as reusable project context. Not used in this pass.
 4. Claude Research — intended for deeper source gathering; the fallback used instead was manual browser research with source links recorded in this file.
 5. Claude Academy, Claude 101 — structured learning for prompting, research, artifacts, and responsible AI collaboration; progress is the required learning checkpoint, and the current status is recorded in the delivery evidence below.

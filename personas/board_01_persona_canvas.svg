@@ -1,0 +1,251 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1900" viewBox="0 0 2400 1900">
+  <defs>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#172A3A" flood-opacity="0.09"/>
+    </filter>
+    <style>
+      .sans{font-family:Inter,Arial,sans-serif}
+      .ink{fill:#17313B}.muted{fill:#5C6F73}
+      .lbl{font-size:12px;font-weight:700;letter-spacing:1.6px}
+      .h1{font-size:42px;font-weight:800}
+      .h2{font-size:27px;font-weight:750}
+      .nm{font-size:28px;font-weight:800}
+      .body{font-size:14px}.small{font-size:13px}.tiny{font-size:12px}
+      .q{font-size:17px;font-weight:600}
+      .card{fill:#FFFFFF;stroke:#DDE5E2;stroke-width:1.5}
+      .a{fill:#2A6F62}.b{fill:#2C5F8A}.c{fill:#8C5A2B}
+      .at{fill:#2A6F62}.bt{fill:#2C5F8A}.ct{fill:#8C5A2B}
+    </style>
+  </defs>
+  <rect width="2400" height="1900" fill="#F3F6F2"/>
+  <g class="sans">
+
+    <!-- ============ HEADER ============ -->
+    <rect x="64" y="48" width="252" height="34" rx="17" fill="#F8E4E0"/>
+    <text x="190" y="71" text-anchor="middle" class="lbl" fill="#A33A2E">SIMULATED DATA</text>
+    <rect x="328" y="48" width="286" height="34" rx="17" fill="#DDEEE8"/>
+    <text x="471" y="71" text-anchor="middle" class="lbl" fill="#256052">PERSONA CANVAS</text>
+    <text x="64" y="142" class="h1 ink">Three ways the same job fails</text>
+    <text x="64" y="172" class="small muted">DoseDay core task: take today&#8217;s doses on time. Built from 5 interviews (P1&#8211;P5), extracted by Claude, then checked line by line against the transcripts.</text>
+    <text x="2336" y="142" text-anchor="end" class="lbl muted">CAPSTONE 02 &#183; PERSONAS</text>
+    <text x="2336" y="170" text-anchor="end" class="small muted">38 claims checked &#183; 13 changed &#183; 0 invented statistics</text>
+    <line x1="64" y1="192" x2="2336" y2="192" stroke="#DDE5E2" stroke-width="2"/>
+
+    <!-- ============ PERSONA A ============ -->
+    <g filter="url(#sh)"><rect x="64" y="210" width="740" height="1150" rx="14" class="card"/></g>
+    <rect x="64" y="210" width="740" height="5" rx="2" class="a"/>
+    <text x="92" y="256" class="nm ink">The Shifter</text>
+    <text x="92" y="282" class="small muted">&#8220;Rowan&#8221;, 59 &#183; rotating shift work, employer unnamed &#183; source: P1</text>
+    <rect x="92" y="298" width="356" height="26" rx="13" fill="#F1F6F4"/>
+    <text x="270" y="316" text-anchor="middle" class="tiny" fill="#5C6F73">3 scheduled + 2 as-needed &#183; age self-corrected</text>
+
+    <rect x="92" y="338" width="684" height="104" rx="10" fill="#F7FAF8" stroke="#E3EBE7"/>
+    <rect x="92" y="338" width="4" height="104" rx="2" class="a"/>
+    <text x="114" y="372" class="q ink">&#8220;I&#8217;d rather have nothing than something that shames me.&#8221;</text>
+    <text x="114" y="400" class="q ink">&#8220;Tomorrow&#8217;s problem is tomorrow&#8217;s.&#8221;</text>
+    <text x="114" y="424" class="tiny" fill="#8A9A9C">P1 &#183; after deleting a good app over one big red circle</text>
+
+    <text x="92" y="480" class="lbl at">WHAT IS ACTUALLY TRUE</text>
+    <circle cx="99" cy="504" r="3" class="a"/><text x="114" y="509" class="body ink">Rotation, no normal day: early 6:15&#8211;2:15, middle 2:15&#8211;10:15, late</text>
+    <text x="114" y="529" class="body ink">10:15&#8211;6:15, then four days off. Up at 4:40, on the floor by 6:15.</text>
+    <circle cx="99" cy="556" r="3" class="a"/><text x="114" y="561" class="body ink">Three every morning. Two as-needed: one for a bad back, the other only</text>
+    <text x="114" y="581" class="body ink">&#8220;a strong one for the pain&#8221; they are not supposed to take every day.</text>
+    <circle cx="99" cy="608" r="3" class="a"/><text x="114" y="613" class="body ink">A pill box is the real system, and it has been lost once: a coat pocket,</text>
+    <text x="114" y="633" class="body ink">a friend&#8217;s house. A spare with old ones in it lives in the drawer.</text>
+    <circle cx="99" cy="660" r="3" class="a"/><text x="114" y="665" class="body ink">Misses cluster after nights: &#8220;I would say one or two. Maybe. It&#8217;s not</text>
+    <text x="114" y="685" class="body ink">something I count.&#8221; The hedge is kept, never converted into a rate.</text>
+
+    <text x="92" y="726" class="lbl at">WHY IT FAILS</text>
+    <circle cx="99" cy="750" r="3" class="a"/><text x="114" y="755" class="body ink">The app judged them. One missed night became a verdict:</text>
+    <text x="114" y="775" class="body ink">&#8220;I have done everything right for that medication for two years and one screen</text>
+    <text x="114" y="795" class="body ink">tells me I&#8217;m a bad patient.&#8221;</text>
+    <circle cx="99" cy="822" r="3" class="a"/><text x="114" y="827" class="body ink">It assumed a fixed morning and never asked about nights.</text>
+    <circle cx="99" cy="854" r="3" class="a"/><text x="114" y="859" class="body ink">It vanished without confirming. Snooze left them unsure whether the dose</text>
+    <text x="114" y="879" class="body ink">was recorded at all: &#8220;If something disappears I don&#8217;t know about, I can&#8217;t trust it.&#8221;</text>
+
+    <text x="92" y="920" class="lbl at">ROUTINE AS LIVED</text>
+    <text x="92" y="946" class="body ink">Tick the box by hand before a 6:15 start, in the dark. One app was tried and</text>
+    <text x="92" y="966" class="body ink">deleted; they have never kept one, and do not want to be reminded in a tone.</text>
+
+    <text x="92" y="1008" class="lbl at">TRIED AND DROPPED</text>
+    <text x="92" y="1034" class="body ink">One app, downloaded by their sister. &#8220;A very nice app, I must admit.&#8221;</text>
+    <text x="92" y="1054" class="body ink">Dropped the morning after the red circle appeared.</text>
+
+    <text x="92" y="1076" class="lbl at">DESIGN CONSEQUENCE</text>
+    <text x="92" y="1102" class="body ink">No shame states, ever. Reversible check-in, counted once even if pressed</text>
+    <text x="92" y="1122" class="body ink">twice. A &#8220;you&#8217;re on nights tonight&#8221; state instead of a lecture. Big targets:</text>
+    <text x="92" y="1142" class="body ink">read one-handed, glasses off, at the end of a shift.</text>
+    <text x="92" y="1170" class="body ink">Privacy is a choice, not a setting: &#8220;It has to be my choice what leaves the phone.&#8221;</text>
+    <text x="92" y="1190" class="body ink">Their daughter is a nurse, so a daily report would become a row in their house.</text>
+
+    <text x="92" y="1216" class="lbl at">ASSUMPTIONS TO TEST &#8212; NOT FINDINGS</text>
+    <text x="92" y="1238" class="tiny" fill="#5C6F73">A1 That a shift-aware schedule is enough for nights. Never tested with them. Method: 5-day shift diary.</text>
+    <text x="92" y="1258" class="tiny" fill="#5C6F73">A2 That the daughter would accept a chosen weekly summary. That fear is P1&#8217;s, not hers. Method: interview her.</text>
+
+    <rect x="92" y="1276" width="352" height="28" rx="14" fill="#DDEEE8"/>
+    <text x="268" y="1295" text-anchor="middle" class="tiny" fill="#256052">GROUNDED 9 &#183; ASSUMPTIONS 2 &#183; 0 stats</text>
+    <text x="776" y="1295" text-anchor="end" class="tiny" fill="#8A9A9C">P1 only</text>
+
+    <!-- ============ PERSONA B ============ -->
+    <g filter="url(#sh)"><rect x="830" y="210" width="740" height="1150" rx="14" class="card"/></g>
+    <rect x="830" y="210" width="740" height="5" rx="2" class="b"/>
+    <text x="858" y="256" class="nm ink">The Unbothered</text>
+    <text x="858" y="282" class="small muted">&#8220;Jay&#8221;, 34 &#183; warehouse team lead &#183; source: P2 &#183; gender not stated</text>
+    <rect x="858" y="298" width="336" height="26" rx="13" fill="#F1F4F8"/>
+    <text x="1026" y="316" text-anchor="middle" class="tiny" fill="#5C6F73">2 medications &#183; written gender-neutral on purpose</text>
+
+    <rect x="858" y="338" width="684" height="104" rx="10" fill="#F7F9FC" stroke="#E2E8F0"/>
+    <rect x="858" y="338" width="4" height="104" rx="2" class="b"/>
+    <text x="880" y="372" class="q ink">&#8220;I don&#8217;t need to be a patient. I need a tap.&#8221;</text>
+    <text x="880" y="400" class="q ink">&#8220;A streak is a weapon.&#8221;</text>
+    <text x="880" y="424" class="tiny" fill="#8A9A9C">P2 &#183; after three medication apps in four years</text>
+
+    <text x="858" y="480" class="lbl bt">WHAT IS ACTUALLY TRUE</text>
+    <circle cx="865" cy="504" r="3" class="b"/><text x="880" y="509" class="body ink">Up at 4:50, on site at 6, runs the safety briefing before the team arrives.</text>
+    <circle cx="865" cy="534" r="3" class="b"/><text x="880" y="539" class="body ink">One with the first coffee. One with dinner at half seven.</text>
+    <circle cx="865" cy="564" r="3" class="b"/><text x="880" y="569" class="body ink">Weekly box, filled Sunday night, two minutes: &#8220;the box has never let me</text>
+    <text x="880" y="589" class="body ink">down and I don&#8217;t have to be anywhere near it.&#8221;</text>
+    <circle cx="865" cy="616" r="3" class="b"/><text x="880" y="621" class="body ink">Morning dose is bulletproof. Evening is not: &#8220;the evening one is a coin toss</text>
+    <text x="880" y="641" class="body ink">when I&#8217;m late.&#8221; Both halves are kept, exactly as spoken.</text>
+    <circle cx="865" cy="668" r="3" class="b"/><text x="880" y="673" class="body ink">About thirty apps, two hundred accounts, and no patience for one more sign-up.</text>
+
+    <text x="858" y="726" class="lbl bt">WHY IT FAILS</text>
+    <circle cx="865" cy="750" r="3" class="b"/><text x="880" y="755" class="body ink">It wanted a diary: &#8220;it&#8217;s a diary with a push notification attached.&#8221; Why is it</text>
+    <text x="880" y="775" class="body ink">interested in my mood? &#8220;I&#8217;m not here for my mood.&#8221;</text>
+    <circle cx="865" cy="802" r="3" class="b"/><text x="880" y="807" class="body ink">Sign-up before the first dose. &#8220;I have two hundred accounts. I&#8217;m not creating</text>
+    <text x="880" y="827" class="body ink">another account to swallow a pill.&#8221;</text>
+    <circle cx="865" cy="854" r="3" class="b"/><text x="880" y="859" class="body ink">A record becomes a judgement: &#8220;a dose log makes me a worse person.&#8221; A 40-day streak</text>
+    <text x="880" y="879" class="body ink">was ended on purpose rather than be seen to break.</text>
+
+    <text x="858" y="920" class="lbl bt">ROUTINE AS LIVED</text>
+    <text x="858" y="946" class="body ink">Coffee, then the tablet, then the van. The fragile moment is not the morning, it</text>
+    <text x="858" y="966" class="body ink">is 9pm dinner after a double shift and a dose window that has closed.</text>
+
+    <text x="858" y="1008" class="lbl bt">TRIED AND DROPPED</text>
+    <text x="858" y="1034" class="body ink">Three attempts in four years. Two deletions are described in their own words;</text>
+    <text x="858" y="1054" class="body ink">the third is simply gone, and the reason was never narrated.</text>
+
+    <text x="858" y="1076" class="lbl bt">DESIGN CONSEQUENCE</text>
+    <text x="858" y="1102" class="body ink">One tap and nothing else. No account, no streak, no badge, no compliance</text>
+    <text x="858" y="1122" class="body ink">chart, no morning pep talk. Five seconds is the stated ceiling on any</text>
+    <text x="858" y="1142" class="body ink">interaction. &#8220;The best version of this product is the one I stop noticing.&#8221;</text>
+    <text x="858" y="1170" class="body ink">Open question, not a feature: they want no record, while P5 wants a full one.</text>
+
+    <text x="858" y="1216" class="lbl bt">ASSUMPTIONS TO TEST &#8212; NOT FINDINGS</text>
+    <text x="858" y="1238" class="tiny" fill="#5C6F73">B1 That five seconds is a real ceiling and not a figure of speech. Method: timed tap test,</text>
+    <text x="858" y="1258" class="tiny" fill="#5C6F73">low-end device, one hand, gloves. B2 No counter-example exists: they keep no log at all.</text>
+
+    <rect x="858" y="1276" width="352" height="28" rx="14" fill="#DCE6F1"/>
+    <text x="1034" y="1295" text-anchor="middle" class="tiny" fill="#2C5F8A">GROUNDED 8 &#183; ASSUMPTIONS 2 &#183; 0 stats</text>
+    <text x="1542" y="1295" text-anchor="end" class="tiny" fill="#8A9A9C">P2 only</text>
+
+    <!-- ============ PERSONA C ============ -->
+    <g filter="url(#sh)"><rect x="1596" y="210" width="740" height="1150" rx="14" class="card"/></g>
+    <rect x="1596" y="210" width="740" height="5" rx="2" class="c"/>
+    <text x="1624" y="256" class="nm ink">The Unanchored</text>
+    <text x="1624" y="282" class="small muted">&#8220;Ada&#8221;, 67, lives alone &#183; &#8220;Ray&#8221;, 45, takes fares and deliveries &#183; P3+P4</text>
+    <rect x="1624" y="298" width="392" height="26" rx="13" fill="#F7F1E8"/>
+    <text x="1820" y="316" text-anchor="middle" class="tiny" fill="#8C5A2B">5 and 3 medications &#183; merged on one shared failure</text>
+
+    <rect x="1624" y="338" width="684" height="104" rx="10" fill="#FBF7F1" stroke="#EDE2D3"/>
+    <rect x="1624" y="338" width="4" height="104" rx="2" class="c"/>
+    <text x="1646" y="372" class="q ink">&#8220;A week is a conversation. A day is an accusation.&#8221;</text>
+    <text x="1646" y="400" class="q ink">&#8220;Now, later, or already done. Three states. That&#8217;s it.&#8221;</text>
+    <text x="1646" y="424" class="tiny" fill="#8A9A9C">P3 and P4 &#183; the merge is a stated decision, not a blend</text>
+
+    <text x="1624" y="480" class="lbl ct">WHY THEY ARE ONE PERSON</text>
+    <text x="1624" y="506" class="body ink">Ada&#8217;s bin and whiteboard only work in her kitchen. Ray wakes up in a car park.</text>
+    <text x="1624" y="526" class="body ink">Both keep a routine that cannot travel, and both were failed by instructions</text>
+    <text x="1624" y="546" class="body ink">written for someone else. Same failure, different materials.</text>
+
+    <text x="1624" y="590" class="lbl ct">WHY IT FAILS</text>
+    <circle cx="1631" cy="614" r="3" class="c"/><text x="1646" y="619" class="body ink">Nobody told Ada the scale of one missed dose. She carried it for two weeks and</text>
+    <text x="1646" y="639" class="body ink">cried in the car: &#8220;I had been afraid of my own medicine for two weeks&#8230;&#8221;</text>
+    <circle cx="1631" cy="666" r="3" class="c"/><text x="1646" y="671" class="body ink">Instructions are written for a clinician. P3: &#8220;Take one tablet by mouth.&#8221;</text>
+    <text x="1646" y="691" class="body ink">By mouth! P4: &#8220;Take with food&#8221; is two words and five hundred ways to get it wrong.</text>
+    <circle cx="1631" cy="718" r="3" class="c"/><text x="1646" y="723" class="body ink">Small targets fail silently and the blame lands on the finger: &#8220;The app never</text>
+    <text x="1646" y="743" class="body ink">did it. My finger did it.&#8221; Ada lost four typed names and quit that day.</text>
+    <circle cx="1631" cy="770" r="3" class="c"/><text x="1646" y="775" class="body ink">There is nobody to ask. P4: &#8220;I can&#8217;t ring the pharmacist from a car park. That&#8217;s</text>
+    <text x="1646" y="795" class="body ink">the actual emotion. The annoyance of having no one to ask.&#8221;</text>
+    <circle cx="1631" cy="822" r="3" class="c"/><text x="1646" y="827" class="body ink">No day-of-week tracking: a missed day would sit on Ada&#8217;s board forever as a day</text>
+    <text x="1646" y="847" class="body ink">she failed. Ray cannot be asked to unlock a phone while driving.</text>
+
+    <text x="1624" y="886" class="lbl ct">ROUTINE AS LIVED</text>
+    <text x="1624" y="912" class="body ink">Ada: two white tablets in the morning, three in the evening. Every day. No days.</text>
+    <text x="1624" y="932" class="body ink">Ray: one in the cup holder with the coffee; one needs food he may not get until 11pm.</text>
+
+    <text x="1624" y="970" class="lbl ct">TRIED AND DROPPED</text>
+    <text x="1624" y="996" class="body ink">Ada abandoned a day-of-week box, then an app that lost her typing. Ray has never</text>
+    <text x="1624" y="1016" class="body ink">used a medication app at all &#8212; every claim about him is untested preference.</text>
+
+    <text x="1624" y="1052" class="lbl ct">DESIGN CONSEQUENCE</text>
+    <text x="1624" y="1078" class="body ink">The system has to survive a missing routine: travel, no kitchen, someone else&#8217;s</text>
+    <text x="1624" y="1098" class="body ink">kitchen. One sentence per medication &#8212; what it is for, what to watch, what a single</text>
+    <text x="1624" y="1118" class="body ink">miss means. Big targets, dead space to be wrong in, and no tone whatsoever.</text>
+    <text x="1624" y="1146" class="body ink">Sharing is weekly, chosen, and announced: a week is a conversation.</text>
+
+    <text x="1624" y="1180" class="lbl ct">ASSUMPTIONS TO TEST &#8212; NOT FINDINGS</text>
+    <text x="1624" y="1202" class="tiny" fill="#5C6F73">C1 That one travelling routine suits both. They were merged on one shared failure and</text>
+    <text x="1624" y="1222" class="tiny" fill="#5C6F73">never tested together. Method: travel scenario test with each, separately.</text>
+
+    <text x="1624" y="1250" class="lbl ct">BOUNDARIES HELD IN VERIFICATION</text>
+    <text x="1624" y="1270" class="tiny" fill="#8A9A9C">Ada names no medication and declines to name her eye condition: no diagnosis is added.</text>
+    <text x="1624" y="1288" class="tiny" fill="#8A9A9C">Ray&#8217;s urgent-care visit and his kidney stone are separate events. He was not admitted.</text>
+
+    <rect x="1624" y="1310" width="352" height="28" rx="14" fill="#F2E7D8"/>
+    <text x="1800" y="1329" text-anchor="middle" class="tiny" fill="#8C5A2B">GROUNDED 11 &#183; ASSUMPTIONS 2 &#183; 0 stats</text>
+    <text x="2308" y="1329" text-anchor="end" class="tiny" fill="#8A9A9C">P3+P4 composite</text>
+
+    <!-- ============ BOTTOM: CRITIC SIDEBAR ============ -->
+    <g filter="url(#sh)"><rect x="64" y="1400" width="1400" height="400" rx="14" class="card"/></g>
+    <rect x="64" y="1400" width="1400" height="5" rx="2" fill="#5C6F73"/>
+    <text x="92" y="1446" class="nm ink">P5 &#8212; &#8220;The Audit Trail&#8221;: the critic, kept beside the personas</text>
+    <text x="92" y="1472" class="small muted">29, reads privacy policies, has a working system, and refused every product in this research. Not a persona: a persona would flatter them.</text>
+    <rect x="92" y="1490" width="1344" height="60" rx="10" fill="#F4F6F6" stroke="#E3E8E7"/>
+    <text x="112" y="1516" class="q ink">&#8220;I will not make the two hundred and first to swallow a pill.&#8221;</text>
+    <text x="112" y="1540" class="tiny" fill="#8A9A9C">P5 &#183; the only participant with a working system who has never put medication in an app</text>
+    <text x="92" y="1580" class="lbl" fill="#5C6F73">THEIR THREE OBJECTIONS, WHICH THE PACK MUST ANSWER</text>
+    <circle cx="99" cy="1606" r="3" fill="#5C6F73"/><text x="114" y="1611" class="body ink">1. The routine that does not travel. &#8220;The box is only correct in my kitchen&#8230; Wednesday is a lie.&#8221;</text>
+    <circle cx="99" cy="1636" r="3" fill="#5C6F73"/><text x="114" y="1641" class="body ink">2. Onboarding that asks what they already know. &#8220;Tell me something I don&#8217;t know.&#8221;</text>
+    <circle cx="99" cy="1666" r="3" fill="#5C6F73"/><text x="114" y="1671" class="body ink">3. Privacy with a line in it: the fact may be shared, the meaning may not. Anxiety, not depression.</text>
+    <rect x="92" y="1690" width="1344" height="88" rx="10" fill="#EEF3F1"/>
+    <text x="112" y="1716" class="small ink">They also hand this pack its thesis, and it is the reason this page is not three tidy cards:</text>
+    <text x="112" y="1744" class="q ink">&#8220;The design question isn&#8217;t how do we get her to take the pill, it&#8217;s how does the system behave</text>
+    <text x="112" y="1766" class="q ink">when the routine is gone.&#8221;</text>
+
+    <!-- ============ BOTTOM: VERIFICATION SUMMARY ============ -->
+    <g filter="url(#sh)"><rect x="1500" y="1400" width="836" height="400" rx="14" class="card"/></g>
+    <rect x="1500" y="1400" width="836" height="5" rx="2" fill="#2A6F62"/>
+    <text x="1528" y="1446" class="nm ink">Verified, not generated</text>
+    <text x="1528" y="1472" class="small muted">Every claim on this page was checked against the transcripts by hand.</text>
+
+    <rect x="1528" y="1490" width="180" height="72" rx="10" fill="#F8E4E0"/>
+    <text x="1618" y="1534" text-anchor="middle" class="h2" fill="#A33A2E">6</text>
+    <text x="1618" y="1552" text-anchor="middle" class="tiny" fill="#A33A2E">rejected outright</text>
+    <rect x="1724" y="1490" width="180" height="72" rx="10" fill="#FBEEDC"/>
+    <text x="1814" y="1534" text-anchor="middle" class="h2" fill="#A9661F">7</text>
+    <text x="1814" y="1552" text-anchor="middle" class="tiny" fill="#A9661F">corrected</text>
+    <rect x="1920" y="1490" width="180" height="72" rx="10" fill="#EAF0F6"/>
+    <text x="2010" y="1534" text-anchor="middle" class="h2" fill="#2C5F8A">6</text>
+    <text x="2010" y="1552" text-anchor="middle" class="tiny" fill="#2C5F8A">annotated</text>
+    <rect x="2116" y="1490" width="192" height="72" rx="10" fill="#DDEEE8"/>
+    <text x="2212" y="1534" text-anchor="middle" class="h2" fill="#256052">19</text>
+    <text x="2212" y="1552" text-anchor="middle" class="tiny" fill="#256052">confirmed unchanged</text>
+
+    <text x="1528" y="1600" class="lbl" fill="#5C6F73">WHAT THE MODEL GOT WRONG</text>
+    <text x="1528" y="1622" class="tiny ink">1. Invented an industry. &#8220;Hospital-adjacent&#8221; is in no transcript: specific, plausible, untraceable.</text>
+    <text x="1528" y="1642" class="tiny ink">2. Claimed no participant states their gender. Two of five say it plainly. A hedge is not a truth.</text>
+    <text x="1528" y="1662" class="tiny ink">3. Labelled a stage &#8220;anxious&#8221; against the participant&#8217;s own &#8220;It&#8217;s not fear.&#8221;</text>
+    <text x="1528" y="1682" class="tiny ink">4. Replaced nuance with a motive: &#8220;surveillance, not care&#8221; against &#8220;is she wrong to ask? No.&#8221;</text>
+    <text x="1528" y="1702" class="tiny ink">5. Flagged a contradiction, then shipped the merge that hid it. Flagging is not resolving.</text>
+    <text x="1528" y="1722" class="tiny ink">6. Spliced two separate answers into one flowing quote. Caught by the model, on request.</text>
+
+    <rect x="1528" y="1740" width="780" height="46" rx="10" fill="#F8E4E0"/>
+    <text x="1544" y="1758" class="tiny" fill="#A33A2E">OURS, NOT THE MODEL&#8217;S: &#8220;shift supervisor&#8221;, &#8220;distribution centre&#8221;, &#8220;retired&#8221; and &#8220;PhD student&#8221; came from our</text>
+    <text x="1544" y="1775" class="tiny" fill="#A33A2E">own filenames. Four unsourced claims survived verification. Fixed as defect C-05.</text>
+
+    <text x="64" y="1846" class="tiny" fill="#8A9A9C">Personas are composites written for design use. First names are fictional and carry no evidence about gender: P1, P2 and P5 never state theirs, so they are written neutral.</text>
+    <text x="64" y="1872" class="tiny" fill="#8A9A9C">Simulated corpus: no human was interviewed. Every behavioural claim is a quotation or a labelled assumption; no adherence rate or diagnosis is added anywhere.</text>
+
+  </g>
+</svg>

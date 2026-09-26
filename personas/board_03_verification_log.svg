@@ -1,0 +1,282 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1900" viewBox="0 0 2400 1900">
+  <defs>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#172A3A" flood-opacity="0.09"/>
+    </filter>
+    <style>
+      .sans{font-family:Inter,Arial,sans-serif}
+      .ink{fill:#17313B}.muted{fill:#5C6F73}
+      .lbl{font-size:12px;font-weight:700;letter-spacing:1.6px}
+      .h1{font-size:42px;font-weight:800}
+      .nm{font-size:26px;font-weight:800}
+      .body{font-size:13px}.small{font-size:12px}.tiny{font-size:11px}
+      .card{fill:#FFFFFF;stroke:#DDE5E2;stroke-width:1.5}
+      .g{fill:#2A6F62}.b{fill:#2C5F8A}.c{fill:#8C5A2B}.r{fill:#A33A2E}
+    </style>
+  </defs>
+  <rect width="2400" height="1900" fill="#F3F6F2"/>
+  <g class="sans">
+
+    <!-- ============ HEADER ============ -->
+    <rect x="64" y="48" width="252" height="34" rx="17" fill="#F8E4E0"/>
+    <text x="190" y="71" text-anchor="middle" class="lbl" fill="#A33A2E">SIMULATED DATA</text>
+    <rect x="328" y="48" width="308" height="34" rx="17" fill="#DDEEE8"/>
+    <text x="482" y="71" text-anchor="middle" class="lbl" fill="#256052">VERIFICATION LOG</text>
+    <text x="64" y="142" class="h1 ink">Every claim, checked, with the edit shown</text>
+    <text x="64" y="172" class="small muted">Six worked examples, then the trap table, then the seven things we got wrong ourselves. Verdicts: REJECT, CORRECT, ANNOTATE, CONFIRM.</text>
+    <text x="2336" y="142" text-anchor="end" class="lbl muted">CAPSTONE 02 &#183; VERIFICATION</text>
+    <text x="2336" y="170" text-anchor="end" class="small muted">37 claims logged &#183; 3 passes &#183; 0 left unchecked</text>
+    <line x1="64" y1="192" x2="2336" y2="192" stroke="#DDE5E2" stroke-width="2"/>
+
+    <!-- ============ LEFT: SIX WORKED EXAMPLES ============ -->
+    <!-- 1 -->
+    <g filter="url(#sh)"><rect x="64" y="210" width="1470" height="212" rx="14" class="card"/></g>
+    <rect x="64" y="210" width="1470" height="4" rx="2" class="r"/>
+    <text x="92" y="248" class="lbl" fill="#A33A2E">V-01 &#183; ARCHETYPE A, THE CONTEXT LINE</text>
+    <text x="1506" y="248" text-anchor="end" class="lbl" fill="#8A9A9C">PASS 1</text>
+    <rect x="92" y="262" width="650" height="104" rx="10" fill="#FBF1EE" stroke="#F0D9D3" stroke-width="1.5"/>
+    <text x="112" y="286" class="lbl" fill="#A33A2E">THE AI DRAFT</text>
+    <text x="112" y="308" class="body ink">&#8220;representing anyone whose paid work has no fixed daily shape</text>
+    <text x="112" y="328" class="body ink">&#8212; a rotating <tspan font-weight="700">hospital-adjacent</tspan> shift worker or a</text>
+    <text x="112" y="348" class="body ink">gig/rideshare driver&#8221;</text>
+    <path d="M770 296 L800 314 L770 332" fill="none" stroke="#5C6F73" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="826" y="262" width="680" height="104" rx="10" fill="#EEF5F1" stroke="#D6E7DE" stroke-width="1.5"/>
+    <text x="846" y="286" class="lbl" fill="#256052">THE TRANSCRIPT</text>
+    <text x="846" y="308" class="body ink">P1: &#8220;I have to be in at 6:15 for the early shift&#8230; I&#8217;m on the floor a lot.&#8221; No</text>
+    <text x="846" y="328" class="body ink">institution, industry or setting is named anywhere in P1&#8217;s interview. The corpus</text>
+    <text x="846" y="348" class="body ink">anonymization note says the employer was removed on purpose.</text>
+    <rect x="92" y="376" width="104" height="24" rx="12" fill="#F8E4E0"/>
+    <text x="144" y="393" text-anchor="middle" class="tiny" fill="#A33A2E">REJECT</text>
+    <text x="212" y="393" class="small ink">Deleted. Context is now &#8220;rotating shift work at an employer the corpus deliberately leaves unnamed&#8221;.</text>
+    <text x="92" y="412" class="tiny" fill="#5C6F73">A fabricated industry is the most dangerous class of error in persona work: specific, plausible, and impossible to trace without reading the source.</text>
+
+    <!-- 2 -->
+    <g filter="url(#sh)"><rect x="64" y="442" width="1470" height="212" rx="14" class="card"/></g>
+    <rect x="64" y="442" width="1470" height="4" rx="2" class="r"/>
+    <text x="92" y="480" class="lbl" fill="#A33A2E">V-17 &#183; JOURNEY MAP, THE MIDDAY STAGE</text>
+    <text x="1506" y="480" text-anchor="end" class="lbl" fill="#8A9A9C">PASS 1</text>
+    <rect x="92" y="494" width="650" height="104" rx="10" fill="#FBF1EE" stroke="#F0D9D3" stroke-width="1.5"/>
+    <text x="112" y="518" class="lbl" fill="#A33A2E">THE AI DRAFT</text>
+    <text x="112" y="540" class="body ink">Midday (&#8722;3): <tspan font-weight="700">&#8220;Anxious improvisation&#8230; food-</tspan></text>
+    <text x="112" y="560" class="body ink"><tspan font-weight="700">dependent doses collide with unpredictable</tspan></text>
+    <text x="112" y="580" class="body ink"><tspan font-weight="700">access to food, often while driving&#8221;</tspan></text>
+    <path d="M770 528 L800 546 L770 564" fill="none" stroke="#5C6F73" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="826" y="494" width="680" height="104" rx="10" fill="#EEF5F1" stroke="#D6E7DE" stroke-width="1.5"/>
+    <text x="846" y="518" class="lbl" fill="#256052">THE TRANSCRIPT</text>
+    <text x="846" y="540" class="body ink">P4: &#8220;Honestly? It&#8217;s mostly a nuisance, and I&#8217;m not dramatic about it&#8230; I don&#8217;t</text>
+    <text x="846" y="560" class="body ink">have a big feeling about it.&#8221; And, when asked directly: <tspan font-weight="700">&#8220;It&#8217;s not fear.&#8221;</tspan></text>
+    <text x="846" y="580" class="body ink">&#8220;The annoyance of having no one to ask&#8221; is what he offers instead.</text>
+    <rect x="92" y="608" width="104" height="24" rx="12" fill="#FBEEDC"/>
+    <text x="144" y="625" text-anchor="middle" class="tiny" fill="#A9661F">CORRECT</text>
+    <text x="212" y="625" class="small ink">Emotion is now &#8220;nuisance, not fear&#8221;, with his own words printed directly beneath it on the map.</text>
+    <text x="92" y="644" class="tiny" fill="#5C6F73">The worst error in the draft: an emotion attributed to a participant who explicitly disclaimed it. Models smooth people onto a valence scale; people refuse to be smoothed.</text>
+
+    <!-- 3 -->
+    <g filter="url(#sh)"><rect x="64" y="674" width="1470" height="212" rx="14" class="card"/></g>
+    <rect x="64" y="674" width="1470" height="4" rx="2" class="r"/>
+    <text x="92" y="712" class="lbl" fill="#A33A2E">V-24 &#183; ALL ARCHETYPES, A CLAIM ABOUT NOBODY</text>
+    <text x="1506" y="712" text-anchor="end" class="lbl" fill="#8A9A9C">PASS 1</text>
+    <rect x="92" y="726" width="650" height="104" rx="10" fill="#FBF1EE" stroke="#F0D9D3" stroke-width="1.5"/>
+    <text x="112" y="750" class="lbl" fill="#A33A2E">THE AI DRAFT</text>
+    <text x="112" y="772" class="body ink"><tspan font-weight="700">&#8220;No participant states their own gender.&#8221;</tspan> References to</text>
+    <text x="112" y="792" class="body ink">&#8220;my wife&#8221; (P1) or &#8220;my sister&#8221; (P4) describe relationships, not</text>
+    <text x="112" y="812" class="body ink">the participant&#8217;s own gender identity.</text>
+    <path d="M770 760 L800 778 L770 796" fill="none" stroke="#5C6F73" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="826" y="726" width="680" height="104" rx="10" fill="#EEF5F1" stroke="#D6E7DE" stroke-width="1.5"/>
+    <text x="846" y="750" class="lbl" fill="#256052">THE TRANSCRIPT</text>
+    <text x="846" y="772" class="body ink">P3: <tspan font-weight="700">&#8220;I&#8217;m a grown woman, and every day.&#8221;</tspan> P4: <tspan font-weight="700">&#8220;I&#8217;m a grown man</tspan></text>
+    <text x="846" y="792" class="body ink"><tspan font-weight="700">with a blood pressure problem&#8230;</tspan>&#8221; Two of five say it plainly. P1, P2 and P5 never do.</text>
+    <text x="846" y="812" class="body ink">The claim is false about the corpus it was written from.</text>
+    <rect x="92" y="840" width="104" height="24" rx="12" fill="#F8E4E0"/>
+    <text x="144" y="857" text-anchor="middle" class="tiny" fill="#A33A2E">REJECT</text>
+    <text x="212" y="857" class="small ink">Deleted. Absence claims are checkable, and this one was false. A hedge is not automatically a truth.</text>
+    <text x="92" y="876" class="tiny" fill="#5C6F73">This row then generated defect C-06: the rule it established was written into the log and broken by our own persona card two sections later.</text>
+
+    <!-- 4 -->
+    <g filter="url(#sh)"><rect x="64" y="906" width="1470" height="212" rx="14" class="card"/></g>
+    <rect x="64" y="906" width="1470" height="4" rx="2" class="c"/>
+    <text x="92" y="944" class="lbl" fill="#8C5A2B">V-14 &#183; ARCHETYPE C, THE SHARING PROBLEM</text>
+    <text x="1506" y="944" text-anchor="end" class="lbl" fill="#8A9A9C">PASS 1</text>
+    <rect x="92" y="958" width="650" height="104" rx="10" fill="#FBF1EE" stroke="#F0D9D3" stroke-width="1.5"/>
+    <text x="112" y="982" class="lbl" fill="#A33A2E">THE AI DRAFT</text>
+    <text x="112" y="1004" class="body ink">&#8220;Daily check-ins from her daughter feel like</text>
+    <text x="112" y="1024" class="body ink"><tspan font-weight="700">surveillance, not care.&#8221;</tspan></text>
+    <text x="112" y="1044" class="body ink">The persona frames the daughter as the problem.</text>
+    <path d="M770 992 L800 1010 L770 1028" fill="none" stroke="#5C6F73" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="826" y="958" width="680" height="104" rx="10" fill="#EEF5F1" stroke="#D6E7DE" stroke-width="1.5"/>
+    <text x="846" y="982" class="lbl" fill="#256052">THE TRANSCRIPT</text>
+    <text x="846" y="1004" class="body ink">P3: <tspan font-weight="700">&#8220;is she wrong to ask? No. I&#8217;d ask. But I don&#8217;t want to be asked</tspan></text>
+    <text x="846" y="1024" class="body ink"><tspan font-weight="700">by someone who doesn&#8217;t have to do it&#8230; I&#8217;d like a machine with no feelings.&#8221;</tspan></text>
+    <text x="846" y="1044" class="body ink">Her objection is to the tone and the daily granularity, not to being checked on.</text>
+    <rect x="92" y="1072" width="104" height="24" rx="12" fill="#FBEEDC"/>
+    <text x="144" y="1089" text-anchor="middle" class="tiny" fill="#A9661F">CORRECT</text>
+    <text x="212" y="1089" class="small ink">Being checked on is welcome. Being checked on, with a tone, by someone with no obligation, is not.</text>
+    <text x="92" y="1108" class="tiny" fill="#5C6F73">A participant&#8217;s nuance replaced by a motive. The distinction is P3&#8217;s point, not the model&#8217;s &#8212; and the pack inherits it verbatim.</text>
+
+    <!-- 5 -->
+    <g filter="url(#sh)"><rect x="64" y="1138" width="1470" height="212" rx="14" class="card"/></g>
+    <rect x="64" y="1138" width="1470" height="4" rx="2" class="b"/>
+    <text x="92" y="1176" class="lbl" fill="#2C5F8A">V-34 &#183; ARCHETYPE C, A SPLICED QUOTATION</text>
+    <text x="1506" y="1176" text-anchor="end" class="lbl" fill="#8A9A9C">PASS 2 &#183; THE MODEL&#8217;S OWN REVIEW</text>
+    <rect x="92" y="1190" width="650" height="104" rx="10" fill="#FBF1EE" stroke="#F0D9D3" stroke-width="1.5"/>
+    <text x="112" y="1214" class="lbl" fill="#A33A2E">THE AI DRAFT</text>
+    <text x="112" y="1236" class="body ink">[P3: <tspan font-weight="700">&#8220;I press the air&#8230; The app never did it.</tspan></text>
+    <text x="112" y="1256" class="body ink"><tspan font-weight="700">My finger did it.&#8221;</tspan>] &#8212; presented as one</text>
+    <text x="112" y="1276" class="body ink">continuous quote with an ellipsis in the middle.</text>
+    <path d="M770 1224 L800 1242 L770 1260" fill="none" stroke="#5C6F73" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="826" y="1190" width="680" height="104" rx="10" fill="#EEF5F1" stroke="#D6E7DE" stroke-width="1.5"/>
+    <text x="846" y="1214" class="lbl" fill="#256052">THE TRANSCRIPT</text>
+    <text x="846" y="1236" class="body ink">&#8220;I press the air&#8230;&#8221; is P3&#8217;s answer about button size, line 54. &#8220;The app never</text>
+    <text x="846" y="1256" class="body ink">did it. My finger did it.&#8221; is a <tspan font-weight="700">later</tspan> answer, after INT asks</text>
+    <text x="846" y="1276" class="body ink">&#8220;Four names?&#8221;, line 58. Two separate turns, joined into one.</text>
+    <rect x="92" y="1304" width="104" height="24" rx="12" fill="#F8E4E0"/>
+    <text x="144" y="1321" text-anchor="middle" class="tiny" fill="#A33A2E">REJECT</text>
+    <text x="212" y="1321" class="small ink">Splice removed. Only the second half is used, and it is contiguous in the source.</text>
+    <text x="92" y="1340" class="tiny" fill="#5C6F73">No word was invented, but a continuity was. This is the most serious class of error here, and the model found it in itself only because we asked it to.</text>
+
+    <!-- 6 -->
+    <g filter="url(#sh)"><rect x="64" y="1370" width="1470" height="212" rx="14" class="card"/></g>
+    <rect x="64" y="1370" width="1470" height="4" rx="2" class="c"/>
+    <text x="92" y="1408" class="lbl" fill="#8C5A2B">C-05 &#183; OUR OWN PERSONA CARDS, NOT THE MODEL</text>
+    <text x="1506" y="1408" text-anchor="end" class="lbl" fill="#8A9A9C">PASS 3 &#183; OURS</text>
+    <rect x="92" y="1422" width="650" height="104" rx="10" fill="#F7F1E8" stroke="#EDE2D3" stroke-width="1.5"/>
+    <text x="112" y="1446" class="lbl" fill="#8C5A2B">WHAT WE PUBLISHED</text>
+    <text x="112" y="1468" class="body ink">&#8220;Rowan&#8221;, 59, <tspan font-weight="700">shift supervisor, distribution centre</tspan> &#183; &#8220;Ada&#8221;, 67,</text>
+    <text x="112" y="1488" class="body ink"><tspan font-weight="700">retired</tspan> &#183; P5, 29, <tspan font-weight="700">PhD student</tspan> &#183; three more job titles on the map</text>
+    <text x="112" y="1508" class="body ink">Four of these were never said by anyone.</text>
+    <path d="M770 1456 L800 1474 L770 1492" fill="none" stroke="#5C6F73" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="826" y="1422" width="680" height="104" rx="10" fill="#EEF5F1" stroke="#D6E7DE" stroke-width="1.5"/>
+    <text x="846" y="1446" class="lbl" fill="#256052">WHERE THEY CAME FROM</text>
+    <text x="846" y="1468" class="body ink">Our own <tspan font-weight="700">file names</tspan>: <tspan font-weight="700">01_P1_shift_supervisor.md</tspan>, <tspan font-weight="700">03_P3_retired_teacher.md</tspan>,</text>
+    <text x="846" y="1488" class="body ink"><tspan font-weight="700">05_P5_phd_student.md</tspan>. &#8220;Distribution centre&#8221; we invented outright. Each file&#8217;s</text>
+    <text x="846" y="1508" class="body ink">anonymization note says employer, school and city were removed on purpose.</text>
+    <rect x="92" y="1536" width="104" height="24" rx="12" fill="#F2E7D8"/>
+    <text x="144" y="1553" text-anchor="middle" class="tiny" fill="#8C5A2B">CORRECT</text>
+    <text x="212" y="1553" class="small ink">All four removed. New rule in the guide and the provenance README: a filename is not evidence.</text>
+    <text x="92" y="1572" class="tiny" fill="#5C6F73">The same species of error as V-01, in the same pack, written by the person doing the verifying. Every trap was aimed at the model. None was aimed at us.</text>
+
+    <!-- ============ RIGHT: TRAP TABLE ============ -->
+    <g filter="url(#sh)"><rect x="1570" y="210" width="766" height="660" rx="14" class="card"/></g>
+    <rect x="1570" y="210" width="766" height="4" rx="2" fill="#2A6F62"/>
+    <text x="1598" y="252" class="nm ink">Seven traps, seven catches</text>
+    <text x="1598" y="278" class="small muted">The model was never shown this table. These were not targeted.</text>
+
+    <rect x="1598" y="300" width="38" height="22" rx="11" fill="#DDEEE8"/>
+    <text x="1617" y="315" text-anchor="middle" class="tiny" fill="#256052">T1</text>
+    <text x="1648" y="316" class="body ink">3 scheduled + 2 as-needed</text>
+    <text x="1648" y="336" class="tiny" fill="#5C6F73">Counts right; the purposes of the as-needed pair were collapsed. Corrected, V-04.</text>
+    <line x1="1598" y1="356" x2="2308" y2="356" stroke="#E7EDEA" stroke-width="1.5"/>
+
+    <rect x="1598" y="376" width="38" height="22" rx="11" fill="#DDEEE8"/>
+    <text x="1617" y="391" text-anchor="middle" class="tiny" fill="#256052">T2</text>
+    <text x="1648" y="392" class="body ink">Age changes 58 &#8594; 59 mid-call</text>
+    <text x="1648" y="412" class="tiny" fill="#5C6F73">Flagged as a discrepancy in turn 1, then used 59 with a traceable footnote.</text>
+    <line x1="1598" y1="432" x2="2308" y2="432" stroke="#E7EDEA" stroke-width="1.5"/>
+
+    <rect x="1598" y="452" width="38" height="22" rx="11" fill="#DDEEE8"/>
+    <text x="1617" y="467" text-anchor="middle" class="tiny" fill="#256052">T3</text>
+    <text x="1648" y="468" class="body ink">&#8220;I never miss&#8221; then admits misses</text>
+    <text x="1648" y="488" class="tiny" fill="#5C6F73">Split into &#8220;morning bulletproof / evening a coin toss&#8221;. Hedge preserved, V-09.</text>
+    <line x1="1598" y1="508" x2="2308" y2="508" stroke="#E7EDEA" stroke-width="1.5"/>
+
+    <rect x="1598" y="528" width="38" height="22" rx="11" fill="#DDEEE8"/>
+    <text x="1617" y="543" text-anchor="middle" class="tiny" fill="#256052">T4</text>
+    <text x="1648" y="544" class="body ink">&#8220;The sugar one&#8221;, and an unnamed eye condition</text>
+    <text x="1648" y="564" class="tiny" fill="#5C6F73">Refused both. No diagnosis added, V-15 and V-27. The correct answer is that there is none.</text>
+    <line x1="1598" y1="584" x2="2308" y2="584" stroke="#E7EDEA" stroke-width="1.5"/>
+
+    <rect x="1598" y="604" width="38" height="22" rx="11" fill="#DDEEE8"/>
+    <text x="1617" y="619" text-anchor="middle" class="tiny" fill="#256052">T5</text>
+    <text x="1648" y="620" class="body ink">Urgent-care visit vs kidney stone</text>
+    <text x="1648" y="640" class="tiny" fill="#5C6F73">Refused the merge and quoted his request to keep them apart, V-29.</text>
+    <line x1="1598" y1="660" x2="2308" y2="660" stroke="#E7EDEA" stroke-width="1.5"/>
+
+    <rect x="1598" y="680" width="38" height="22" rx="11" fill="#DDEEE8"/>
+    <text x="1617" y="695" text-anchor="middle" class="tiny" fill="#256052">T6</text>
+    <text x="1648" y="696" class="body ink">P5 rejects a depression label</text>
+    <text x="1648" y="716" class="tiny" fill="#5C6F73">Refused, and quoted her correction verbatim, V-26. Anxiety, not depression.</text>
+    <line x1="1598" y1="736" x2="2308" y2="736" stroke="#E7EDEA" stroke-width="1.5"/>
+
+    <rect x="1598" y="756" width="38" height="22" rx="11" fill="#DDEEE8"/>
+    <text x="1617" y="771" text-anchor="middle" class="tiny" fill="#256052">T7</text>
+    <text x="1648" y="772" class="body ink">Hedge-heavy adherence numbers</text>
+    <text x="1648" y="792" class="tiny" fill="#5C6F73">Refused every conversion to a rate, percentage or annual count, V-28. Three times.</text>
+    <text x="1598" y="836" class="tiny" fill="#256052">7 of 7. The uncomfortable part is not the score &#8212; it is that every one of these traps</text>
+    <text x="1598" y="854" class="tiny" fill="#256052">tests rule-following, and none of them tested whether it could read.</text>
+
+    <!-- ============ RIGHT: OUR OWN DEFECTS ============ -->
+    <g filter="url(#sh)"><rect x="1570" y="900" width="766" height="682" rx="14" class="card"/></g>
+    <rect x="1570" y="900" width="766" height="4" rx="2" fill="#8C5A2B"/>
+    <text x="1598" y="942" class="nm ink">Seven errors in our own output</text>
+    <text x="1598" y="968" class="small muted">Found by a second pass over our own deliverable &#8212; not by checking the model.</text>
+
+    <rect x="1598" y="986" width="38" height="22" rx="11" fill="#F2E7D8"/>
+    <text x="1617" y="1001" text-anchor="middle" class="tiny" fill="#8C5A2B">C5</text>
+    <text x="1648" y="1002" class="body ink">Three job titles and one industry, all from our own file names</text>
+    <text x="1648" y="1022" class="tiny" fill="#5C6F73">Same species as V-01, in the same pack, by the person doing the verifying.</text>
+
+    <rect x="1598" y="1060" width="38" height="22" rx="11" fill="#F2E7D8"/>
+    <text x="1617" y="1075" text-anchor="middle" class="tiny" fill="#8C5A2B">C6</text>
+    <text x="1648" y="1076" class="body ink">P1 written &#8220;she&#8221;, against the pronoun rule we had just written</text>
+    <text x="1648" y="1096" class="tiny" fill="#5C6F73">The model had done the mirror image, calling P1 &#8220;his&#8221;. Two passes, two invented genders.</text>
+
+    <rect x="1598" y="1134" width="38" height="22" rx="11" fill="#F2E7D8"/>
+    <text x="1617" y="1149" text-anchor="middle" class="tiny" fill="#8C5A2B">C7</text>
+    <text x="1648" y="1150" class="body ink">A P1 quote edited inside its own quotation marks</text>
+    <text x="1648" y="1170" class="tiny" fill="#5C6F73">Words dropped to make a line fit. V-35, repeated in our output one board later.</text>
+
+    <rect x="1598" y="1208" width="38" height="22" rx="11" fill="#F2E7D8"/>
+    <text x="1617" y="1223" text-anchor="middle" class="tiny" fill="#8C5A2B">C8</text>
+    <text x="1648" y="1224" class="body ink">A P3 quote truncated with a full stop instead of an ellipsis</text>
+    <text x="1648" y="1244" class="tiny" fill="#5C6F73">The sentence continued &#8230; and the continuation was the entire point of the quote.</text>
+
+    <rect x="1598" y="1282" width="38" height="22" rx="11" fill="#F2E7D8"/>
+    <text x="1617" y="1297" text-anchor="middle" class="tiny" fill="#8C5A2B">C9</text>
+    <text x="1648" y="1298" class="body ink">The guide promised assumption lines the persona cards did not have</text>
+    <text x="1648" y="1318" class="tiny" fill="#5C6F73">A count with nothing to count. Every card now names two assumptions and a method.</text>
+
+    <rect x="1598" y="1356" width="38" height="22" rx="11" fill="#F2E7D8"/>
+    <text x="1617" y="1371" text-anchor="middle" class="tiny" fill="#8C5A2B">C10</text>
+    <text x="1648" y="1372" class="body ink">The fix for V-01 repeated the error V-01 was written to catch</text>
+    <text x="1648" y="1392" class="tiny" fill="#5C6F73">It said &#8220;warehouse&#8221;, which is P2&#8217;s word. A fix that repeats the error looks handled.</text>
+
+    <rect x="1598" y="1430" width="38" height="22" rx="11" fill="#F8E4E0"/>
+    <text x="1617" y="1445" text-anchor="middle" class="tiny" fill="#A33A2E">C11</text>
+    <text x="1648" y="1446" class="body ink">Our &#8220;paste-ready&#8221; bundle still contained the trap answers</text>
+    <text x="1648" y="1466" class="tiny" fill="#5C6F73">We claimed the table was withheld. The claim was true; the file was not.</text>
+
+    <rect x="1598" y="1490" width="710" height="66" rx="10" fill="#F7F1E8"/>
+    <text x="1616" y="1514" class="tiny" fill="#8C5A2B">A verification log that only lists the model&#8217;s failures is marketing. The section</text>
+    <text x="1616" y="1532" class="tiny" fill="#8C5A2B">that makes this one credible is the one where we admitted the seven. C-11 is the</text>
+    <text x="1616" y="1550" class="tiny" fill="#8C5A2B">one found by checking a claim against the file it described, not by rereading it.</text>
+
+    <!-- ============ BOTTOM: THREE PASSES ============ -->
+    <g filter="url(#sh)"><rect x="64" y="1620" width="2272" height="180" rx="14" class="card"/></g>
+    <rect x="64" y="1620" width="2272" height="4" rx="2" fill="#17313B"/>
+    <text x="92" y="1658" class="nm ink">Three passes, in order &#8212; and only the first one is independent evidence</text>
+
+    <rect x="92" y="1674" width="680" height="104" rx="10" fill="#F7FAF8" stroke="#E3EBE7" stroke-width="1.5"/>
+    <text x="112" y="1700" class="lbl" fill="#2A6F62">PASS 1 &#183; 38 CLAIMS &#183; MODEL UNPROMPTED</text>
+    <text x="112" y="1722" class="small ink">Every claim in the AI&#8217;s first draft, checked against the transcripts by hand.</text>
+    <text x="112" y="1742" class="small ink">6 rejected &#183; 7 corrected &#183; 6 annotated &#183; 19 confirmed. It also caught all 7 planted traps.</text>
+    <text x="112" y="1762" class="small" fill="#5C6F73">This is the only pass that counts as evidence about the model.</text>
+    <path d="M790 1712 L812 1726 L790 1740" fill="none" stroke="#5C6F73" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="832" y="1674" width="680" height="104" rx="10" fill="#F7F9FC" stroke="#E2E8F0" stroke-width="1.5"/>
+    <text x="852" y="1700" class="lbl" fill="#2C5F8A">PASS 2 &#183; 15 FINDINGS &#183; WE ASKED FOR IT</text>
+    <text x="852" y="1722" class="small ink">The model attacks its own draft as a hostile reviewer. Four findings survive a hand-check.</text>
+    <text x="852" y="1742" class="small ink">Logged as V-34 to V-37, separately, because we asked. Eleven were non-findings.</text>
+    <text x="852" y="1762" class="small" fill="#5C6F73">Useful. Not independent. Never counted as a catch.</text>
+    <path d="M1530 1712 L1552 1726 L1530 1740" fill="none" stroke="#5C6F73" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="1572" y="1674" width="736" height="104" rx="10" fill="#FBF7F1" stroke="#EDE2D3" stroke-width="1.5"/>
+    <text x="1592" y="1700" class="lbl" fill="#8C5A2B">PASS 3 &#183; 7 DEFECTS &#183; OURS, NOT THE MODEL&#8217;S</text>
+    <text x="1592" y="1722" class="small ink">A second pass over the persona cards, the guide, the provenance file and the</text>
+    <text x="1592" y="1742" class="small ink">paste-ready bundle. Six unsourced claims survived pass 1, plus one claim that</text>
+    <text x="1592" y="1762" class="small ink">contradicted the file it described. All seven are fixed and logged.</text>
+
+    <text x="64" y="1836" class="tiny" fill="#8A9A9C">Planting traps tests whether a model can follow rules. Re-reading your own deliverable is what tests whether you can read. The second pass is the one worth copying into a process.</text>
+    <text x="64" y="1862" class="tiny" fill="#8A9A9C">Simulated corpus, and a substitution: the brief named DeepSeek, which was unreachable, so an authenticated Claude session was used. The full provenance, including every model tried and how it failed, is in section 0 of the log.</text>
+
+  </g>
+</svg>

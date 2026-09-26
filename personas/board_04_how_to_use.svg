@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1600" viewBox="0 0 2400 1600">
+  <defs>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#172A3A" flood-opacity="0.09"/>
+    </filter>
+    <style>
+      .sans{font-family:Inter,Arial,sans-serif}
+      .ink{fill:#17313B}.muted{fill:#5C6F73}
+      .lbl{font-size:12px;font-weight:700;letter-spacing:1.6px}
+      .h1{font-size:42px;font-weight:800}
+      .nm{font-size:26px;font-weight:800}
+      .big{font-size:23px;font-weight:750}
+      .body{font-size:13px}.small{font-size:12px}.tiny{font-size:11px}
+      .card{fill:#FFFFFF;stroke:#DDE5E2;stroke-width:1.5}
+      .g{fill:#2A6F62}.b{fill:#2C5F8A}.c{fill:#8C5A2B}.r{fill:#A33A2E}
+    </style>
+  </defs>
+  <rect width="2400" height="1600" fill="#F3F6F2"/>
+  <g class="sans">
+
+    <!-- ============ HEADER ============ -->
+    <rect x="64" y="48" width="252" height="34" rx="17" fill="#F8E4E0"/>
+    <text x="190" y="71" text-anchor="middle" class="lbl" fill="#A33A2E">SIMULATED DATA</text>
+    <rect x="328" y="48" width="316" height="34" rx="17" fill="#DDEEE8"/>
+    <text x="486" y="71" text-anchor="middle" class="lbl" fill="#256052">HOW TO USE THIS PACK</text>
+    <text x="64" y="142" class="h1 ink">Six minutes, then you can argue with it properly</text>
+    <text x="64" y="172" class="small muted">For a PM or delivery lead who has a DoseDay decision to make this week and has never read an interview transcript.</text>
+    <text x="2336" y="142" text-anchor="end" class="lbl muted">CAPSTONE 02 &#183; GUIDE</text>
+    <text x="2336" y="170" text-anchor="end" class="small muted">3 personas &#183; 1 map &#183; 1 log &#183; 5 interviews</text>
+    <line x1="64" y1="192" x2="2336" y2="192" stroke="#DDE5E2" stroke-width="2"/>
+
+    <!-- ============ 30 SECOND CALLOUT ============ -->
+    <g filter="url(#sh)"><rect x="64" y="210" width="2272" height="170" rx="14" class="card"/></g>
+    <rect x="64" y="210" width="2272" height="4" rx="2" fill="#17313B"/>
+    <text x="92" y="248" class="lbl" fill="#5C6F73">THE ONE THING TO UNDERSTAND IN 30 SECONDS</text>
+    <text x="92" y="292" class="big ink">These three personas are not three slices of your market. They are three failure modes of the same</text>
+    <text x="92" y="324" class="big ink">job &#8212; take today&#8217;s doses on time &#8212; and a feature that fixes one of them will make another one worse.</text>
+    <text x="92" y="358" class="small muted">That trade-off is the reason this pack exists. If you read one line, read that one.</text>
+
+    <!-- ============ THREE PERSONAS ============ -->
+    <g filter="url(#sh)"><rect x="64" y="400" width="740" height="340" rx="14" class="card"/></g>
+    <rect x="64" y="400" width="740" height="4" rx="2" class="g"/>
+    <text x="92" y="444" class="nm ink">The Shifter</text>
+    <text x="92" y="470" class="small muted">P1 &#183; 59 &#183; &#8220;Rowan&#8221; &#183; rotating shift work, employer unnamed</text>
+    <line x1="92" y1="486" x2="776" y2="486" stroke="#E7EDEA" stroke-width="1.5"/>
+    <text x="92" y="512" class="lbl" fill="#2A6F62">FAILS BECAUSE</text>
+    <text x="92" y="532" class="body ink">The app judged them. One missed night became a big red circle,</text>
+    <text x="92" y="550" class="body ink">and they deleted a perfectly good app the next morning.</text>
+    <text x="92" y="584" class="lbl" fill="#2A6F62">SO THE PRODUCT</text>
+    <text x="92" y="604" class="body ink">No shame states, ever. Reversible check-in, counted once even</text>
+    <text x="92" y="622" class="body ink">if pressed twice. A &#8220;you&#8217;re on nights tonight&#8221; state instead of</text>
+    <text x="92" y="640" class="body ink">a lecture. Privacy is a choice, not a setting.</text>
+    <rect x="92" y="664" width="352" height="28" rx="14" fill="#DDEEE8"/>
+    <text x="268" y="683" text-anchor="middle" class="tiny" fill="#256052">GROUNDED 9 &#183; ASSUMPTIONS 2 &#183; 0 stats</text>
+    <text x="776" y="683" text-anchor="end" class="tiny" fill="#8A9A9C">One source</text>
+    <text x="92" y="716" class="tiny" fill="#8A9A9C">Big targets: they read one-handed, glasses off, at the end of a shift.</text>
+
+    <g filter="url(#sh)"><rect x="830" y="400" width="740" height="340" rx="14" class="card"/></g>
+    <rect x="830" y="400" width="740" height="4" rx="2" class="b"/>
+    <text x="858" y="444" class="nm ink">The Unbothered</text>
+    <text x="858" y="470" class="small muted">P2 &#183; 34 &#183; &#8220;Jay&#8221; &#183; warehouse team lead &#183; written gender-neutral</text>
+    <line x1="858" y1="486" x2="1542" y2="486" stroke="#E7EDEA" stroke-width="1.5"/>
+    <text x="858" y="512" class="lbl" fill="#2C5F8A">FAILS BECAUSE</text>
+    <text x="858" y="532" class="body ink">The app asks for a record, and a record becomes a</text>
+    <text x="858" y="550" class="body ink">judgement: &#8220;a dose log makes me a worse person.&#8221;</text>
+    <text x="858" y="584" class="lbl" fill="#2C5F8A">SO THE PRODUCT</text>
+    <text x="858" y="604" class="body ink">One tap and nothing else. No account, no streak, no badge,</text>
+    <text x="858" y="622" class="body ink">no compliance chart, no pep talk. Five seconds is the stated</text>
+    <text x="858" y="640" class="body ink">ceiling on any interaction.</text>
+    <rect x="858" y="664" width="352" height="28" rx="14" fill="#DCE6F1"/>
+    <text x="1034" y="683" text-anchor="middle" class="tiny" fill="#2C5F8A">GROUNDED 8 &#183; ASSUMPTIONS 2 &#183; 0 stats</text>
+    <text x="1542" y="683" text-anchor="end" class="tiny" fill="#8A9A9C">One source</text>
+    <text x="858" y="716" class="tiny" fill="#8A9A9C">Open question, not a feature: they want no record; P5 wants a full one.</text>
+
+    <g filter="url(#sh)"><rect x="1596" y="400" width="740" height="340" rx="14" class="card"/></g>
+    <rect x="1596" y="400" width="740" height="4" rx="2" class="c"/>
+    <text x="1624" y="444" class="nm ink">The Unanchored</text>
+    <text x="1624" y="470" class="small muted">P3+P4 &#183; 67 and 45 &#183; &#8220;Ada&#8221; and &#8220;Ray&#8221; &#183; the one deliberate merge</text>
+    <line x1="1624" y1="486" x2="2308" y2="486" stroke="#E7EDEA" stroke-width="1.5"/>
+    <text x="1624" y="512" class="lbl" fill="#8C5A2B">FAILS BECAUSE</text>
+    <text x="1624" y="532" class="body ink">Their routine lives somewhere a routine cannot follow: a</text>
+    <text x="1624" y="550" class="body ink">kitchen, a car park, a flight, someone else&#8217;s kitchen.</text>
+    <text x="1624" y="584" class="lbl" fill="#8C5A2B">SO THE PRODUCT</text>
+    <text x="1624" y="604" class="body ink">The system has to survive a missing routine. One sentence</text>
+    <text x="1624" y="622" class="body ink">per medicine. Big targets, dead space to be wrong in, no</text>
+    <text x="1624" y="640" class="body ink">tone. Sharing is weekly, chosen, and announced.</text>
+    <rect x="1624" y="664" width="352" height="28" rx="14" fill="#F2E7D8"/>
+    <text x="1800" y="683" text-anchor="middle" class="tiny" fill="#8C5A2B">GROUNDED 11 &#183; ASSUMPTIONS 2 &#183; 0 stats</text>
+    <text x="2308" y="683" text-anchor="end" class="tiny" fill="#8A9A9C">Two sources</text>
+    <text x="1624" y="716" class="tiny" fill="#8C5A2B">The weakest thing in the pack: merged on one shared failure, never tested apart.</text>
+
+    <!-- ============ NAMES / PRONOUNS STRIP ============ -->
+    <rect x="64" y="760" width="2272" height="120" rx="12" fill="#17313B"/>
+    <text x="92" y="796" class="lbl" fill="#8FB8AC">BEFORE YOU ARGUE WITH A PERSONA: NAMES, PRONOUNS AND TITLES</text>
+    <text x="92" y="822" class="body" fill="#EAF0EE">First names are fictional and exist only so you can remember a person. <tspan font-weight="700">P3 says &#8220;I&#8217;m a grown woman&#8221; and P4 says</tspan></text>
+    <text x="92" y="844" class="body" fill="#EAF0EE"><tspan font-weight="700">&#8220;I&#8217;m a grown man&#8221;</tspan>, so those two get gendered pronouns. <tspan font-weight="700">P1, P2 and P5 never state their own gender, so they are written</tspan></text>
+    <text x="92" y="866" class="body" fill="#EAF0EE"><tspan font-weight="700">neutral</tspan> &#8212; in the cards, on the map, everywhere. And no job title appears for anyone except where a</text>
+    <text x="1250" y="866" class="body" fill="#EAF0EE">participant said it themselves: no employer, no industry, no &#8220;retired&#8221;, no degree. <tspan font-weight="700">A filename is not evidence.</tspan></text>
+
+    <!-- ============ HOW TO READ A PERSONA ============ -->
+    <g filter="url(#sh)"><rect x="64" y="900" width="1150" height="350" rx="14" class="card"/></g>
+    <rect x="64" y="900" width="1150" height="4" rx="2" class="g"/>
+    <text x="92" y="940" class="nm ink">How to read a persona without fooling yourself</text>
+    <text x="92" y="966" class="small muted">Four rules. The second one is the fastest way to check us.</text>
+
+    <rect x="92" y="1000" width="26" height="24" rx="12" fill="#2A6F62"/>
+    <text x="105" y="1017" text-anchor="middle" class="tiny" fill="#FFFFFF">1</text>
+    <text x="128" y="1017" class="body ink"><tspan font-weight="700">Quotes are evidence. Adjectives are decoration.</tspan></text>
+    <text x="128" y="1035" class="small ink">If a line carries a quote and a participant code, you may build on it. If it does not, it is a hypothesis</text>
+    <text x="128" y="1051" class="small ink">and it has to be researched. Every card is split into a grounded count and a named list of assumptions.</text>
+
+    <rect x="92" y="1062" width="26" height="24" rx="12" fill="#2A6F62"/>
+    <text x="105" y="1079" text-anchor="middle" class="tiny" fill="#FFFFFF">2</text>
+    <text x="128" y="1079" class="body ink"><tspan font-weight="700">Check the trap table.</tspan> Seven mistakes were planted in the corpus on purpose.</text>
+    <text x="128" y="1097" class="small ink">It lives in <tspan font-family="Consolas,monospace">interviews/00_README_DATA_PROVENANCE.md</tspan>, and it was withheld &#8212; checked against the saved chat, not assumed.</text>
+    <text x="128" y="1113" class="small ink">The model caught all seven without it. If a persona statement contradicts that table, the statement is wrong.</text>
+
+    <rect x="92" y="1124" width="26" height="24" rx="12" fill="#2A6F62"/>
+    <text x="105" y="1141" text-anchor="middle" class="tiny" fill="#FFFFFF">3</text>
+    <text x="128" y="1141" class="body ink"><tspan font-weight="700">Assumption lines are your research backlog, not hedges.</tspan></text>
+    <text x="128" y="1159" class="small ink">Each one names a question <tspan font-weight="700">and</tspan> a method &#8212; a 5-day shift diary, a timed tap test on a low-end device, a travel scenario test &#8212; so it can be</text>
+    <text x="128" y="1175" class="small ink">scheduled rather than argued about. There are six. None of them is a finding.</text>
+
+    <rect x="92" y="1186" width="26" height="24" rx="12" fill="#2A6F62"/>
+    <text x="105" y="1203" text-anchor="middle" class="tiny" fill="#FFFFFF">4</text>
+    <text x="128" y="1203" class="body ink"><tspan font-weight="700">Quotations are byte-identical, or they carry an ellipsis.</tspan></text>
+    <text x="128" y="1221" class="small ink">If a quote reads too neatly, treat that as a warning. This pack contains four examples of the failure being caught: two in</text>
+    <text x="128" y="1237" class="small ink">the model&#8217;s draft (V-34, V-35) and two in ours (C-07, C-08). Tidying a quote for line length is how it happens.</text>
+
+    <!-- ============ HOW TO USE THE MAP ============ -->
+    <g filter="url(#sh)"><rect x="1234" y="900" width="1102" height="350" rx="14" class="card"/></g>
+    <rect x="1234" y="900" width="1102" height="4" rx="2" class="b"/>
+    <text x="1262" y="940" class="nm ink">How to use the journey map</text>
+    <text x="1262" y="966" class="small muted">Five rules for six moments in one day.</text>
+
+    <rect x="1262" y="1000" width="26" height="24" rx="12" fill="#2C5F8A"/>
+    <text x="1275" y="1017" text-anchor="middle" class="tiny" fill="#FFFFFF">1</text>
+    <text x="1298" y="1017" class="body ink"><tspan font-weight="700">Peaks are not where you spend effort.</tspan> Do not add features at them.</text>
+    <text x="1298" y="1035" class="small ink">The pill is already taken and attached to a cue that already exists. The job is to stay out of the way.</text>
+
+    <rect x="1262" y="1050" width="26" height="24" rx="12" fill="#2C5F8A"/>
+    <text x="1275" y="1067" text-anchor="middle" class="tiny" fill="#FFFFFF">2</text>
+    <text x="1298" y="1067" class="body ink"><tspan font-weight="700">The troughs are the roadmap.</tspan> Every priority should trace to one.</text>
+    <text x="1298" y="1085" class="small ink">Evening dose (&#8722;3, P2) and Disrupted days (&#8722;4, four participants). Those are the two build targets.</text>
+
+    <rect x="1262" y="1100" width="26" height="24" rx="12" fill="#2C5F8A"/>
+    <text x="1275" y="1117" text-anchor="middle" class="tiny" fill="#FFFFFF">3</text>
+    <text x="1298" y="1117" class="body ink"><tspan font-weight="700">Valence is not effort.</tspan> A high stage can still be the hardest to design.</text>
+    <text x="1298" y="1135" class="small ink">P3&#8217;s &#8220;morning, two of them&#8221; is a 4-second tap she still has to find first.</text>
+
+    <rect x="1262" y="1150" width="26" height="24" rx="12" fill="#2C5F8A"/>
+    <text x="1275" y="1167" text-anchor="middle" class="tiny" fill="#FFFFFF">4</text>
+    <text x="1298" y="1167" class="body ink"><tspan font-weight="700">One row is one person.</tspan> Midday rests on P4 alone &#8212; a hypothesis.</text>
+    <text x="1298" y="1185" class="small ink">The row says so on its face. Do not let a single-source stage quietly become a committed requirement.</text>
+
+    <rect x="1262" y="1200" width="26" height="24" rx="12" fill="#2C5F8A"/>
+    <text x="1275" y="1217" text-anchor="middle" class="tiny" fill="#FFFFFF">5</text>
+    <text x="1298" y="1217" class="body ink"><tspan font-weight="700">No stage is positive except the last.</tspan> The chart is not drawn to flatter us.</text>
+    <text x="1298" y="1235" class="small ink">The stage your competitors do not have is Disrupted days. Shift-aware scheduling and a routine that travels live there.</text>
+
+    <!-- ============ WHAT IT DOES NOT TELL YOU ============ -->
+    <g filter="url(#sh)"><rect x="64" y="1270" width="900" height="230" rx="14" class="card"/></g>
+    <rect x="64" y="1270" width="900" height="4" rx="2" class="r"/>
+    <text x="92" y="1310" class="nm ink">What this pack does not tell you</text>
+    <text x="92" y="1338" class="small ink">&#8226; Market size, willingness to pay, or clinical outcomes. None of it was measured.</text>
+    <text x="92" y="1378" class="small ink">&#8226; How a person with <tspan font-weight="700">no smartphone</tspan> behaves. No participant represented that case, so</text>
+    <text x="112" y="1394" class="small ink">the pack says nothing about it &#8212; which is a gap, not a finding.</text>
+    <text x="92" y="1418" class="small ink">&#8226; Medication correctness. DoseDay records what a clinician entered. No persona is clinical guidance.</text>
+    <text x="92" y="1458" class="small ink">&#8226; Whether a <tspan font-weight="700">simulated</tspan> corpus behaves like real interviews. It does not, by construction.</text>
+    <text x="112" y="1474" class="small ink">When real transcripts arrive, regenerate the pack and diff the two verification logs.</text>
+
+    <!-- ============ DECISION CHECKLIST ============ -->
+    <g filter="url(#sh)"><rect x="984" y="1270" width="1352" height="230" rx="14" class="card"/></g>
+    <rect x="984" y="1270" width="1352" height="4" rx="2" fill="#2A6F62"/>
+    <text x="1012" y="1310" class="nm ink">Decision checklist for a DoseDay planning session</text>
+    <text x="1012" y="1334" class="small muted">Ask these six out loud. If any answer is vague, the feature is not ready.</text>
+
+    <rect x="1012" y="1356" width="18" height="18" rx="4" fill="none" stroke="#5C6F73" stroke-width="2"/>
+    <text x="1042" y="1370" class="body ink">Does it help someone at a <tspan font-weight="700">trough</tspan>, or decorate a peak?</text>
+    <rect x="1700" y="1356" width="18" height="18" rx="4" fill="none" stroke="#5C6F73" stroke-width="2"/>
+    <text x="1730" y="1370" class="body ink">Does it require an account, or more than one tap?</text>
+
+    <rect x="1012" y="1396" width="18" height="18" rx="4" fill="none" stroke="#5C6F73" stroke-width="2"/>
+    <text x="1042" y="1410" class="body ink">Which persona does this make <tspan font-weight="700">worse</tspan>? Is that trade named?</text>
+    <rect x="1700" y="1396" width="18" height="18" rx="4" fill="none" stroke="#5C6F73" stroke-width="2"/>
+    <text x="1730" y="1410" class="body ink">Is every claim traceable to a quote, or marked ASSUMPTION?</text>
+
+    <rect x="1012" y="1436" width="18" height="18" rx="4" fill="none" stroke="#5C6F73" stroke-width="2"/>
+    <text x="1042" y="1450" class="body ink">Is any new copy scolding, or does it imply a judgement?</text>
+    <rect x="1700" y="1436" width="18" height="18" rx="4" fill="none" stroke="#5C6F73" stroke-width="2"/>
+    <text x="1730" y="1450" class="body ink">Does it survive a week when the routine is completely different?</text>
+
+    <text x="64" y="1540" class="tiny" fill="#8A9A9C">Simulated corpus: no human was interviewed for this pack. Five labelled transcripts, three personas, one critic kept beside them, and a verification log that shows what the AI got wrong and what we got wrong.</text>
+    <text x="64" y="1566" class="tiny" fill="#8A9A9C">A note on the tool: the brief named DeepSeek, which was unreachable from this machine. An authenticated Claude session was used instead, and the substitution is recorded in full, including every model tried and how it failed, in section 0 of the verification log.</text>
+
+  </g>
+</svg>

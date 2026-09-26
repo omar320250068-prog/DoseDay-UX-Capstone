@@ -1,0 +1,267 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1670" viewBox="0 0 2400 1670">
+  <defs>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#172A3A" flood-opacity="0.09"/>
+    </filter>
+    <style>
+      .sans{font-family:Inter,Arial,sans-serif}
+      .ink{fill:#17313B}.muted{fill:#5C6F73}
+      .lbl{font-size:12px;font-weight:700;letter-spacing:1.6px}
+      .h1{font-size:42px;font-weight:800}
+      .nm{font-size:28px;font-weight:800}
+      .stg{font-size:18px;font-weight:800}
+      .emo{font-size:14px;font-weight:700}
+      .body{font-size:12px}.small{font-size:13px}.tiny{font-size:11px}
+      .card{fill:#FFFFFF;stroke:#DDE5E2;stroke-width:1.5}
+      .g{fill:#2A6F62}.b{fill:#2C5F8A}.c{fill:#8C5A2B}.r{fill:#A33A2E}
+      .gt{stroke:#2A6F62}.bt{stroke:#2C5F8A}.ct{stroke:#8C5A2B}.rt{stroke:#A33A2E}
+    </style>
+  </defs>
+  <rect width="2400" height="1670" fill="#F3F6F2"/>
+  <g class="sans">
+
+    <!-- ============ HEADER ============ -->
+    <rect x="64" y="48" width="252" height="34" rx="17" fill="#F8E4E0"/>
+    <text x="190" y="71" text-anchor="middle" class="lbl" fill="#A33A2E">SIMULATED DATA</text>
+    <rect x="328" y="48" width="360" height="34" rx="17" fill="#DDEEE8"/>
+    <text x="508" y="71" text-anchor="middle" class="lbl" fill="#256052">EMOTIONAL JOURNEY MAP</text>
+    <text x="64" y="142" class="h1 ink">One task, six moments, nothing above zero</text>
+    <text x="64" y="172" class="small muted">Core job: take today&#8217;s doses on time. Valence &#8722;5 to +5, plotted from the transcripts. Emotions are the participant&#8217;s own words wherever they offered any.</text>
+    <text x="2336" y="142" text-anchor="end" class="lbl muted">CAPSTONE 02 &#183; JOURNEY</text>
+    <text x="2336" y="170" text-anchor="end" class="small muted">6 stages &#183; 5 participants &#183; 0 stages invented</text>
+    <line x1="64" y1="192" x2="2336" y2="192" stroke="#DDE5E2" stroke-width="2"/>
+
+    <!-- ============ CHART ============ -->
+    <text x="64" y="238" class="lbl muted">EMOTIONAL VALENCE</text>
+    <rect x="260" y="532" width="1840" height="270" fill="#FBF1EE"/>
+    <line x1="260" y1="260" x2="2100" y2="260" stroke="#DDE5E2" stroke-width="1.5" stroke-dasharray="5 7"/>
+    <line x1="260" y1="530" x2="2100" y2="530" stroke="#C9AFA8" stroke-width="2" stroke-dasharray="7 7"/>
+    <line x1="260" y1="800" x2="2100" y2="800" stroke="#DDE5E2" stroke-width="1.5" stroke-dasharray="5 7"/>
+    <text x="240" y="265" text-anchor="end" class="small muted">+5</text>
+    <text x="240" y="535" text-anchor="end" class="small muted">0 &#183; neutral</text>
+    <text x="240" y="805" text-anchor="end" class="small muted">&#8722;5</text>
+    <text x="2120" y="524" class="tiny" fill="#A9661F">everything below this line is negative</text>
+
+    <polyline points="260,638 628,530 996,692 1364,692 1732,746 2100,476"
+      fill="none" stroke="#2A6F62" stroke-width="3" stroke-linejoin="round" opacity="0.55"/>
+
+    <circle cx="260" cy="638" r="8" class="g" stroke="#FFF" stroke-width="3"/>
+    <text x="260" y="612" text-anchor="middle" class="emo" fill="#A9661F">&#8722;2</text>
+    <circle cx="628" cy="530" r="8" fill="#5C6F73" stroke="#FFF" stroke-width="3"/>
+    <text x="628" y="504" text-anchor="middle" class="emo" fill="#5C6F73">0</text>
+    <circle cx="996" cy="692" r="8" class="c" stroke="#FFF" stroke-width="3"/>
+    <text x="996" y="666" text-anchor="middle" class="emo" fill="#A9661F">&#8722;3</text>
+    <circle cx="1364" cy="692" r="8" class="b" stroke="#FFF" stroke-width="3"/>
+    <text x="1364" y="666" text-anchor="middle" class="emo" fill="#A9661F">&#8722;3</text>
+    <circle cx="1732" cy="746" r="11" class="r" stroke="#FFF" stroke-width="3"/>
+    <text x="1732" y="716" text-anchor="middle" class="emo" fill="#A33A2E">&#8722;4</text>
+    <circle cx="2100" cy="476" r="8" class="g" stroke="#FFF" stroke-width="3"/>
+    <text x="2100" y="450" text-anchor="middle" class="emo" fill="#256052">+1</text>
+
+    <text x="260" y="828" text-anchor="middle" class="lbl muted">WAKING</text>
+    <text x="628" y="828" text-anchor="middle" class="lbl muted">DECIDING</text>
+    <text x="996" y="828" text-anchor="middle" class="lbl muted">MIDDAY</text>
+    <text x="1364" y="828" text-anchor="middle" class="lbl muted">EVENING</text>
+    <text x="1732" y="828" text-anchor="middle" class="lbl muted">DISRUPTED</text>
+    <text x="2100" y="828" text-anchor="middle" class="lbl muted">NEXT MORNING</text>
+
+    <rect x="64" y="662" width="164" height="138" rx="10" fill="#FFFFFF" stroke="#DDE5E2" stroke-width="1.5"/>
+    <text x="84" y="690" class="lbl" fill="#A33A2E">READ THIS</text>
+    <text x="84" y="716" class="tiny ink">No stage on this</text>
+    <text x="84" y="734" class="tiny ink">map is emotionally</text>
+    <text x="84" y="752" class="tiny ink">positive except the</text>
+    <text x="84" y="770" class="tiny ink">last one.</text>
+    <text x="84" y="790" class="tiny" fill="#8A9A9C">A happy chart would</text>
+
+    <!-- ============ STAGE COLUMNS ============ -->
+    <!-- STAGE 1 -->
+    <g filter="url(#sh)"><rect x="86" y="850" width="348" height="440" rx="12" class="card"/></g>
+    <rect x="86" y="850" width="348" height="4" rx="2" class="g"/>
+    <text x="86" y="884" class="lbl" fill="#2A6F62">STAGE 1 OF 6</text>
+    <text x="86" y="914" class="stg ink">Waking</text>
+    <rect x="86" y="926" width="58" height="26" rx="13" fill="#F6EDE6"/>
+    <text x="115" y="944" text-anchor="middle" class="emo" fill="#A9661F">&#8722;2</text>
+    <text x="156" y="944" class="emo" fill="#2A6F62">Reluctant restart</text>
+    <line x1="86" y1="968" x2="434" y2="968" stroke="#E7EDEA" stroke-width="1.5"/>
+    <text x="86" y="992" class="body ink">The hour and the place are the problem,</text>
+    <text x="86" y="1010" class="body ink">not the pill. A 4:40 alarm P1 hates,</text>
+    <text x="86" y="1028" class="body ink">or a car park at half six.</text>
+    <text x="86" y="1052" class="lbl" fill="#8A9A9C">WHAT THEY SAY</text>
+    <text x="86" y="1070" class="body" fill="#5C6F73">P1: &#8220;I&#8217;m up at 4:40, that&#8217;s the</text>
+    <text x="86" y="1088" class="body" fill="#5C6F73">alarm I hate most&#8221;</text>
+    <text x="86" y="1106" class="body" fill="#5C6F73">P4: &#8220;I wake up in a car park outside</text>
+    <text x="86" y="1124" class="body" fill="#5C6F73">someone&#8217;s house at half six&#8221;</text>
+    <text x="86" y="1148" class="lbl" fill="#8A9A9C">SO THE PRODUCT</text>
+    <text x="86" y="1166" class="body ink">Never assume a wall-clock &#8220;morning&#8221;.</text>
+    <text x="86" y="1184" class="body ink">Anchor to a cue the person already</text>
+    <text x="86" y="1202" class="body ink">has: coffee, the kettle, the van.</text>
+    <line x1="86" y1="1216" x2="434" y2="1216" stroke="#E7EDEA" stroke-width="1.5"/>
+    <text x="86" y="1236" class="tiny" fill="#8A9A9C">Sources: P1, P4</text>
+    <text x="86" y="1254" class="tiny" fill="#8A9A9C">Distress is about the hour, not the medicine.</text>
+
+    <!-- STAGE 2 -->
+    <g filter="url(#sh)"><rect x="454" y="850" width="348" height="440" rx="12" class="card"/></g>
+    <rect x="454" y="850" width="348" height="4" rx="2" class="b"/>
+    <text x="454" y="884" class="lbl" fill="#2C5F8A">STAGE 2 OF 6</text>
+    <text x="454" y="914" class="stg ink">Deciding to start</text>
+    <rect x="454" y="926" width="58" height="26" rx="13" fill="#EEF1F3"/>
+    <text x="483" y="944" text-anchor="middle" class="emo" fill="#5C6F73">0</text>
+    <text x="524" y="944" class="emo" fill="#2C5F8A">Friction, or ease</text>
+    <line x1="454" y1="968" x2="802" y2="968" stroke="#E7EDEA" stroke-width="1.5"/>
+    <text x="454" y="992" class="body ink">Zero because it splits. Simple regimens</text>
+    <text x="454" y="1010" class="body ink">drop into a habit that already exists.</text>
+    <text x="454" y="1028" class="body ink">Complex ones need a slot you can&#8217;t find.</text>
+    <text x="454" y="1052" class="lbl" fill="#8A9A9C">WHAT THEY SAY</text>
+    <text x="454" y="1070" class="body" fill="#5C6F73">P2: &#8220;Tablet with the first coffee&#8221;</text>
+    <text x="454" y="1088" class="body" fill="#5C6F73">P5: &#8220;the pill goes in and the coffee</text>
+    <text x="454" y="1106" class="body" fill="#5C6F73">follows&#8221;</text>
+    <text x="454" y="1124" class="body" fill="#5C6F73">P1: &#8220;the one I can never find in the</text>
+    <text x="454" y="1142" class="body" fill="#5C6F73">morning. That&#8217;s a real problem.&#8221;</text>
+    <text x="454" y="1166" class="lbl" fill="#8A9A9C">SO THE PRODUCT</text>
+    <text x="454" y="1184" class="body ink">Make the rare dose as findable as the daily</text>
+    <text x="454" y="1202" class="body ink">one. Do not bury &#8220;as needed&#8221; among the</text>
+    <text x="454" y="1220" class="body ink">routine slots, and do not ask for a label hunt.</text>
+    <line x1="454" y1="1234" x2="802" y2="1234" stroke="#E7EDEA" stroke-width="1.5"/>
+    <text x="454" y="1254" class="tiny" fill="#8A9A9C">Sources: P1, P2, P5</text>
+
+    <!-- STAGE 3 -->
+    <g filter="url(#sh)"><rect x="822" y="850" width="348" height="440" rx="12" class="card"/></g>
+    <rect x="822" y="850" width="348" height="4" rx="2" class="c"/>
+    <text x="822" y="884" class="lbl" fill="#8C5A2B">STAGE 3 OF 6</text>
+    <text x="822" y="914" class="stg ink">Midday</text>
+    <rect x="822" y="926" width="58" height="26" rx="13" fill="#F6EDE6"/>
+    <text x="851" y="944" text-anchor="middle" class="emo" fill="#A9661F">&#8722;3</text>
+    <text x="892" y="944" class="emo" fill="#8C5A2B">Nuisance, not fear</text>
+    <line x1="822" y1="968" x2="1170" y2="968" stroke="#E7EDEA" stroke-width="1.5"/>
+    <text x="822" y="992" class="body ink">A dose that needs food, and no food</text>
+    <text x="822" y="1010" class="body ink">until 11 at night. P4 will not touch a</text>
+    <text x="822" y="1028" class="body ink">phone while driving. No safe path.</text>
+    <text x="822" y="1052" class="lbl" fill="#8A9A9C">WHAT THEY SAY</text>
+    <text x="822" y="1070" class="body" fill="#5C6F73">P4: &#8220;It doesn&#8217;t get taken, or it gets</text>
+    <text x="822" y="1088" class="body" fill="#5C6F73">taken at 11 at night when I finally get</text>
+    <text x="822" y="1106" class="body" fill="#5C6F73">something.&#8221;</text>
+    <text x="822" y="1124" class="body" fill="#5C6F73">P4: &#8220;I don&#8217;t touch my phone when I&#8217;m</text>
+    <text x="822" y="1142" class="body" fill="#5C6F73">driving, full stop.&#8221;</text>
+    <text x="822" y="1166" class="lbl" fill="#8A9A9C">SO THE PRODUCT</text>
+    <text x="822" y="1184" class="body ink">Flexible windows, food-optional guidance,</text>
+    <text x="822" y="1202" class="body ink">and never an unlock-and-tap while</text>
+    <text x="822" y="1220" class="body ink">someone is moving.</text>
+    <line x1="822" y1="1234" x2="1170" y2="1234" stroke="#E7EDEA" stroke-width="1.5"/>
+    <text x="822" y="1254" class="tiny" fill="#A33A2E">SINGLE SOURCE &#183; P4 only. A hypothesis,</text>
+    <text x="822" y="1270" class="tiny" fill="#A33A2E">not a requirement. Nobody else said this.</text>
+
+    <!-- STAGE 4 -->
+    <g filter="url(#sh)"><rect x="1190" y="850" width="348" height="440" rx="12" class="card"/></g>
+    <rect x="1190" y="850" width="348" height="4" rx="2" class="b"/>
+    <text x="1190" y="884" class="lbl" fill="#2C5F8A">STAGE 4 OF 6</text>
+    <text x="1190" y="914" class="stg ink">Evening dose</text>
+    <rect x="1190" y="926" width="58" height="26" rx="13" fill="#EEF1F3"/>
+    <text x="1219" y="944" text-anchor="middle" class="emo" fill="#A9661F">&#8722;3</text>
+    <text x="1260" y="944" class="emo" fill="#2C5F8A">Quiet self-doubt</text>
+    <line x1="1190" y1="968" x2="1538" y2="968" stroke="#E7EDEA" stroke-width="1.5"/>
+    <text x="1190" y="992" class="body ink">The window has closed by the time they</text>
+    <text x="1190" y="1010" class="body ink">get home. The dose is for &#8220;about half</text>
+    <text x="1190" y="1028" class="body ink">seven&#8221;. P2 gets in at nine.</text>
+    <text x="1190" y="1052" class="lbl" fill="#8A9A9C">WHAT THEY SAY</text>
+    <text x="1190" y="1070" class="body" fill="#5C6F73">P2: &#8220;do I really need this tonight?</text>
+    <text x="1190" y="1088" class="body" fill="#5C6F73">And honestly, the answer&#8217;s sometimes no&#8221;</text>
+    <text x="1190" y="1106" class="body" fill="#5C6F73">P2: &#8220;the evening one is a coin toss when</text>
+    <text x="1190" y="1124" class="body" fill="#5C6F73">I&#8217;m late&#8221;</text>
+    <text x="1190" y="1148" class="lbl" fill="#8A9A9C">SO THE PRODUCT</text>
+    <text x="1190" y="1166" class="body ink">Plain lateness guidance instead of a binary</text>
+    <text x="1190" y="1184" class="body ink">reminder. This person is late, not failing,</text>
+    <text x="1190" y="1202" class="body ink">and the copy has to know the difference.</text>
+    <line x1="1190" y1="1216" x2="1538" y2="1216" stroke="#E7EDEA" stroke-width="1.5"/>
+    <text x="1190" y="1236" class="tiny" fill="#8A9A9C">Sources: P2, echoed by P4&#8217;s 11pm dose</text>
+    <text x="1190" y="1254" class="tiny" fill="#8A9A9C">P2 says &#8220;late out maybe twice a week&#8221; &#8212; a hedge, kept as one.</text>
+
+    <!-- STAGE 5 -->
+    <g filter="url(#sh)"><rect x="1558" y="850" width="348" height="440" rx="12" class="card"/></g>
+    <rect x="1558" y="850" width="348" height="4" rx="2" class="r"/>
+    <text x="1558" y="884" class="lbl" fill="#A33A2E">STAGE 5 OF 6</text>
+    <text x="1558" y="914" class="stg ink">Disrupted days</text>
+    <rect x="1558" y="926" width="58" height="26" rx="13" fill="#F8E4E0"/>
+    <text x="1587" y="944" text-anchor="middle" class="emo" fill="#A33A2E">&#8722;4</text>
+    <text x="1628" y="944" class="emo" fill="#A33A2E">Three emotions</text>
+    <line x1="1558" y1="968" x2="1906" y2="968" stroke="#E7EDEA" stroke-width="1.5"/>
+    <text x="1558" y="992" class="body ink">The worst point on the map, and it is not</text>
+    <text x="1558" y="1010" class="body ink">one thing. (a) The rota changed &#8212; P1, P4.</text>
+    <text x="1558" y="1028" class="body ink">(b) The routine did not travel &#8212; P5.</text>
+    <text x="1558" y="1046" class="body ink">(c) No idea how bad one miss is &#8212; P3.</text>
+    <text x="1558" y="1070" class="lbl" fill="#8A9A9C">WHAT THEY SAY</text>
+    <text x="1558" y="1088" class="body" fill="#5C6F73">P1: &#8220;I felt terrible. Like I&#8217;d done</text>
+    <text x="1558" y="1106" class="body" fill="#5C6F73">something wrong. I deleted it.&#8221;</text>
+    <text x="1558" y="1124" class="body" fill="#5C6F73">P3: &#8220;I had been afraid of my own</text>
+    <text x="1558" y="1142" class="body" fill="#5C6F73">medicine for two weeks&#8230;&#8221;</text>
+    <text x="1558" y="1166" class="lbl" fill="#8A9A9C">SO THE PRODUCT</text>
+    <text x="1558" y="1184" class="body ink">Factual, non-punitive information about the</text>
+    <text x="1558" y="1202" class="body ink">real consequence of a single missed dose.</text>
+    <text x="1558" y="1220" class="body ink">A routine that survives the day it goes wrong.</text>
+    <line x1="1558" y1="1234" x2="1906" y2="1234" stroke="#E7EDEA" stroke-width="1.5"/>
+    <text x="1558" y="1254" class="tiny" fill="#A33A2E">The AI fused (a), (b) and (c) into one &#8722;4,</text>
+    <text x="1558" y="1270" class="tiny" fill="#A33A2E">which hid that they have three different fixes.</text>
+
+    <!-- STAGE 6 -->
+    <g filter="url(#sh)"><rect x="1926" y="850" width="348" height="440" rx="12" class="card"/></g>
+    <rect x="1926" y="850" width="348" height="4" rx="2" class="g"/>
+    <text x="1926" y="884" class="lbl" fill="#2A6F62">STAGE 6 OF 6</text>
+    <text x="1926" y="914" class="stg ink">Next morning</text>
+    <rect x="1926" y="926" width="58" height="26" rx="13" fill="#DDEEE8"/>
+    <text x="1955" y="944" text-anchor="middle" class="emo" fill="#256052">+1</text>
+    <text x="1996" y="944" class="emo" fill="#2A6F62">Mild relief</text>
+    <line x1="1926" y1="968" x2="2274" y2="968" stroke="#E7EDEA" stroke-width="1.5"/>
+    <text x="1926" y="992" class="body ink">The only positive stage. The day is behind</text>
+    <text x="1926" y="1010" class="body ink">them, and some want to answer family</text>
+    <text x="1926" y="1028" class="body ink">honestly without hesitating first.</text>
+    <text x="1926" y="1052" class="lbl" fill="#8A9A9C">WHAT THEY SAY</text>
+    <text x="1926" y="1070" class="body" fill="#5C6F73">P1: &#8220;Tomorrow&#8217;s problem is tomorrow&#8217;s.&#8221;</text>
+    <text x="1926" y="1088" class="body" fill="#5C6F73">P4: &#8220;be able to say yes without the</text>
+    <text x="1926" y="1106" class="body" fill="#5C6F73">hesitation&#8221;</text>
+    <text x="1926" y="1124" class="body" fill="#5C6F73">P3: &#8220;I don&#8217;t want a wall of undoned days.&#8221;</text>
+    <text x="1926" y="1148" class="lbl" fill="#8A9A9C">SO THE PRODUCT</text>
+    <text x="1926" y="1166" class="body ink">Let each day start visually clean. No backlog</text>
+    <text x="1926" y="1184" class="body ink">of undoned days, and no tone about the one</text>
+    <text x="1926" y="1202" class="body ink">that went wrong.</text>
+    <line x1="1926" y1="1216" x2="2274" y2="1216" stroke="#E7EDEA" stroke-width="1.5"/>
+    <text x="1926" y="1236" class="tiny" fill="#8A9A9C">Sources: P1, P3, P4</text>
+    <text x="1926" y="1254" class="tiny" fill="#8A9A9C">P3 rules out the alternative outright.</text>
+
+    <!-- ============ BOTTOM BAND ============ -->
+    <g filter="url(#sh)"><rect x="64" y="1330" width="740" height="250" rx="14" class="card"/></g>
+    <rect x="64" y="1320" width="740" height="4" rx="2" class="b"/>
+    <text x="92" y="1370" class="nm ink">Three least-bad points</text>
+    <text x="92" y="1396" class="small muted">The AI called these &#8220;the three highest points&#8221;. Two of the three are negative.</text>
+    <text x="92" y="1424" class="body ink">Next morning <tspan font-weight="700">+1</tspan> &#8212; the only positive stage on the map.</text>
+    <text x="92" y="1446" class="body ink">Deciding to start <tspan font-weight="700">0</tspan> &#8212; it splits: ease for two, friction for one.</text>
+    <text x="92" y="1468" class="body ink">Waking <tspan font-weight="700">&#8722;2</tspan> &#8212; the hour is the problem, not the medication.</text>
+    <text x="92" y="1500" class="body" fill="#5C6F73">Internally consistent as a ranking, misleading as a headline. A PM reading</text>
+    <text x="92" y="1520" class="body" fill="#5C6F73">&#8220;highest points&#8221; on a mood chart assumes positive states. Relabelled,</text>
+    <text x="92" y="1540" class="body" fill="#5C6F73">with the absolute values shown next to every name.</text>
+
+    <g filter="url(#sh)"><rect x="830" y="1330" width="740" height="250" rx="14" class="card"/></g>
+    <rect x="830" y="1320" width="740" height="4" rx="2" class="g"/>
+    <text x="858" y="1370" class="nm ink">The troughs are the roadmap</text>
+    <text x="858" y="1396" class="small muted">Every feature priority should trace to a trough. Peaks get nothing added to them.</text>
+    <text x="858" y="1424" class="body ink">Evening <tspan font-weight="700">&#8722;3</tspan> (P2) &#8594; plain lateness guidance, not a binary reminder.</text>
+    <text x="858" y="1446" class="body ink">Disrupted days <tspan font-weight="700">&#8722;4</tspan> (P1, P3, P4, P5) &#8594; factual, non-punitive</text>
+    <text x="858" y="1466" class="body ink">information about one missed dose, and a routine that survives the day.</text>
+    <text x="858" y="1488" class="body ink">Midday <tspan font-weight="700">&#8722;3</tspan> (P4 only) &#8594; flexible windows, food-optional guidance.</text>
+    <text x="858" y="1520" class="body" fill="#A33A2E">One source. Do not put a roadmap on a single participant &#8212; and do not put a</text>
+    <text x="858" y="1540" class="body" fill="#A33A2E">feature at a peak, where the pill is already taken and the job is to be quiet.</text>
+
+    <g filter="url(#sh)"><rect x="1596" y="1330" width="740" height="250" rx="14" class="card"/></g>
+    <rect x="1596" y="1320" width="740" height="4" rx="2" class="r"/>
+    <text x="1624" y="1370" class="nm ink">What the AI got wrong here</text>
+    <text x="1624" y="1396" class="small muted">Four errors on this map alone. All four are in the verification log.</text>
+    <text x="1624" y="1424" class="body ink">1. Called midday <tspan font-weight="700">&#8220;anxious improvisation&#8221;</tspan>. P4: &#8220;It&#8217;s mostly a</text>
+    <text x="1624" y="1434" class="body ink">nuisance, and I&#8217;m not dramatic about it&#8230; It&#8217;s not fear.&#8221;</text>
+    <text x="1624" y="1466" class="body ink">2. Fused three unrelated failures into one &#8722;4, hiding three fixes.</text>
+    <text x="1624" y="1488" class="body ink">3. Ranked &#8722;2 as a &#8220;high point&#8221; on a chart of mostly negative stages.</text>
+    <text x="1624" y="1520" class="body" fill="#5C6F73">4. Let a midday stage built on one participant read as a general truth about</text>
+    <text x="1624" y="1540" class="body" fill="#5C6F73">five. The stage now carries the single-source warning on its face.</text>
+
+    <text x="64" y="1620" class="tiny" fill="#8A9A9C">Valence is the participant&#8217;s own description, not a number we invented: every emotion on this map is either quoted or named in the participant&#8217;s own words. The scale is a design tool, and it is labelled as one.</text>
+    <text x="64" y="1644" class="tiny" fill="#8A9A9C">Simulated corpus: no human was interviewed. Hedged frequencies stay hedged &#8212; P2&#8217;s &#8220;maybe twice a week&#8221; is a quote, not a rate, and appears nowhere on this page as a metric.</text>
+
+  </g>
+</svg>
